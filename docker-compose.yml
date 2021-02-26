@@ -11,6 +11,7 @@ services:
       PORT: 3000
       HOST: 0.0.0.0
     restart: always # エラーなどでコンテナが落ちた際に自動で再起動してくれる
+    command: yarn update
   dev:
     <<: *app_base
     ports:
