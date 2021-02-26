@@ -2,7 +2,7 @@ version: '3'
 
 services:
   node: &app_base
-    image: node:15.10.0-alpine3.10 # dockerhubにすでに上がっている
+    image: node:15.10.0-alpine3.10
     tty: true
     working_dir: /var/www
     volumes:
@@ -11,9 +11,17 @@ services:
       PORT: 3000
       HOST: 0.0.0.0
     restart: always # エラーなどでコンテナが落ちた際に自動で再起動してくれる
-
-  workspace:
+  dev:
     <<: *app_base
     ports:
-      - "3000:3000" # localhost:3000にポートをマッピングする
+      - "3000:3000"
     command: yarn dev # upする際に実行されるコマンド
+  generate:
+    <<: *app_base
+    command: yarn generate # upする際に実行されるコマンド
+  dev_static:
+    image: httpd
+    volumes:
+      - ./src/dist:/usr/local/apache2/htdocs/
+    ports:
+      - "8080:80"
