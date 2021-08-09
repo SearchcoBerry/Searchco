@@ -9,8 +9,7 @@
 
                             <h1>あなたの履修登録に<br>幸子あれ</h1>
 
-                            <p>Created by Bunga, Kei and Nagi. <br> 
-                                <br>
+                            <p>
                                 ※時間割データは2021年度前期・後期・通年分です。<br>
                                 　(取得日: 2021年7月24日)<br>
                                 ※時間割は変更の可能性があります。<br>
@@ -82,7 +81,7 @@
                     </div>
 
                     <div v-if="searchKamoku.length >= 300">
-                        <p>{{searchKamoku.length}}件 上位300件まで表示</p>
+                        <p>{{searchKamoku.length}}件 上位200件まで表示</p>
                     </div>
 
                     <div v-else>
@@ -97,7 +96,7 @@
                 </div>
             </div>
             
-                <div class="table-box" v-for="(value, index) in sorted.slice(0,300)" :key="index" >
+                <div class="table-box" v-for="(value, index) in sorted.slice(0,200)" :key="index" >
                     <div class="container">
                         <div class="row">
                             <div class="col-md-2">{{index+1}}.  {{value.kamoku}} </div>
@@ -113,7 +112,7 @@
                 <!-- 300件以上 エラー -->
                 <div class="error-too-long" v-if="searchKamoku.length >= 300">
                     <img src="~/assets/img/error.png">
-                    <h2>あい!データが300件以上あるわけよ。<br>
+                    <h2>あい!データが200件以上あるわけよ。<br>
                         こんな沢山あったらあわてぃはーてぃーするから
                         条件絞ろうね〜</h2>
                 </div>
