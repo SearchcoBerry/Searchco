@@ -5,7 +5,7 @@
             <div class="jumbotron">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-6 order-sm-2 top-message">
+                        <div class="col-md-6 order-md-2 top-message">
 
                             <h1>あなたの履修登録に<br>幸子あれ</h1>
 
@@ -18,7 +18,7 @@
                             </p>
                         </div>
 
-                        <div class="col-sm-6 order-sm-1 top-search">
+                        <div class="col-md-6 order-md-1 top-search">
                                 <div class="search-box">
                                     <h3>講義を探す</h3>
                                     <input v-model="searchWords" placeholder="科目名 教員名 学部学科 etc.">
@@ -30,29 +30,29 @@
                                     <!-- 学期 -->
                                     <div class="semester">
                                         <input type="radio" id="s_one" value="seasonall" v-model="season">
-                                        <label for="s_one">すべての学期</label>
+                                        <label for="s_one"><span>すべての学期</span></label>
 
                                         <input type="radio" id="s_two" value="season0" v-model="season">
-                                        <label for="s_two">通年</label>
+                                        <label for="s_two"><span>通年</span></label>
 
                                         <input type="radio" id="s_three" value="season1" v-model="season">
-                                        <label for="s_three">前期</label>
+                                        <label for="s_three"><span>前期</span></label>
 
                                         <input type="radio" id="s_four" value="season2" v-model="season">
-                                        <label for="s_four">後期</label>
+                                        <label for="s_four"><span>後期</span></label>
                                         
                                     </div>
                                     
                                     <!-- 授業形態 -->
                                     <div class="class-style">
                                         <input type="radio" id="f_one" value=" " v-model="form">
-                                        <label for="f_one">すべての授業形態</label>
+                                        <label for="f_one"><span>すべての授業形態</span></label>
 
                                         <input type="radio" id="f_two" value="real" v-model="form">
-                                        <label for="f_two">対面</label>
+                                        <label for="f_two"><span>対面</span></label>
 
                                         <input type="radio" id="f_three" value="online" v-model="form">
-                                        <label for="f_three">オンライン</label>
+                                        <label for="f_three"><span>オンライン</span></label>
                                     </div> 
 
                                     <!-- 曜日 -->
@@ -72,7 +72,7 @@
 
         <div class="main container">
             <div class="row">
-                <div class="col-md-4 result">
+                <div class="col-sm-6 result">
                     <div v-if="searchWords == '' ">
                         <h3>すべての検索結果</h3>
                     </div>
@@ -92,32 +92,36 @@
                 </div>
                 <div class="col">
                     <div class="sort">
-                        <v-select :options="optionsSort" v-model="selectedSort" placeholder="科目名順" @input="sorted"/>
-                        {{selectedSort}}
+                        <v-select :options="optionsSort" v-model="selectedSort" placeholder="科目名順" />
                     </div>
                 </div>
             </div>
-            
-            
  
-                <div class="table-box" v-for="(value, index) in searchKamoku.slice(0,300)" :key="index" >
+                <div class="table-box" v-for="(value, index) in sorted.slice(0,300)" :key="index" >
                     <div class="container">
                         <div class="row">
                             <div class="col-md-2">{{index+1}}.  {{value.kamoku}} </div>
-                            <div class="col-xs-4 col-md-2"> {{value.gakubu}}<br>{{value.gakka}}</div>
-                            <div class="col-xs-4 col-md-2"> {{value.tantou}}</div>
-                            <div class="col-xs-4 col-md-2">{{value.kyoushitsu}}</div>
-                            <div class="col-md-2">{{value.gakki}} <br>{{value.niti}}曜 {{value.gen}}限</div>
+                            <div class="col-md-2 gakubu">{{value.gakubu}} <br class="pc">{{value.gakka}}</div>
+                            <div class="col-md-2 col-sm-4"> {{value.tantou}}</div>
+                            <div class="col-md-2 col-sm-4">{{value.kyoushitsu}}</div>
+                            <div class="col-md-2 col-sm-4">{{value.gakki}} <br>{{value.niti}}曜 {{value.gen}}限</div>
                             <div class="col-md-2">{{value.bikou}}</div>
                         </div>
                     </div>
                 </div>
 
+                <!-- 300件以上 エラー -->
                 <div class="error-too-long" v-if="searchKamoku.length >= 300">
                     <img src="~/assets/img/error.png">
                     <h2>あい!データが300件以上あるわけよ。<br>
                         こんな沢山あったらあわてぃはーてぃーするから
                         条件絞ろうね〜</h2>
+                </div>
+
+                <!-- 0件　エラー -->
+                <div class="error-too-long" v-if="searchKamoku.length == 0">
+                    <img src="~/assets/img/error.png">
+                    <h2>おっと...「{{searchWords}}」は見つからなかったみたいだ...</h2>
                 </div>
 
         </div>
@@ -135,10 +139,10 @@ export default {
         optionsDays: ["月","火","水","木","金","土"],
         optionsTimes: ["1","2","3","4","5","6","7"],
         optionsSort: [
-            {label:"科目名順", code:"kamoku"},
-            {label:"教員名順", code:"tantou"},
-            {label:"曜日順", code:"niti"},
-            {label:"時限順", code:"gen"}
+            {"label":"科目名順", "code":"kamoku"},
+            {"label":"教員名順", "code":"tantou"},
+            {"label":"曜日順", "code":"niti"},
+            {"label":"時限順", "code":"gen"}
             ],
 
         searchWords: '',
@@ -159,17 +163,40 @@ export default {
 
 
     computed: {
+        replaceWords() {
+            return this.searchWords.replace(/ /g, '　');
+        },
+
         sorted() {
-            // if (this.selectedSort == null) {
-                return this.lists.sort((a, b) => {
-                    return a.kamoku.localeCompare(b.kamoku), 'ja';
+
+            if (this.selectedSort === null || this.selectedSort.code == 'kamoku') {
+                return this.searchKamoku.sort((a, b) => {
+                    return a.kamoku.localeCompare(b.kamoku, 'ja');
                 });
-            //}
+
+            } else if (this.selectedSort.code == 'tantou'){
+                return this.searchKamoku.sort((a, b) => {
+                    return a.tantou.localeCompare(b.tantou, 'ja');
+                });
+
+            } else if (this.selectedSort.code == 'niti'){
+                const daysOrder = ['月', '火', '水', '木', '金', '土', '日'];
+                return this.searchKamoku.sort((a, b) => {
+                    return daysOrder.indexOf(a.niti) - daysOrder.indexOf(b.niti);
+                });
+
+            } else if (this.selectedSort.code == 'gen'){
+                return this.searchKamoku.sort((a, b) => {
+                    return a.gen.localeCompare(b.gen, 'ja');
+                });
+            }
+
+            
             
         },
         
         searchKamoku() {
-            return this.sorted.filter(value => {
+            return this.lists.filter(value => {
 
                 if (this.form == "online") {
                     this.formResult = value.kyoushitsu.match('^(?=.*ｵﾝﾗｲﾝ授業).*$')
@@ -201,12 +228,13 @@ export default {
                     this.daysResult = value.niti.match('[月火水木金土]')
                 }
 
+
                 return this.formResult && this.seasonResult &&
                     this.hourResult && this.daysResult &&
                     (value.kamoku.includes(this.searchWords) ||
                         value.gakubu.includes(this.searchWords) ||
                         value.gakka.includes(this.searchWords) ||
-                        value.tantou.includes(this.searchWords))
+                        value.tantou.includes(this.replaceWords))
             })
         }
     }
@@ -217,10 +245,51 @@ export default {
 
 
 <style>
+
+/*---------------------------------
+  
+  1.header  検索フォーム・メッセージ
+    1.背景
+    2.メッセージ
+    3.検索フォーム
+
+  2.main    検索結果
+    1.検索結果 概要
+    2.ソート選択
+    3.テーブル
+    4.エラー表示
+
+  3.mb      スマホ・タブレットcss
+    1.タブレット
+    2.スマホ
+
+---------------------------------*/
+
+
+/*---------------------------------
+  
+  1.header  検索フォーム・メッセージ
+
+---------------------------------*/
+
 .jumbotron {
     background:url(~/assets/img/background-img.png)
     center no-repeat; 
     background-size: cover;
+}
+
+/* トップメッセージ */
+.top-message {
+    margin: auto 0;
+    padding: 50px 0 ;
+}
+.top-message h1 {
+    font-weight: 700;
+}
+.top-message p {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #868686;
 }
 
 /* 検索枠 */
@@ -262,27 +331,19 @@ export default {
     color: #FFF;
 }
 
-/* トップメッセージ */
-.top-message {
-    margin: auto 0;
-    padding: 50px 0 ;
-}
-.top-message h1 {
-    font-weight: 700;
-}
-.top-message p {
-    margin-top: 20px;
-    font-size: 15px;
-    color: #868686;
-}
-
 /* 条件を絞る */
 .search-conditions {
     margin: 10px 0;
 }
 
+.search-conditions span{
+    display: inline-block;
+}
+
 .semester, .class-style {
-    padding: 10px 0;
+    margin-bottom: 0;
+
+    line-height: 3em;
 }
 
 /* ラジオボタン */
@@ -330,6 +391,15 @@ input[type=checkbox]:checked + label {
     padding: 4px 16px 0 3px;
 }
 
+
+
+
+/*---------------------------------
+  
+  2.main    検索結果
+
+---------------------------------*/
+
 /* 検索結果 概要 */
 .result {
     margin: auto 5%;
@@ -338,7 +408,7 @@ input[type=checkbox]:checked + label {
 /* 検索結果 ソート */
 .sort {
     width: 170px;
-    margin: 5% 5% 5% auto;
+    margin: 5% 10% 5% auto;
 }
 .sort .vs__dropdown-toggle {
     width: 100%;
@@ -373,6 +443,100 @@ input[type=checkbox]:checked + label {
 .error-too-long img {
     height: 150px;
     margin: 0 auto;
+}
+
+
+
+
+/*---------------------------------
+  
+  3.mb      スマホ・タブレットcss
+
+---------------------------------*/
+
+/* パソコンで見たときは"pc"のclassがついたコンテンツを表示 */
+.pc { display: block !important; }
+.sp { display: none !important; }
+ 
+/* スマートフォンで見たときは"sp"のclassがついたコンテンツを表示 */
+@media only screen and (max-width: 766px) {
+    .pc { display: none !important; }
+    .sp { display: block !important; }
+}
+
+
+/* タブレット　*/ 
+
+@media only screen and (max-width: 766px) {
+
+/* 背景を変更 */
+.jumbotron {
+    background:url(~/assets/img/mb-background.png)
+    center repeat; 
+    background-size: 300%;
+}
+
+/* トップメッセージ */
+.top-message {
+    padding: 50px 4%;
+}
+
+/* 検索枠 */
+.top-search {
+    width: 90%;
+}
+
+/* 検索結果 概要 */
+.result {
+    margin: auto 0 auto 4%;
+}
+
+/* 検索結果 ソート */
+.sort {
+    width: 170px;
+    margin: 10% 7% 10% auto;
+}
+
+/* 検索結果テーブル */
+.table-box {
+    margin: 2% 4%;
+    padding: 2% 1%;
+}
+
+/* 検索結果　テーブル　学部学科 */
+.gakubu {
+    margin: 10px 0;
+}
+
+}
+
+
+/* スマホ用 */
+
+@media only screen and (max-width: 575px) {
+
+/* トップメッセージ */
+.top-message {
+    padding: 50px 4%;
+}
+
+/* 検索結果 概要 */
+.result {
+    margin: 5% 4% 0 4%;
+}
+
+/* 検索結果 ソート */
+.sort {
+    width: 170px;
+    margin: 5% 5% 5% auto;
+}
+
+/* 検索結果テーブル */
+.table-box {
+    margin: 3% 4%;
+    padding: 2% 1%;
+}
+
 }
 
 </style>

@@ -1,8 +1,19 @@
 <template>
   <div>
+    <HeaderNav />
     <Nuxt />
   </div>
 </template>
+
+<script>
+  import HeaderNav from "@/components/headerNav.vue";
+  export default {
+		components: {
+			HeaderNav
+		}
+	};
+</script>
+
 
 
 <style>
