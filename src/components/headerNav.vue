@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col logo">
-                    <nuxt-link to="/index">
+                    <nuxt-link to="/">
                         <img src="~/assets/img/logo.png" alt="さちこ | トップ">
                     </nuxt-link>
                 </div>
