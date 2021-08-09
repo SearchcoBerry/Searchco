@@ -1,73 +1,378 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        nuxt-test
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+    <div id="app">
+
+        <div class="header">
+            <div class="jumbotron">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 order-sm-2 top-message">
+
+                            <h1>あなたの履修登録に<br>幸子あれ</h1>
+
+                            <p>Created by Bunga, Kei and Nagi. <br> 
+                                <br>
+                                ※時間割データは2021年度前期・後期・通年分です。<br>
+                                　(取得日: 2021年7月24日)<br>
+                                ※時間割は変更の可能性があります。<br>
+                                　学内の掲示板又は沖国大ポータルで最新の情報を確認して下さい。
+                            </p>
+                        </div>
+
+                        <div class="col-sm-6 order-sm-1 top-search">
+                                <div class="search-box">
+                                    <h3>講義を探す</h3>
+                                    <input v-model="searchWords" placeholder="科目名 教員名 学部学科 etc.">
+                                    <i class="material-icons">search</i>
+                                </div>
+                                
+                                <div class="search-conditions">
+                                    <h3>条件を絞る</h3>
+                                    <!-- 学期 -->
+                                    <div class="semester">
+                                        <input type="radio" id="s_one" value="seasonall" v-model="season">
+                                        <label for="s_one">すべての学期</label>
+
+                                        <input type="radio" id="s_two" value="season0" v-model="season">
+                                        <label for="s_two">通年</label>
+
+                                        <input type="radio" id="s_three" value="season1" v-model="season">
+                                        <label for="s_three">前期</label>
+
+                                        <input type="radio" id="s_four" value="season2" v-model="season">
+                                        <label for="s_four">後期</label>
+                                        
+                                    </div>
+                                    
+                                    <!-- 授業形態 -->
+                                    <div class="class-style">
+                                        <input type="radio" id="f_one" value=" " v-model="form">
+                                        <label for="f_one">すべての授業形態</label>
+
+                                        <input type="radio" id="f_two" value="real" v-model="form">
+                                        <label for="f_two">対面</label>
+
+                                        <input type="radio" id="f_three" value="online" v-model="form">
+                                        <label for="f_three">オンライン</label>
+                                    </div> 
+
+                                    <!-- 曜日 -->
+                                    <v-select multiple :options="optionsDays" v-model="selectedDays" placeholder="すべての曜日"/>
+
+                                    <!-- 時限 -->
+                                    <v-select multiple :options="optionsTimes" v-model="selectedTimes" placeholder="すべての時限"/>
+                                </div>
+
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="main container">
+            <div class="row">
+                <div class="col-md-4 result">
+                    <div v-if="searchWords == '' ">
+                        <h3>すべての検索結果</h3>
+                    </div>
+
+                    <div v-else>
+                        <h3>{{searchWords}}の検索結果</h3>
+                    </div>
+
+                    <div v-if="searchKamoku.length >= 300">
+                        <p>{{searchKamoku.length}}件 上位300件まで表示</p>
+                    </div>
+
+                    <div v-else>
+                        <p>{{searchKamoku.length}}件</p>
+                    </div>
+                    
+                </div>
+                <div class="col">
+                    <div class="sort">
+                        <v-select :options="optionsSort" v-model="selectedSort" placeholder="科目名順" @input="sorted"/>
+                        {{selectedSort}}
+                    </div>
+                </div>
+            </div>
+            
+            
+ 
+                <div class="table-box" v-for="(value, index) in searchKamoku.slice(0,300)" :key="index" >
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-2">{{index+1}}.  {{value.kamoku}} </div>
+                            <div class="col-xs-4 col-md-2"> {{value.gakubu}}<br>{{value.gakka}}</div>
+                            <div class="col-xs-4 col-md-2"> {{value.tantou}}</div>
+                            <div class="col-xs-4 col-md-2">{{value.kyoushitsu}}</div>
+                            <div class="col-md-2">{{value.gakki}} <br>{{value.niti}}曜 {{value.gen}}限</div>
+                            <div class="col-md-2">{{value.bikou}}</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="error-too-long" v-if="searchKamoku.length >= 300">
+                    <img src="~/assets/img/error.png">
+                    <h2>あい!データが300件以上あるわけよ。<br>
+                        こんな沢山あったらあわてぃはーてぃーするから
+                        条件絞ろうね〜</h2>
+                </div>
+
+        </div>
+
+
+        
     </div>
-  </div>
 </template>
 
 <script>
-export default {}
+import lists from '@/assets/list-2.json'
+
+export default {
+    data: () => ({
+        optionsDays: ["月","火","水","木","金","土"],
+        optionsTimes: ["1","2","3","4","5","6","7"],
+        optionsSort: [
+            {label:"科目名順", code:"kamoku"},
+            {label:"教員名順", code:"tantou"},
+            {label:"曜日順", code:"niti"},
+            {label:"時限順", code:"gen"}
+            ],
+
+        searchWords: '',
+        lists: lists,
+
+        season: 'seasonall',
+        selectedDays: null,
+        selectedTimes: null,
+        selectedSort: null,
+
+        form: " ",
+
+        formResult: '',
+        seasonResult: '',
+        hourResult: '',
+        daysResult: '',
+    }),
+
+
+    computed: {
+        sorted() {
+            // if (this.selectedSort == null) {
+                return this.lists.sort((a, b) => {
+                    return a.kamoku.localeCompare(b.kamoku), 'ja';
+                });
+            //}
+            
+        },
+        
+        searchKamoku() {
+            return this.sorted.filter(value => {
+
+                if (this.form == "online") {
+                    this.formResult = value.kyoushitsu.match('^(?=.*ｵﾝﾗｲﾝ授業).*$')
+                } else if (this.form == "real") {
+                    this.formResult = value.kyoushitsu.match('^(?!.*ｵﾝﾗｲﾝ授業).*$')
+                } else {
+                    this.formResult = value.kyoushitsu.match('(?=.)')
+                }
+
+                if (this.season == "season0") {
+                    this.seasonResult = value.gakki.match('^(?=.*通年).*$')
+                } else if (this.season == "season1") {
+                    this.seasonResult = value.gakki.match('^(?=.*前期).*$')
+                } else if (this.season == "season2") {
+                    this.seasonResult = value.gakki.match('^(?=.*後期).*$')
+                } else {
+                    this.seasonResult = value.gakki.match('(?=.)')
+                }
+
+                if (this.selectedTimes && this.selectedTimes.length) {
+                    this.hourResult = value.gen.match('[' + this.selectedTimes.join('') + ']')
+                } else {
+                    this.hourResult = value.gen.match('[1234567]')
+                }
+
+                if (this.selectedDays && this.selectedDays.length) {
+                    this.daysResult = value.niti.match('[' + this.selectedDays.join('') + ']')
+                } else {
+                    this.daysResult = value.niti.match('[月火水木金土]')
+                }
+
+                return this.formResult && this.seasonResult &&
+                    this.hourResult && this.daysResult &&
+                    (value.kamoku.includes(this.searchWords) ||
+                        value.gakubu.includes(this.searchWords) ||
+                        value.gakka.includes(this.searchWords) ||
+                        value.tantou.includes(this.searchWords))
+            })
+        }
+    }
+        
+
+}
 </script>
 
+
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+.jumbotron {
+    background:url(~/assets/img/background-img.png)
+    center no-repeat; 
+    background-size: cover;
 }
 
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
+/* 検索枠 */
+.top-search {
+    width: 40%;
+    margin: 5%;
+    padding: 30px;
+    background-color: #FFF;
+    border-radius: 20px;
 }
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
+/* 入力フォーム */
+.search-box {
+    position: relative;
 }
 
-.links {
-  padding-top: 15px;
+.search-box input{
+    height: 3.0em;
+    width: 100%;
+    padding: 0 10px 0 50px;
+    margin: 5px 0;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    background-color: #868686;
+    font-weight: 500;
 }
+
+.search-box ::placeholder{
+  color:#DDD;
+  font-weight: 500;
+} 
+
+.search-box i {
+    position: absolute;
+    padding: 14px 0;
+    left: 15px;
+    font-size: 30px;
+    color: #FFF;
+}
+
+/* トップメッセージ */
+.top-message {
+    margin: auto 0;
+    padding: 50px 0 ;
+}
+.top-message h1 {
+    font-weight: 700;
+}
+.top-message p {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #868686;
+}
+
+/* 条件を絞る */
+.search-conditions {
+    margin: 10px 0;
+}
+
+.semester, .class-style {
+    padding: 10px 0;
+}
+
+/* ラジオボタン */
+
+input[type=radio] {
+display: none; /* ラジオボタンを非表示にする */
+}
+
+input[type=checkbox] {
+display: none; /* ラジオボタンを非表示にする */
+}
+
+label {
+  background-color: none;
+  padding: 8px 20px;
+  border-radius: 100px;
+  border: 2px solid;
+  border-color: #2D2D2D;
+}
+
+input[type=radio]:checked + label {
+  background-color: #FFA100;
+  color: #fff;
+  border:1px solid;
+  border-color: #FFA100;
+}
+
+input[type=checkbox]:checked + label {
+  background-color: #FFA100;
+  color: #fff;
+  border:1px solid;
+  border-color: #FFA100;
+}
+
+
+/* 曜日・時限フォーム */
+.search-conditions .vs__dropdown-toggle {
+    margin: 10px 0;
+    padding: 0 0 5px 11px;
+    border: 2px solid #2D2D2D;
+    border-radius: 20px;
+}
+
+.vs__actions {
+    padding: 4px 16px 0 3px;
+}
+
+/* 検索結果 概要 */
+.result {
+    margin: auto 5%;
+}
+
+/* 検索結果 ソート */
+.sort {
+    width: 170px;
+    margin: 5% 5% 5% auto;
+}
+.sort .vs__dropdown-toggle {
+    width: 100%;
+    margin: 10px 0 10px auto;
+    padding: 0 0 5px 11px;
+    border: 2px solid #2D2D2D;
+    border-radius: 20px;
+}
+
+.sort #vs3__listbox {
+    position: absolute;
+    right: 0;
+    width: 30%;
+    margin: 10px 0 10px auto;
+    padding: 0 0 5px 0;
+    border-radius: 10px;
+}
+
+/* 検索結果テーブル */
+.table-box {
+    margin: 1% 4%;
+    padding: 1%;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+}
+
+/* エラー　件数が300以上 */
+.error-too-long {
+    margin: 5% 0;
+    text-align: center;
+}
+.error-too-long img {
+    height: 150px;
+    margin: 0 auto;
+}
+
 </style>

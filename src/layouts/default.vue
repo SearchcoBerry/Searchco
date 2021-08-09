@@ -4,9 +4,13 @@
   </div>
 </template>
 
+
 <style>
-html {
+html {    
   font-family:
+    /* 'fot-udkakugo-large-pr6n', */
+    'Noto Sans',
+    'Noto Sans JP',
     'Source Sans Pro',
     -apple-system,
     BlinkMacSystemFont,
