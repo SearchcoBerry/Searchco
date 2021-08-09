@@ -96,8 +96,8 @@
                     </div>
                 </div>
             </div>
-                <!-- .slice(0,300) -->
-                <div class="table-box" v-for="(value, index) in sorted" :key="index" >
+            
+                <div class="table-box" v-for="(value, index) in sorted.slice(0,300)" :key="index" >
                     <div class="container">
                         <div class="row">
                             <div class="col-md-2">{{index+1}}.  {{value.kamoku}} </div>
