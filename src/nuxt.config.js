@@ -1,4 +1,6 @@
 export default {
+  mode: 'universal',
+	target: 'static',
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Search Co. (さちこ)',
@@ -49,14 +51,15 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    /*
-    ** You can extend webpack config here
-    */
-    filenames: {
-      app: ({ isDev }) => isDev ? '[name].[hash].js' : '[chunkhash].js',
-      chunk: ({ isDev }) => isDev ? '[name].[hash].js' : '[chunkhash].js'
-    },
-    extend(config, ctx) {
+
+  },
+
+  generate: {
+    async routes () {
+      const { $content } = require('@nuxt/content')
+      const files = await $content('news' || 'index').fetch()
+
+      return files.map(file => file.path === '/index' ? '/' : file.path)
     }
   }
 
