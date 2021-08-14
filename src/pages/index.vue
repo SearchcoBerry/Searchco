@@ -20,8 +20,10 @@
                         <div class="col-md-6 order-md-1 top-search">
                                 <div class="search-box">
                                     <h3>講義を探す</h3>
-                                    <input v-model="searchWords" placeholder="科目名 教員名 学部学科 etc.">
-                                    <i class="material-icons">search</i>
+                                    <div class="search-form">
+                                        <input type="text" v-model="searchWords" placeholder="科目名 教員名 学部学科 etc.">
+                                        <i class="material-icons">search</i>
+                                    </div>
                                 </div>
                                 
                                 <div class="search-conditions">
@@ -30,6 +32,8 @@
                                     <div class="semester">
                                         <input type="radio" id="s_one" value="seasonall" v-model="season">
                                         <label for="s_one"><span>すべての学期</span></label>
+
+                                        <br class="sp">
 
                                         <input type="radio" id="s_two" value="season0" v-model="season">
                                         <label for="s_two"><span>通年</span></label>
@@ -47,6 +51,8 @@
                                         <input type="radio" id="f_one" value=" " v-model="form">
                                         <label for="f_one"><span>すべての授業形態</span></label>
 
+                                        <br class="sp">
+
                                         <input type="radio" id="f_two" value="real" v-model="form">
                                         <label for="f_two"><span>対面</span></label>
 
@@ -55,10 +61,10 @@
                                     </div> 
 
                                     <!-- 曜日 -->
-                                    <v-select multiple :options="optionsDays" v-model="selectedDays" placeholder="すべての曜日"/>
+                                    <v-select multiple :options="optionsDays" v-model="selectedDays" placeholder="すべての曜日" readonly="readonly" />
 
                                     <!-- 時限 -->
-                                    <v-select multiple :options="optionsTimes" v-model="selectedTimes" placeholder="すべての時限"/>
+                                    <v-select multiple :options="optionsTimes" v-model="selectedTimes" placeholder="すべての時限" readonly="readonly" />
                                 </div>
 
 
@@ -91,7 +97,7 @@
                 </div>
                 <div class="col">
                     <div class="sort">
-                        <v-select :options="optionsSort" v-model="selectedSort" placeholder="科目名順" />
+                        <v-select :options="optionsSort" v-model="selectedSort" placeholder="科目名順" readonly="readonly" />
                     </div>
                 </div>
             </div>
@@ -301,34 +307,48 @@ export default {
 }
 
 /* 入力フォーム */
-.search-box {
+
+.search-form {
     position: relative;
+	width: 100%;
+	margin: 3% 0;
 }
 
-.search-box input{
-    height: 3.0em;
-    width: 100%;
-    padding: 0 10px 0 50px;
-    margin: 5px 0;
-    border-radius: 30px;
-    border: none;
-    color: #fff;
-    background-color: #868686;
-    font-weight: 500;
-}
-
-.search-box ::placeholder{
-  color:#DDD;
-  font-weight: 500;
-} 
-
-.search-box i {
-    position: absolute;
-    padding: 14px 0;
-    left: 15px;
-    font-size: 30px;
+.search-form input[type=text] {
+	box-sizing: border-box;
+	width: 100%;
+	margin: 10px 0;
+	padding: 0.7em;
+	transition: 0.3s;
     color: #FFF;
+	background-color: #868686;
+    border: none;
+	border-radius: 30px;
+	outline: none;
 }
+
+.search-form input[type=text]:focus {
+	border-color: #FFA100;
+}
+.search-form input[type=text] {
+	padding-left: 50px;
+}
+
+.search-form ::placeholder {
+  color: #EEE;
+}
+
+.search-form i {
+	position: absolute;
+	top: 10px;
+	left: 0;
+	padding: 11px 15px;
+	transition: 0.3s;
+	color: #FFF;
+}
+
+
+
 
 /* 条件を絞る */
 .search-conditions {

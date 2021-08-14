@@ -2,6 +2,7 @@
   <div>
     <HeaderNav />
     <Nuxt />
+    <ReturnTop />
     <Footer />
   </div>
 </template>
@@ -9,10 +10,13 @@
 <script>
   import HeaderNav from "@/components/headerNav.vue";
   import Footer from "@/components/footer.vue";
+  import ReturnTop from "@/components/ReturnTopButton.vue";
+import ReturnTopButton from '../components/ReturnTopButton.vue';
   export default {
 		components: {
 			HeaderNav,
-      Footer
+      Footer,
+      ReturnTop
 		}
 	};
 </script>
@@ -22,7 +26,6 @@
 <style>
 html {    
   font-family:
-    /* 'fot-udkakugo-large-pr6n', */
     'Noto Sans',
     'Noto Sans JP',
     'Source Sans Pro',
@@ -48,6 +51,7 @@ html {
   box-sizing: border-box;
   margin: 0;
 }
+
 
 .button--green {
   display: inline-block;
@@ -77,4 +81,17 @@ html {
   color: #fff;
   background-color: #35495e;
 }
+
+
+@media screen and (max-width : 767px){
+ html,
+ body {
+ overflow-x: hidden!important;
+ overflow-y: scroll;
+ -webkit-overflow-scrolling: touch;
+ }
+}
+
+
+
 </style>
