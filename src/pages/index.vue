@@ -61,10 +61,10 @@
                                     </div> 
 
                                     <!-- 曜日 -->
-                                    <v-select multiple :options="optionsDays" v-model="selectedDays" placeholder="すべての曜日" readonly="readonly" />
+                                    <v-select multiple inputmode="none" :options="optionsDays" v-model="selectedDays" placeholder="すべての曜日" />
 
                                     <!-- 時限 -->
-                                    <v-select multiple :options="optionsTimes" v-model="selectedTimes" placeholder="すべての時限" readonly="readonly" />
+                                    <v-select multiple inputmode="none" :options="optionsTimes" v-model="selectedTimes" placeholder="すべての時限" />
                                 </div>
 
 
