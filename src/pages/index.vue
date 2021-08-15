@@ -499,9 +499,10 @@ export default {
 }
 
 .semester, .class-style {
+    width: 100%;
     margin-bottom: 0;
 
-    line-height: 3em;
+    line-height: 2.5em;
 }
 
 /* ラジオボタン */
@@ -515,8 +516,10 @@ display: none; /* ラジオボタンを非表示にする */
 }
 
 label {
-  background-color: none;
-  padding: 8px 20px;
+  display: inline-block;
+  background-color: #FFF;
+  margin: 1% 0;
+  padding: 0 20px;
   border-radius: 100px;
   border: 2px solid;
   border-color: #2D2D2D;
