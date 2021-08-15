@@ -50,7 +50,6 @@ export default {
 
 @media only screen and (max-width: 538px) {
     .modal__window {
-        
         width: 80%;
     }
 }

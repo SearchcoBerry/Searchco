@@ -91,7 +91,7 @@
 
                                         <div class="checkbox row">
                                             <h3>曜日</h3> 
-                                            <div class="col-6 col-lg" v-for="(day, d) in optionsDays" :key="d">
+                                            <div class="col-6 col-lg-4 col-xl" v-for="(day, d) in optionsDays" :key="d">
                                                 <input :id="'day' + d" type="checkbox" :value="day" v-model="selectedDays">
                                                 <label :for="'day' + d">  <span>{{ day }}曜</span>  </label>
                                             </div>
@@ -99,7 +99,7 @@
 
                                         <div class="checkbox row">
                                             <h3>時限</h3> 
-                                            <div class="col-6 col-lg" v-for="(time, t) in optionsTimes" :key="t">
+                                            <div class="col-6 col-lg-4 col-xl" v-for="(time, t) in optionsTimes" :key="t">
                                                 <input :id="'time' + t" type="checkbox" :value="time" v-model="selectedTimes">
                                                 <label :for="'time' + t">  <span>{{ time }}限</span>  </label>
                                             </div>
@@ -368,6 +368,17 @@ export default {
 .checkbox {
     padding-bottom: 20px;
     line-height: 3em;
+}
+
+.checkbox label {
+  display: inline-block;
+  background-color: #FFF;
+  margin: 1% 0;
+  padding: 0 25px;
+  border-radius: 100px;
+  border: 2px solid;
+  border-color: #2D2D2D;
+  line-height: 2.5em;
 }
 
 
