@@ -60,11 +60,58 @@
                                         <label for="f_three"><span>オンライン</span></label>
                                     </div> 
 
-                                    <!-- 曜日 -->
-                                    <v-select multiple :options="optionsDays" v-model="selectedDays" placeholder="すべての曜日" style="input {pointer-events: none;}" />
 
-                                    <!-- 時限 -->
-                                    <v-select multiple :options="optionsTimes" v-model="selectedTimes" placeholder="すべての時限" style="input {pointer-events: none;}" />
+                                    <!-- 時期を指定  -->
+                                    <button class="help_link__button" @click="openModalPeriod">
+                                        <div v-if="selectedDays.length == 0 && selectedTimes.length == 0">
+                                            すべての曜日・時限
+                                            <i class="material-icons">launch</i>
+                                        </div>
+
+                                        <div v-else-if="selectedDays.length == 0 && selectedTimes.length != 0">
+                                            すべての曜日　時限: {{ selectedTimes.join(',') }}
+                                            <i class="material-icons">launch</i>
+                                        </div>
+
+                                        <div v-else-if="selectedDays.length != 0 && selectedTimes.length == 0">
+                                            曜日: {{ selectedDays.join(',') }}　すべての時限
+                                            <i class="material-icons">launch</i>
+                                        </div>
+
+                                        <div v-else>
+                                            曜日: {{ selectedDays.join(',') }}　時限: {{ selectedTimes.join(',') }}
+                                            <i class="material-icons">launch</i>
+                                        </div>
+                
+                                    </button>
+
+                                    
+                                    <selectModal v-if="modalPeriod" @close-modal="closeModalPeriod">
+                                        <h2>時期を指定</h2>
+
+                                        <div class="checkbox row">
+                                            <h3>曜日</h3> 
+                                            <div class="col" v-for="(day, d) in optionsDays" :key="d">
+                                                <input :id="'day' + d" type="checkbox" :value="day" v-model="selectedDays">
+                                                <label :for="'day' + d">  <span>{{ day }}曜</span>  </label>
+                                            </div>
+                                        </div>
+
+                                        <div class="checkbox row">
+                                            <h3>時限</h3> 
+                                            <div class="col" v-for="(time, t) in optionsTimes" :key="t">
+                                                <input :id="'time' + t" type="checkbox" :value="time" v-model="selectedTimes">
+                                                <label :for="'time' + t">  <span>{{ time }}限</span>  </label>
+                                            </div>
+                                        </div>
+                                        
+                                        <button class="closebtn" @click="closeModalPeriod">
+                                            閉じる
+                                            <i class="material-icons">close</i>
+                                        </button>
+                                    </selectModal>
+                                    
+
                                 </div>
 
 
@@ -97,7 +144,28 @@
                 </div>
                 <div class="col">
                     <div class="sort">
-                        <v-select :options="optionsSort" v-model="selectedSort" placeholder="科目名順"  style="input {pointer-events: none;}"/>
+
+                        <button class="help_link__button" @click="openModal">
+                            {{ selectedSort.label }}
+                            <i class="material-icons">launch</i>
+                        </button>
+
+                        <selectModal v-if="modalFlag" @close-modal="closeModal">
+                            <h2>表示順を変更</h2>
+
+                            <div class="checkbox row">
+                                <div class="col-md-6" v-for="(sort, s) in optionsSort" :key="s">
+                                    <input :id="'sort' + s" type="radio" :value="sort" v-model="selectedSort">
+                                    <label :for="'sort' + s"><span>{{ sort.label }}</span></label>
+                                </div>
+                            </div>
+
+                            <button class="closebtn" @click="closeModal">
+                                閉じる
+                                <i class="material-icons">close</i>
+                            </button>
+                        </selectModal>
+
                     </div>
                 </div>
             </div>
@@ -138,9 +206,17 @@
 
 <script>
 import lists from '@/assets/list-2.json'
+import selectModal from '@/components/selectModal.vue'
 
 export default {
+    components: {
+        selectModal
+    },
+
     data: () => ({
+        modalPeriod: false,
+        modalFlag: false,
+
         optionsDays: ["月","火","水","木","金","土"],
         optionsTimes: ["1","2","3","4","5","6","7"],
         optionsSort: [
@@ -154,9 +230,9 @@ export default {
         lists: lists,
 
         season: 'seasonall',
-        selectedDays: null,
-        selectedTimes: null,
-        selectedSort: null,
+        selectedDays: [],
+        selectedTimes: [],
+        selectedSort: {"label":"科目名順", "code":"kamoku"},
 
         form: " ",
 
@@ -166,8 +242,24 @@ export default {
         daysResult: '',
     }),
 
+    methods: {
+        openModalPeriod() {
+            this.modalPeriod = true
+        },
+        closeModalPeriod() {
+            this.modalPeriod = false
+        },
+        openModal() {
+            this.modalFlag = true
+        },
+        closeModal() {
+            this.modalFlag = false
+        }
+    },
+
 
     computed: {
+
         replaceWords() {
             return this.searchWords.replace(/ /g, '　');
         },
@@ -270,6 +362,53 @@ export default {
 
 ---------------------------------*/
 
+
+
+/* モーダルコンポーネント ボタン*/
+.checkbox {
+    padding-bottom: 20px;
+    line-height: 3em;
+}
+
+
+.help_link__button {
+    position: relative;
+    text-align: left;
+    background-color: #FFF;
+    padding: 8px 20px;
+    border-radius: 100px;
+    border: 2px solid;
+    border-color: #2D2D2D;
+    width: 100%;
+    margin: 1% 0;
+}
+
+
+.help_link__button i {
+  position: absolute;
+  top: 3px;
+  right:20px;
+  color: #2D2D2D;
+}
+
+.closebtn {
+    position: relative;
+    text-align: left;
+    background-color: #FFF;
+    padding: 8px 20px;
+    border-radius: 100px;
+    border: 2px solid;
+    border-color: #2D2D2D;
+    width: 150px;
+    margin: 1% 0;
+}
+
+.closebtn i {
+  position: absolute;
+  top: 3px;
+  right:15px;
+  color: #2D2D2D;
+}
 
 /*---------------------------------
   
@@ -398,17 +537,7 @@ input[type=checkbox]:checked + label {
 }
 
 
-/* 曜日・時限フォーム */
-.search-conditions .vs__dropdown-toggle {
-    margin: 10px 0;
-    padding: 0 0 5px 11px;
-    border: 2px solid #2D2D2D;
-    border-radius: 20px;
-}
-
-.vs__actions {
-    padding: 4px 16px 0 3px;
-}
+/* 曜日・時限モーダル */
 
 
 

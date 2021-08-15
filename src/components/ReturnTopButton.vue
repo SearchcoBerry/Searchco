@@ -1,7 +1,7 @@
 <template>
     <div class="return-bt">
         <button @click="returnTop" >
-            <i class="material-icons">north</i>
+            <i class="material-icons">arrow_upward</i>
         </button>
     </div>
 </template>
