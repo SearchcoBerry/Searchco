@@ -35,7 +35,7 @@ export default {
 }
 
 .modal__window {
-    width: auto;
+    width: 50%;
     overflow: hidden;
     background-color: #FFF;
     border-radius: 20px;
@@ -48,7 +48,7 @@ export default {
 
 /* タブレット　*/ 
 
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 538px) {
     .modal__window {
         
         width: 80%;
