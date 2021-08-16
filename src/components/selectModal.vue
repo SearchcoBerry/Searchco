@@ -35,7 +35,7 @@ export default {
 }
 
 .modal__window {
-    width: 50%;
+    width: auto;
     overflow: hidden;
     background-color: #FFF;
     border-radius: 20px;
@@ -46,11 +46,22 @@ export default {
     padding: 30px;
 }
 
+.modal__content h2 {
+    padding-bottom: 10px;
+}
+
 /* タブレット　*/ 
 
 @media only screen and (max-width: 538px) {
     .modal__window {
-        width: 80%;
+        width: 85%;
+    }
+}
+
+/* 小さい画面用 */
+@media only screen and (max-width: 350px) {
+    .modal__content {
+        padding: 15px;
     }
 }
 

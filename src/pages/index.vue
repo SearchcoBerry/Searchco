@@ -89,17 +89,17 @@
                                     <selectModal v-if="modalPeriod" @close-modal="closeModalPeriod">
                                         <h2>時期を指定</h2>
 
-                                        <div class="checkbox row">
-                                            <h3>曜日</h3> 
-                                            <div class="col-6 col-lg-4 col-xl" v-for="(day, d) in optionsDays" :key="d">
+                                        <h3>曜日</h3> 
+                                        <div class="checkbox d-flex flex-wrap">
+                                            <div class="p-1 bd-highlight" v-for="(day, d) in optionsDays" :key="d">
                                                 <input :id="'day' + d" type="checkbox" :value="day" v-model="selectedDays">
                                                 <label :for="'day' + d">  <span>{{ day }}曜</span>  </label>
                                             </div>
                                         </div>
 
-                                        <div class="checkbox row">
-                                            <h3>時限</h3> 
-                                            <div class="col-6 col-lg-4 col-xl" v-for="(time, t) in optionsTimes" :key="t">
+                                        <h3>時限</h3> 
+                                        <div class="checkbox d-flex flex-wrap">
+                                            <div class="p-1 bd-highlight" v-for="(time, t) in optionsTimes" :key="t">
                                                 <input :id="'time' + t" type="checkbox" :value="time" v-model="selectedTimes">
                                                 <label :for="'time' + t">  <span>{{ time }}限</span>  </label>
                                             </div>
@@ -153,8 +153,8 @@
                         <selectModal v-if="modalFlag" @close-modal="closeModal">
                             <h2>表示順を変更</h2>
 
-                            <div class="checkbox row">
-                                <div class="col-md-6" v-for="(sort, s) in optionsSort" :key="s">
+                            <div class="checkbox d-flex flex-wrap">
+                                <div class="p-2 bd-highlight" v-for="(sort, s) in optionsSort" :key="s">
                                     <input :id="'sort' + s" type="radio" :value="sort" v-model="selectedSort">
                                     <label :for="'sort' + s"><span>{{ sort.label }}</span></label>
                                 </div>
@@ -173,12 +173,12 @@
                 <div class="table-box" v-for="(value, index) in sorted.slice(0,200)" :key="index" >
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-2">{{index+1}}.  {{value.kamoku}} </div>
-                            <div class="col-md-2 gakubu">{{value.gakubu}} <br class="pc">{{value.gakka}}</div>
-                            <div class="col-md-2 col-sm-4"> {{value.tantou}}</div>
-                            <div class="col-md-2 col-sm-4">{{value.kyoushitsu}}</div>
-                            <div class="col-md-2 col-sm-4">{{value.gakki}} <br>{{value.niti}}曜 {{value.gen}}限</div>
-                            <div class="col-md-2">{{value.bikou}}</div>
+                            <div class="col-sm-12 col-md-2">{{index+1}}.  {{value.kamoku}} </div>
+                            <div class="col-sm-12 col-md-2 gakubu">{{value.gakubu}} <br class="pc">{{value.gakka}}</div>
+                            <div class="col-sm-4 col-md-2"> {{value.tantou}}</div>
+                            <div class="col-sm-4 col-md-2">{{value.kyoushitsu}}</div>
+                            <div class="col-sm-4 col-md-2">{{value.gakki}} <br>{{value.niti}}曜 {{value.gen}}限</div>
+                            <div class="col-sm-12">{{value.bikou}}</div>
                         </div>
                     </div>
                 </div>
@@ -374,11 +374,11 @@ export default {
   display: inline-block;
   background-color: #FFF;
   margin: 1% 0;
-  padding: 0 25px;
+  padding: 0 20px;
   border-radius: 100px;
   border: 2px solid;
   border-color: #2D2D2D;
-  line-height: 2.5em;
+  line-height: 2.2em;
 }
 
 
