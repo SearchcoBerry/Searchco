@@ -383,6 +383,7 @@ export default {
 
 
 .help_link__button {
+    display: inline-block;
     position: relative;
     text-align: left;
     background-color: #FFF;
@@ -394,12 +395,31 @@ export default {
     margin: 1% 0;
 }
 
+.help_link__button:hover {
+    color: #FFA100;
+    border-color: #FFA100;
+}
+
+
+.help_link__button:active {
+    color: #FFF;
+    border-color: #FFF;
+    background-color: #FFA100;
+}
+
 
 .help_link__button i {
   position: absolute;
   top: 3px;
   right:20px;
   color: #2D2D2D;
+}
+
+.help_link__button:hover i{
+  color: #FFA100;
+}
+.help_link__button:active i{
+  color: #FFF;
 }
 
 .closebtn {
@@ -419,6 +439,24 @@ export default {
   top: 3px;
   right:15px;
   color: #2D2D2D;
+}
+
+.closebtn:hover {
+    color: #FFA100;
+    border-color: #FFA100;
+}
+
+.closebtn:active {
+    color: #FFF;
+    border-color: #FFF;
+    background-color: #FFA100;
+}
+
+.closebtn:hover i{
+  color: #FFA100;
+}
+.closebtn:active i{
+  color: #FFF;
 }
 
 /*---------------------------------

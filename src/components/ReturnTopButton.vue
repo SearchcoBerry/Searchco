@@ -1,8 +1,10 @@
 <template>
     <div class="return-bt">
-        <button @click="returnTop" >
-            <i class="material-icons">arrow_upward</i>
-        </button>
+        <transition name="button">
+            <button v-show="buttonActive" @click="returnTop" >
+                <i class="material-icons">arrow_upward</i>
+            </button>
+        </transition>    
     </div>
 </template>
 
@@ -56,6 +58,15 @@ export default {
 
 i {
     padding-top: 5px;
+}
+
+.return-bt button:hover {
+    color: #FFA100;
+}
+
+.return-bt button:active {
+    color: #FFF;
+    background-color: #FFA100;
 }
 
 .button-enter-active,
