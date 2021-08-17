@@ -134,7 +134,7 @@
                     </div>
 
                     <div v-if="searchKamoku.length >= 300">
-                        <p>{{searchKamoku.length}}件 上位200件まで表示</p>
+                        <p>{{searchKamoku.length}}件 上位100件まで表示</p>
                     </div>
 
                     <div v-else>
@@ -170,7 +170,7 @@
                 </div>
             </div>
             
-                <div class="table-box" v-for="(value, index) in sorted.slice(0,200)" :key="index" >
+                <div class="table-box" v-for="(value, index) in sorted.slice(0,100)" :key="index" >
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12 col-md-2">{{index+1}}.  {{value.kamoku}} </div>
@@ -186,7 +186,7 @@
                 <!-- 300件以上 エラー -->
                 <div class="error-too-long" v-if="searchKamoku.length >= 300">
                     <img src="~/assets/img/error.png">
-                    <h2>あい!データが200件以上あるわけよ。<br>
+                    <h2>あい!データが100件以上あるわけよ。<br>
                         こんな沢山あったらあわてぃはーてぃーするから
                         条件絞ろうね〜</h2>
                 </div>
