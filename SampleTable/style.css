@@ -1,0 +1,64 @@
+h1, h2 {
+  font-weight: normal;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a {
+  color: #42b983;
+}
+
+/* Table */
+
+table {
+  border: 2px #42b983 solid;
+  margin: 3px auto;
+}
+
+td {
+  height: 60px;
+  width: 80px;
+  font-size: 10px;
+  border: #42b983;
+}
+
+th {
+  height: 40px;
+  width: 30px;
+}
+
+/* Edit Table */
+
+.edit {
+  z-index: 10;
+  position: relative;
+  margin: 0 auto;
+  bottom: 300px;
+  width: 400px;
+  height: 200px;
+  box-shadow: 1px 1px rgba(78, 78, 78, 0.096);
+  border: #42b983 1px solid;
+}
+
+.edit input {
+  height: 30px;
+  width: 160px;
+}
+
+button {
+  width: 80px;
+  height: 30px;
+  margin: 20px;
+  background-color: #42b983;
+  border-radius: 5px;
+  border: none;
+  color: rgb(255, 255, 255);
+}

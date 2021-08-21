@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <ul>
+    <li></li>
+    <li></li>
+  </ul>
+  <div id="app">
+    <div class="table">
+        <h1>TimeTable</h1>
+          <!--
+          <table>
+              <tbody>
+                  <tr>
+                      <th>-</th>
+                      <th>月</th>
+                      <th>火</th>
+                      <th>水</th>
+                      <th>木</th>
+                      <th>金</th>
+                      <th>土</th>
+                  </tr>
+                  <tr>
+                      <th>1</th>
+                      <td></td>
+                      <td ></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <th>2</th>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <th>3</th>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <th>4</th>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <th>5</th>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <th>6</th>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                  </tr>
+              </tbody>
+              
+          </table>
+          -->
+
+          <table>
+              <tbody>
+                  <tr>
+                      <th>-</th>
+                      <th>月</th>
+                      <th>火</th>
+                      <th>水</th>
+                      <th>木</th>
+                      <th>金</th>
+                      <th>土</th>
+                  </tr>
+                  <tr v-for = "(item,index) in timeTable" v-bind:key="item.id">
+                    <th>{{index + 1}}</th>
+                    <td>{{item.mon}}</td>
+                    <td>{{item.tue}}</td>
+                    <td>{{item.wed}}</td>
+                    <td>{{item.thu}}</td>
+                    <td>{{item.fri}}</td>
+                    <td>{{item.sat}}</td>
+                  </tr>
+
+              </tbody>
+          </table>
+
+
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="app.js"></script>
+
+  
+</body>
+</html>
