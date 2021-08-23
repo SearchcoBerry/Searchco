@@ -61,7 +61,8 @@ def output(PATH):
 
         json_list.append(data)
 
-    with open('./output/syllabus.json', 'w') as file:
+    output_name = './output/' + PATH[:-4] + '.json'
+    with open(output_name, 'w') as file:
         json.dump(json_list, file, indent=4, ensure_ascii=False)
 
     print("Success!!")
