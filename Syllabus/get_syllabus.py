@@ -6,6 +6,7 @@ from pdfminer.converter import PDFPageAggregator
 
 import json
 from collections import OrderedDict
+from tqdm import tqdm
 
 
 def output(PATH):
@@ -20,8 +21,9 @@ def output(PATH):
     subject_teacher_list = []
     subject_schedule_list = []
 
-    for page in pages:
-        print('Processing next page...')
+    print("Getting PDF...")
+    for page in tqdm(pages):
+        #print('Processing next page...')
         interpreter.process_page(page)
         layout = device.get_result()
         for lobj in layout:
@@ -51,7 +53,7 @@ def output(PATH):
                     subject_list.append(word)
 
     json_list = []
-    for i in range(len(subject_list)):
+    for i in tqdm(range(len(subject_list))):
         data = OrderedDict()
         data["subject_name"] = subject_list[i]
         data["subject_teacher"] = subject_teacher_list[i]
@@ -59,5 +61,7 @@ def output(PATH):
 
         json_list.append(data)
 
-    with open('./output/output.json', 'w') as file:
+    with open('./output/syllabus.json', 'w') as file:
         json.dump(json_list, file, indent=4, ensure_ascii=False)
+
+    print("Success!!")
