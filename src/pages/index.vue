@@ -16,20 +16,45 @@
                         </div>
 
                         <div class="col-md-6 order-md-1">
-                                <!-- 検索フォーム コンポーネント -->
-                                <search />
+                            <!-- 検索フォーム コンポーネント -->
+                            <search />
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- 検索結果　 コンポーネント -->
-        <results />
+        <div class="main-tab container">
+            <!-- タブ -->
+            <ul>
+                <li :class="{ clickBtn: tab === 1 }" @click="tab = 1">
+                    <i class="material-icons">search</i>
+                    検索結果
+                </li>
+                <li :class="{ clickBtn: tab === 2 }" @click="tab = 2">
+                    <i class="material-icons">favorite</i>
+                    気になるリスト
+                </li>
+                <li :class="{ clickBtn: tab === 3 }" @click="tab = 3">
+                    <i class="material-icons">help_outline</i>
+                    使い方
+                </li>
+            </ul>
+            <div class="content">
+                <div v-show="tab === 1" class="content-item">
+                    <!-- 検索結果　 コンポーネント -->
+                    <results />
+                </div>
+                <div v-show="tab === 2" class="content-item">
+                    <favorite />
+                </div>
+                <div v-show="tab === 3" class="content-item">
+                    <h2>使い方</h2>
+                </div>
+            </div>
+        </div>
 
-       
 
-        
     </div>
 </template>
 
@@ -37,13 +62,21 @@
 import search from '@/components/search.vue'
 import results from '@/components/results.vue'
 import selectModal from '@/components/selectModal.vue'
+import favorite from '../components/favorite.vue'
 
 export default {
     components: {
         search,
         results,
-        selectModal
-    }
+        selectModal,
+        favorite
+    },
+
+    data: () => {
+        return {
+            tab: 1,
+        }
+    },    
 }
 </script>
 
@@ -57,18 +90,13 @@ export default {
     2.メッセージ
     3.検索フォーム
 
-  2.main    検索結果
-    1.検索結果 概要
-    2.ソート選択
-    3.テーブル
-    4.エラー表示
+  2.main    タブ
 
   3.mb      スマホ・タブレットcss
     1.タブレット
     2.スマホ
 
 ---------------------------------*/
-
 
 
 /* モーダルコンポーネント ボタン*/
@@ -174,6 +202,40 @@ export default {
     color: #868686;
 }
 
+
+/*---------------------------------
+  
+  2.main  タブ
+
+---------------------------------*/
+ul {
+    list-style: none;
+    display: block;
+    text-align: center;
+    /* overflow: hidden; */
+    overflow-x: auto;
+    white-space: nowrap;
+    margin: 1% 0;
+    padding: 0;
+    border-bottom: 1px solid #DDDDDD;
+}
+li {
+    display: inline-block;
+    color: #2D2D2D;
+    height: 45px;
+    border: 1px solid white;
+    padding: 1px 20px;
+}
+
+li i {
+    vertical-align: -6px;
+    padding-right: 2px;
+}
+
+.clickBtn {
+    border-bottom: 3px solid #FFA100;
+    color: #FFA100;
+}
 
 
 

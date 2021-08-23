@@ -68,7 +68,7 @@
 
             </button>
 
-            
+            <!-- モーダル　コンポーネント　呼び出し -->
             <selectModal v-if="modalPeriod" @close-modal="closeModalPeriod">
                 <h2>時期を指定</h2>
 
@@ -250,7 +250,7 @@ input[type=radio] { display: none; }/* ラジオボタンを非表示にする *
 
 input[type=checkbox] { display: none;} /* ラジオボタンを非表示にする */ 
 
-label {
+.top-search label {
   display: inline-block;
   background-color: #FFF;
   margin: 1% 0;
@@ -260,18 +260,35 @@ label {
   border-color: #2D2D2D;
 }
 
-input[type=radio]:checked + label {
+.top-search input[type=radio]:checked + label {
   background-color: #FFA100;
   color: #fff;
   border:1px solid;
   border-color: #FFA100;
 }
 
-input[type=checkbox]:checked + label {
+.top-search input[type=checkbox]:checked + label {
   background-color: #FFA100;
   color: #fff;
   border:1px solid;
   border-color: #FFA100;
+}
+
+/* タブレット　*/ 
+
+@media only screen and (max-width: 766px) {
+    .top-search {
+        width: 90%;
+        margin: 2.5%;
+    }
+}
+
+/* スマホ用 */
+@media only screen and (max-width: 575px) {
+    .top-search {
+        width: 95%;
+        margin: 0 2.5% 10% 2.5%;
+    }
 }
 
 </style>
