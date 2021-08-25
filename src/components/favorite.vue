@@ -123,8 +123,9 @@ export default {
 }
 
 .favorite-box tbody {
-  width: 100%;
-  display:table;
+    width: 100%;
+    table-layout: fixed;
+    display:table;
 }
 
 th, td {
