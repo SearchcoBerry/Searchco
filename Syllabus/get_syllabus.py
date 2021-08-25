@@ -7,6 +7,32 @@ from pdfminer.converter import PDFPageAggregator
 import json
 from collections import OrderedDict
 from tqdm import tqdm
+import requests
+from bs4 import BeautifulSoup
+import re
+
+
+def get_files():
+    print("test")
+
+    # スクレイピング対象の URL にリクエストを送り HTML を取得する
+    res = requests.get('https://www.okiu.ac.jp/academic/lecture/syllabus/sy2021')
+
+    # レスポンスの HTML から BeautifulSoup オブジェクトを作る
+    soup = BeautifulSoup(res.text, 'html.parser')
+
+    #elems = soup.find_all(data-block-id=re.compile(""))
+    elems = soup.find("div",attrs={"data-block-id":"641847"})
+    link = elems.find_all(href=re.compile("https://www2.okiu.ac.jp/syllabus"))
+
+    #print(*elems)
+
+    url = {link[i].get('href') for i in range(len(link))}
+
+    print(len(url))
+
+    #print(url + ":" + len(url))
+
 
 
 def output(PATH):
