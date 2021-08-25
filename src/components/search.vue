@@ -258,6 +258,7 @@ input[type=checkbox] { display: none;} /* ラジオボタンを非表示にす�
   border-radius: 100px;
   border: 2px solid;
   border-color: #2D2D2D;
+  cursor: pointer;
 }
 
 .top-search input[type=radio]:checked + label {

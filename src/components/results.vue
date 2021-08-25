@@ -76,7 +76,7 @@
 
                 <!-- 300件以上 エラー -->
                 <div class="error-too-long" v-if="searchKamoku.length >= 100">
-                    <img src="~/assets/img/error.png">
+                    <img src="~/assets/img/error.webp">
                     <h2>あい!データが100件以上あるわけよ。<br>
                         こんな沢山あったらあわてぃはーてぃーするから
                         条件絞ろうね〜</h2>
@@ -84,7 +84,7 @@
 
                 <!-- 0件　エラー -->
                 <div class="error-too-long" v-if="searchKamoku.length == 0">
-                    <img src="~/assets/img/error.png">
+                    <img src="~/assets/img/error.webp">
                     <h2>おっと...「{{searchWords}}」は見つからなかったみたいだ...</h2>
                 </div>
 
@@ -312,6 +312,7 @@ export default {
     font-style: normal;
     font-size: 24px;
     color: #2D2D2D;
+    cursor: pointer;
 }
 
 .table-box input[type=checkbox]:checked ~ label .icon::before{

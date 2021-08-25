@@ -111,6 +111,7 @@ export default {
   border: 2px solid;
   border-color: #2D2D2D;
   line-height: 2.2em;
+  cursor: pointer;
 }
 
 
@@ -125,6 +126,7 @@ export default {
     border-color: #2D2D2D;
     width: 100%;
     margin: 1% 0;
+    cursor: pointer;
 }
 
 .help_link__button:hover { color: #FFA100; border-color: #FFA100; }
@@ -158,6 +160,7 @@ export default {
     border-color: #2D2D2D;
     width: 150px;
     margin: 1% 0;
+    cursor: pointer;
 }
 
 .closebtn i {
@@ -186,7 +189,7 @@ export default {
 ---------------------------------*/
 
 .jumbotron {
-    background:url(~/assets/img/background-img.png)
+    background:url(~/assets/img/background-img.webp)
     center no-repeat; 
     background-size: cover;
 }
@@ -225,6 +228,7 @@ li {
     height: 45px;
     border: 1px solid white;
     padding: 1px 20px;
+    cursor: pointer;
 }
 
 li i {
