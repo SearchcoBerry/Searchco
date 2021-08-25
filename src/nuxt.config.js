@@ -20,6 +20,7 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '~/assets/css/reset.css',
+    '~/assets/css/fonts.css',
     '~/assets/css/bootstrap-grid.min.css',
     '~/assets/css/bootstrap-utilities.min.css',
   ],
@@ -39,14 +40,8 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    'nuxt-webfontloader'
+    'nuxt-lazy-load'
   ],
-
-  webfontloader: {
-    google: {
-      families: ['Noto+Sans:400', 'Noto+Sans+JP:400,700'] 
-    }
-  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
