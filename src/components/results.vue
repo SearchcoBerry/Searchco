@@ -1,93 +1,95 @@
 <template>
-    <div class="main">
-            <div class="row">
-                <div class="col-sm-6 result">
-                    <div v-if="searchWords == '' ">
-                        <h3>すべての検索結果</h3>
-                    </div>
+    <lazy-component>
+        <div class="main">
+                <div class="row">
+                    <div class="col-sm-6 result">
+                        <div v-if="searchWords == '' ">
+                            <h3>すべての検索結果</h3>
+                        </div>
 
-                    <div v-else>
-                        <h3>{{searchWords}}の検索結果</h3>
-                    </div>
+                        <div v-else>
+                            <h3>{{searchWords}}の検索結果</h3>
+                        </div>
 
-                    <div v-if="searchKamoku.length >= 100">
-                        <p>{{searchKamoku.length}}件 上位100件まで表示</p>
-                    </div>
+                        <div v-if="searchKamoku.length >= 100">
+                            <p>{{searchKamoku.length}}件 上位100件まで表示</p>
+                        </div>
 
-                    <div v-else>
-                        <p>{{searchKamoku.length}}件</p>
-                    </div>
-                    
-                </div>
-
-                <div class="col">
-                    <div class="sort">
-
-                        <!-- モーダル コンポーネント　呼び出し -->
-                        <button class="help_link__button" @click="openModal">
-                            {{ selectedSort.label }}
-                            <i class="material-icons">launch</i>
-                        </button>
-
-                        <!-- モーダル コンポーネント 表示 -->
-                        <selectModal v-if="modalFlag" @close-modal="closeModal">
-                            <h2>表示順を変更</h2>
-
-                            <div class="checkbox d-flex flex-wrap">
-                                <div class="p-2 bd-highlight" v-for="(sort, s) in optionsSort" :key="s">
-                                    <input :id="'sort' + s" type="radio" :value="sort" v-model="selectedSort">
-                                    <label :for="'sort' + s"><span>{{ sort.label }}</span></label>
-                                </div>
-                            </div>
-
-                            <button class="closebtn" @click="closeModal">
-                                閉じる
-                                <i class="material-icons">close</i>
-                            </button>
-                        </selectModal>
-
-                    </div>
-                </div>
-            </div>
-            
-            <!-- 検索結果を表示 -->
-            <div class="table-box" v-for="(value, index) in sorted.slice(0,100)" :key="index" >
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-2">{{index+1}}.  {{value.kamoku}} </div>
-                        <div class="col-sm-12 col-md-2 gakubu">{{value.gakubu}} <br class="pc">{{value.gakka}}</div>
-                        <div class="col-sm-4 col-md-2"> {{value.tantou}}</div>
-                        <div class="col-sm-4 col-md-2">{{value.kyoushitsu}}</div>
-                        <div class="col-sm-4 col-md-2">{{value.gakki}} <br>{{value.niti}}曜 {{value.gen}}限</div>
-                        <div class="col-sm-12 col-md-1 d-flex align-items-center">{{value.bikou}}</div>
-                        <div class="col-sm-12 col-md-1 d-flex align-items-center">
-                            <input type="checkbox" :id="'value' + index" :value="value" v-model="setFavorite">
-                            <label :for="'value' + index"> <i class="icon"></i> </label>
-                            
-                            <!--<input type="radio" id="s_one" :value="value" v-model="setFavorite">
-                            <label for="s_one"><i class="material-icons">info_outline</i><br></label> -->
-                            <i class="material-icons">info_outline</i>
+                        <div v-else>
+                            <p>{{searchKamoku.length}}件</p>
                         </div>
                         
                     </div>
+
+                    <div class="col">
+                        <div class="sort">
+
+                            <!-- モーダル コンポーネント　呼び出し -->
+                            <button class="help_link__button" @click="openModal">
+                                {{ selectedSort.label }}
+                                <i class="material-icons">launch</i>
+                            </button>
+
+                            <!-- モーダル コンポーネント 表示 -->
+                            <selectModal v-if="modalFlag" @close-modal="closeModal">
+                                <h2>表示順を変更</h2>
+
+                                <div class="checkbox d-flex flex-wrap">
+                                    <div class="p-2 bd-highlight" v-for="(sort, s) in optionsSort" :key="s">
+                                        <input :id="'sort' + s" type="radio" :value="sort" v-model="selectedSort">
+                                        <label :for="'sort' + s"><span>{{ sort.label }}</span></label>
+                                    </div>
+                                </div>
+
+                                <button class="closebtn" @click="closeModal">
+                                    閉じる
+                                    <i class="material-icons">close</i>
+                                </button>
+                            </selectModal>
+
+                        </div>
+                    </div>
                 </div>
-            </div>
+                
+                <!-- 検索結果を表示 -->
+                <div class="table-box" v-for="(value, index) in sorted.slice(0,100)" :key="index" >
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-2">{{index+1}}.  {{value.kamoku}} </div>
+                            <div class="col-sm-12 col-md-2 gakubu">{{value.gakubu}} <br class="pc">{{value.gakka}}</div>
+                            <div class="col-sm-4 col-md-2"> {{value.tantou}}</div>
+                            <div class="col-sm-4 col-md-2">{{value.kyoushitsu}}</div>
+                            <div class="col-sm-4 col-md-2">{{value.gakki}} <br>{{value.niti}}曜 {{value.gen}}限</div>
+                            <div class="col-sm-12 col-md-1 d-flex align-items-center">{{value.bikou}}</div>
+                            <div class="col-sm-12 col-md-1 d-flex align-items-center">
+                                <input type="checkbox" :id="'value' + index" :value="value" v-model="setFavorite">
+                                <label :for="'value' + index"> <i class="icon"></i> </label>
+                                
+                                <!--<input type="radio" id="s_one" :value="value" v-model="setFavorite">
+                                <label for="s_one"><i class="material-icons">info_outline</i><br></label> -->
+                                <i class="material-icons">info_outline</i>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
 
-            <!-- 300件以上 エラー -->
-            <div class="error-too-long" v-if="searchKamoku.length >= 100">
-                <img src="~/assets/img/error.png">
-                <h2>あい!データが100件以上あるわけよ。<br>
-                    こんな沢山あったらあわてぃはーてぃーするから
-                    条件絞ろうね〜</h2>
-            </div>
+                <!-- 300件以上 エラー -->
+                <div class="error-too-long" v-if="searchKamoku.length >= 100">
+                    <img src="~/assets/img/error.png">
+                    <h2>あい!データが100件以上あるわけよ。<br>
+                        こんな沢山あったらあわてぃはーてぃーするから
+                        条件絞ろうね〜</h2>
+                </div>
 
-            <!-- 0件　エラー -->
-            <div class="error-too-long" v-if="searchKamoku.length == 0">
-                <img src="~/assets/img/error.png">
-                <h2>おっと...「{{searchWords}}」は見つからなかったみたいだ...</h2>
-            </div>
+                <!-- 0件　エラー -->
+                <div class="error-too-long" v-if="searchKamoku.length == 0">
+                    <img src="~/assets/img/error.png">
+                    <h2>おっと...「{{searchWords}}」は見つからなかったみたいだ...</h2>
+                </div>
 
-    </div>
+        </div>
+    </lazy-component>
 </template>
 
 
