@@ -74,7 +74,7 @@
             </div>
 
             <!-- 300件以上 エラー -->
-            <div class="error-too-long" v-if="searchKamoku.length >= 300">
+            <div class="error-too-long" v-if="searchKamoku.length >= 100">
                 <img src="~/assets/img/error.png">
                 <h2>あい!データが100件以上あるわけよ。<br>
                     こんな沢山あったらあわてぃはーてぃーするから
@@ -261,6 +261,13 @@ export default {
 /* 検索結果テーブル */
 .table-box {
     margin: 1% 4%;
+    padding: 1%;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+}
+
+.table-box:last-child{
+    margin: 1% 4% 10% 4%;
     padding: 1%;
     border-radius: 15px;
     background-color: #F2F2F2;
