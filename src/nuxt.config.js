@@ -22,11 +22,11 @@ export default {
     '~/assets/css/reset.css',
     '~/assets/css/bootstrap-grid.min.css',
     '~/assets/css/bootstrap-utilities.min.css',
+    '~/assets/css/fonts.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    // '~/plugins/adobe-fonts',
     '~/plugins/vueselect.js',
   ],
 
@@ -40,14 +40,14 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     'nuxt-lazy-load',
-    'nuxt-webfontloader'
+    // 'nuxt-webfontloader'
   ],
 
-  webfontloader: {
-    google: {
-      families: ['Noto+Sans:400', 'Noto+Sans+JP:400,700'] 
-    }
-  },
+  // webfontloader: {
+  //  google: {
+  //    families: ['Noto+Sans:400', 'Noto+Sans+JP:400,700'] 
+  //  }
+  //},
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
