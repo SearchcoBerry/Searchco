@@ -32,6 +32,7 @@
 
 .logo img {
     height: 30px;
+    width: auto;
     margin: 15px 8%;
 }
 

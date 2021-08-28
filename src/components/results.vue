@@ -261,6 +261,8 @@ export default {
 
 .hint {
     margin: 0 2%;
+    width: auto;
+    height: auto;
 }
 
 /* 検索結果 概要 */
