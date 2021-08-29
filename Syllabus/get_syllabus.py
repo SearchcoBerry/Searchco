@@ -69,7 +69,7 @@ def get_files(year = 2021):
         time.sleep(random.randint(3, 6))
 
 def output(PATH):
-    fp = open(PATH, 'rb')
+    fp = open("./pdf/" + PATH, 'rb')
     rsrcmgr = PDFResourceManager()
     laparams = LAParams()
     device = PDFPageAggregator(rsrcmgr, laparams=laparams)
@@ -93,7 +93,7 @@ def output(PATH):
                 word = text
 
                 # 曜日・日限を取得
-                if x == 458.46 or x == 453.96 or (x == 449.46 and text == "集中講義"):
+                if x == 458.46 or x == 453.96 or x == 449.46:
                     word = word.replace('\n', '')
                     subject_schedule_list.append(word)
                     print(word)
@@ -104,14 +104,14 @@ def output(PATH):
                     word = word.replace('担当者', '')
                     word = word.replace('\n', '')
                     subject_teacher_list.append(word)
-                    print(word)
+                    #print(word)
                 # 科目名を取得
                 elif "科目名" in text and x == 31.86:
                     word = word.replace('科目名', '')
                     word = word.replace('\u3000', '')
                     word = word.replace('\n', '')
                     subject_list.append(word)
-                    print(word)
+                    #print(word)
 
     json_list = []
     print(len(subject_list),len(subject_teacher_list),len(subject_schedule_list))
@@ -124,6 +124,7 @@ def output(PATH):
         json_list.append(data)
 
     output_name = './output/' + PATH[:-4] + '.json'
+    output_name = output_name.replace('./pdf/','')
     with open(output_name, 'w') as file:
         json.dump(json_list, file, indent=4, ensure_ascii=False)
 
