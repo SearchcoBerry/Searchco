@@ -1,0 +1,297 @@
+[
+    {
+        "subject_name": "アジア先史文化特論",
+        "subject_teacher": "佐川正敏",
+        "subject_schedule": "集中講義"
+    },
+    {
+        "subject_name": "現代社会文化特論",
+        "subject_teacher": "ＬＣ教員１",
+        "subject_schedule": "集中講義"
+    },
+    {
+        "subject_name": "考古学特論Ⅰ",
+        "subject_teacher": "池田栄史",
+        "subject_schedule": "木６"
+    },
+    {
+        "subject_name": "考古学特論Ⅱ",
+        "subject_teacher": "池田 栄史",
+        "subject_schedule": "木６"
+    },
+    {
+        "subject_name": "国語教育学特論Ⅰ",
+        "subject_teacher": "桃原千英子",
+        "subject_schedule": "木５"
+    },
+    {
+        "subject_name": "国語教育学特論Ⅱ",
+        "subject_teacher": "桃原千英子",
+        "subject_schedule": "木５"
+    },
+    {
+        "subject_name": "国際社会学特論",
+        "subject_teacher": "新垣誠",
+        "subject_schedule": "月５"
+    },
+    {
+        "subject_name": "社会学研究法特論",
+        "subject_teacher": "桃原一彦",
+        "subject_schedule": "水５"
+    },
+    {
+        "subject_name": "社会統計学特論",
+        "subject_teacher": "宮平隆央",
+        "subject_schedule": "月６"
+    },
+    {
+        "subject_name": "植民地社会特論Ⅰ",
+        "subject_teacher": "藤波潔",
+        "subject_schedule": "月６"
+    },
+    {
+        "subject_name": "地理教育学特論",
+        "subject_teacher": "崎浜靖",
+        "subject_schedule": "土２"
+    },
+    {
+        "subject_name": "南島芸能特論Ⅰ",
+        "subject_teacher": "狩俣 恵一",
+        "subject_schedule": "水２"
+    },
+    {
+        "subject_name": "南島芸能特論Ⅱ",
+        "subject_teacher": "狩俣 恵一",
+        "subject_schedule": "水２"
+    },
+    {
+        "subject_name": "南島言語文化特殊研究Ⅰ",
+        "subject_teacher": "西岡敏",
+        "subject_schedule": "火５"
+    },
+    {
+        "subject_name": "南島言語文化特殊研究Ⅱ",
+        "subject_teacher": "西岡敏",
+        "subject_schedule": "火５"
+    },
+    {
+        "subject_name": "南島史学特論ⅠＡ",
+        "subject_teacher": "深澤秋人",
+        "subject_schedule": "月６"
+    },
+    {
+        "subject_name": "南島史学特論ⅠＢ",
+        "subject_teacher": "深澤秋人",
+        "subject_schedule": "木６"
+    },
+    {
+        "subject_name": "南島社会特論Ⅰ",
+        "subject_teacher": "秋山道宏",
+        "subject_schedule": "火６"
+    },
+    {
+        "subject_name": "南島社会特論Ⅱ",
+        "subject_teacher": "秋山道宏",
+        "subject_schedule": "火６"
+    },
+    {
+        "subject_name": "南島社会文化特殊研究Ⅰ",
+        "subject_teacher": "桃原一彦",
+        "subject_schedule": "月４"
+    },
+    {
+        "subject_name": "南島社会文化特殊研究Ⅰ",
+        "subject_teacher": "藤波潔",
+        "subject_schedule": "月４"
+    },
+    {
+        "subject_name": "南島先史文化特殊研究Ⅱ",
+        "subject_teacher": "上原靜",
+        "subject_schedule": "土２"
+    },
+    {
+        "subject_name": "南島先史文化特論Ⅰ",
+        "subject_teacher": "宮城弘樹",
+        "subject_schedule": "水６"
+    },
+    {
+        "subject_name": "南島先史文化特論Ⅱ",
+        "subject_teacher": "上原靜",
+        "subject_schedule": "水６"
+    },
+    {
+        "subject_name": "南島地理学特論Ⅰ",
+        "subject_teacher": "小川護",
+        "subject_schedule": "木７"
+    },
+    {
+        "subject_name": "南島地理学特論Ⅱ",
+        "subject_teacher": "小川護",
+        "subject_schedule": "木７"
+    },
+    {
+        "subject_name": "南島文学特論ⅠＡ",
+        "subject_teacher": "狩俣恵一",
+        "subject_schedule": "水３"
+    },
+    {
+        "subject_name": "南島文学特論ⅠＢ",
+        "subject_teacher": "狩俣恵一",
+        "subject_schedule": "水３"
+    },
+    {
+        "subject_name": "南島文学特論ⅡＡ",
+        "subject_teacher": "山口真也",
+        "subject_schedule": "木４"
+    },
+    {
+        "subject_name": "南島文学特論ⅡＢ",
+        "subject_teacher": "山口真也",
+        "subject_schedule": "木４"
+    },
+    {
+        "subject_name": "南島方言学特論Ⅰ",
+        "subject_teacher": "下地 賀代子",
+        "subject_schedule": "月５"
+    },
+    {
+        "subject_name": "南島方言学特論Ⅱ",
+        "subject_teacher": "下地 賀代子",
+        "subject_schedule": "月５"
+    },
+    {
+        "subject_name": "南島民俗宗教特論Ⅰ",
+        "subject_teacher": "及川高",
+        "subject_schedule": "木５"
+    },
+    {
+        "subject_name": "南島民俗宗教特論Ⅱ",
+        "subject_teacher": "及川高",
+        "subject_schedule": "木５"
+    },
+    {
+        "subject_name": "南島民俗特論Ⅰ",
+        "subject_teacher": "及川高",
+        "subject_schedule": "金５"
+    },
+    {
+        "subject_name": "南島民俗特論Ⅱ",
+        "subject_teacher": "及川高",
+        "subject_schedule": "金５"
+    },
+    {
+        "subject_name": "南島民俗文化特殊研究Ⅰ",
+        "subject_teacher": "石垣直",
+        "subject_schedule": "木６"
+    },
+    {
+        "subject_name": "南島民俗文化特殊研究Ⅱ",
+        "subject_teacher": "石垣直",
+        "subject_schedule": "木６"
+    },
+    {
+        "subject_name": "南島歴史文化特殊研究Ⅰ",
+        "subject_teacher": "深澤秋人",
+        "subject_schedule": "火６"
+    },
+    {
+        "subject_name": "南島歴史文化特殊研究Ⅱ",
+        "subject_teacher": "深澤秋人",
+        "subject_schedule": "土２"
+    },
+    {
+        "subject_name": "日本近現代文学特論ⅠＡ",
+        "subject_teacher": "黒澤亜里子",
+        "subject_schedule": "火３"
+    },
+    {
+        "subject_name": "日本近現代文学特論ⅠＢ",
+        "subject_teacher": "黒澤亜里子",
+        "subject_schedule": "火３"
+    },
+    {
+        "subject_name": "日本近現代文学特論ⅡＡ",
+        "subject_teacher": "村上陽子",
+        "subject_schedule": "火５"
+    },
+    {
+        "subject_name": "日本近現代文学特論ⅡＢ",
+        "subject_teacher": "村上陽子",
+        "subject_schedule": "火５"
+    },
+    {
+        "subject_name": "日本言語文化特殊研究Ⅰ",
+        "subject_teacher": "田場裕規",
+        "subject_schedule": "月６"
+    },
+    {
+        "subject_name": "日本言語文化特殊研究Ⅰ",
+        "subject_teacher": "葛綿正一",
+        "subject_schedule": "土３"
+    },
+    {
+        "subject_name": "日本言語文化特殊研究Ⅱ",
+        "subject_teacher": "田場裕規",
+        "subject_schedule": "月６"
+    },
+    {
+        "subject_name": "日本言語文化特殊研究Ⅱ",
+        "subject_teacher": "黒澤亜里子",
+        "subject_schedule": "土３"
+    },
+    {
+        "subject_name": "日本言語文化特殊研究Ⅱ",
+        "subject_teacher": "葛綿正一",
+        "subject_schedule": "土３"
+    },
+    {
+        "subject_name": "日本古典文学特論ⅠＡ",
+        "subject_teacher": "田場裕規",
+        "subject_schedule": "火６"
+    },
+    {
+        "subject_name": "日本古典文学特論ⅠＢ",
+        "subject_teacher": "田場裕規",
+        "subject_schedule": "火６"
+    },
+    {
+        "subject_name": "日本古典文学特論ⅡＡ",
+        "subject_teacher": "葛綿正一",
+        "subject_schedule": "土４"
+    },
+    {
+        "subject_name": "日本古典文学特論ⅡＢ",
+        "subject_teacher": "葛綿正一",
+        "subject_schedule": "土４"
+    },
+    {
+        "subject_name": "比較社会文化特論Ⅰ",
+        "subject_teacher": "上江洲薫",
+        "subject_schedule": "木６"
+    },
+    {
+        "subject_name": "比較社会文化特論Ⅰ",
+        "subject_teacher": "桃原一彦",
+        "subject_schedule": "水６"
+    },
+    {
+        "subject_name": "比較社会文化特論Ⅱ",
+        "subject_teacher": "桃原一彦",
+        "subject_schedule": "水６"
+    },
+    {
+        "subject_name": "東アジア文化人類学特論ⅠＡ",
+        "subject_teacher": "石垣直",
+        "subject_schedule": "火６"
+    },
+    {
+        "subject_name": "東アジア文化人類学特論ⅠＢ",
+        "subject_teacher": "石垣直",
+        "subject_schedule": "火６"
+    },
+    {
+        "subject_name": "文化財保存特論",
+        "subject_teacher": "宮城弘樹",
+        "subject_schedule": "月６"
+    }
+]

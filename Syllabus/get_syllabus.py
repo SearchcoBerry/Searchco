@@ -88,7 +88,9 @@ def output(PATH):
         for lobj in layout:
             if isinstance(lobj, LTTextBox):
                 x, y, text = lobj.bbox[0], lobj.bbox[3], lobj.get_text()
-                #print('At %r is text: %s' % ((x, y), text))
+                print('At %r is text: %s' % ((x, y), text))
+                f = open('myfile.txt', 'a')
+                f.write('At %r is text: %s' % ((x, y), text))
 
                 word = text
 
@@ -96,7 +98,8 @@ def output(PATH):
                 if x == 458.46 or x == 453.96 or x == 449.46:
                     word = word.replace('\n', '')
                     subject_schedule_list.append(word)
-                    print(word)
+                elif x == 444.96 and y == 808.965:
+                    print(lobj.get_text())
                 # 担当者を取得
                 elif "担当者" in text and x == 31.86 and len(text) < 30:
                     word = word.replace('-', '')
@@ -135,3 +138,47 @@ def get_pdf_names():
     for f in files:
         print(f[6:])
         output(f)
+
+def get_files_dict(year = 2021):
+
+    # スクレイピング対象の URL にリクエストを送り HTML を取得する
+    res = requests.get('https://www.okiu.ac.jp/academic/lecture/syllabus/sy' + str(year))
+
+    # レスポンスの HTML から BeautifulSoup オブジェクトを作る
+    soup = BeautifulSoup(res.text, 'html.parser')
+
+    #elems = soup.find_all(data-block-id=re.compile(""))
+    elems = soup.find("div",attrs={"data-block-id":"641847"}).select('li')
+
+    print("link----------------")
+
+    urls = []
+    title = []
+    tag_list = []
+
+    for elem in elems:
+        try:
+            link = elem.find("a", href=re.compile("https://www2.okiu.ac.jp/syllabus"))
+            #print(link)
+            url = str(link.get('href'))
+            url_split = url.split("/")
+            url = url_split[-1]
+            urls.append(url)
+            title.append(str(link.get_text()))
+        except AttributeError:
+            print("None")
+    
+    for i in tqdm(range(len(title))):
+        data = OrderedDict()
+        data["label"] = title[i]
+        data["code"] = urls[i]
+
+        tag_list.append(data)
+
+    output_name = './output/rakusitai.json'
+    with open(output_name, 'w') as file:
+        json.dump(tag_list, file, indent=4, ensure_ascii=False)
+
+    print("Success!!")
+
+    print("check_list:" + str(len(urls)))
