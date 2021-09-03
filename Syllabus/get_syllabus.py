@@ -15,7 +15,7 @@ import urllib
 from urllib.parse import urljoin
 import random
 import glob
-
+import mojimoji
 
 def get_files(year = 2021):
 
@@ -103,6 +103,7 @@ def output(PATH):
                 # 曜日・日限を取得
                 if x == 458.46 or x == 453.96 or x == 449.46:
                     word = word.replace('\n', '')
+                    word = mojimoji.zen_to_han(word, kana=False, ascii=False) 
                     subject_schedule_list.append(word)
                 
                 # 担当者を取得
