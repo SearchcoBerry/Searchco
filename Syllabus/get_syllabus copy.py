@@ -17,6 +17,7 @@ import random
 import glob
 
 
+
 def get_files(year = 2021):
 
     # スクレイピング対象の URL にリクエストを送り HTML を取得する
@@ -84,26 +85,20 @@ def output(PATH):
         #print('Processing next page...')
         interpreter.process_page(page)
         layout = device.get_result()
-        print(type(layout))
-        """
-        for i in range(len(layout)):
-            print()
-        """
         for lobj in layout:
-            
             if isinstance(lobj, LTTextBox):
                 x, y, text = lobj.bbox[0], lobj.bbox[3], lobj.get_text()
-                #print('At %r is text: %s' % ((x, y), text))
+                print('At %r is text: %s' % ((x, y), text))
+                f = open('myfile.txt', 'a')
+                f.write('At %r is text: %s' % ((x, y), text))
 
                 word = text
-
-                #f = open('myfile.txt', 'a')
-                #f.write(str(lobj))
 
                 # 曜日・日限を取得
                 if x == 458.46 or x == 453.96 or x == 449.46:
                     word = word.replace('\n', '')
                     subject_schedule_list.append(word)
+                
                 
                 # 担当者を取得
                 elif "担当者" in text and x == 31.86 and len(text) < 30:
