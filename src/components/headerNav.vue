@@ -9,7 +9,7 @@
                 </div>
                 
                 <div class="col system-name pc">
-                    <p>授業検索エンジン さちこ ver1.1 🥳</p>
+                    <p>授業検索エンジン さちこ ver1.0 🥳</p>
                 </div>
             </div>
             
@@ -31,9 +31,8 @@
 }
 
 .logo img {
-    height: 30px;
-    width: auto;
-    margin: 15px 8%;
+    height: 35px;
+    margin: 12px 8%;
 }
 
 .system-name {

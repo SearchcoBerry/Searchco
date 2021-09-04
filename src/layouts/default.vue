@@ -29,7 +29,6 @@ html {
     'Noto Sans',
     'Noto Sans JP',
     'Source Sans Pro',
-    'Material Icons',
     -apple-system,
     BlinkMacSystemFont,
     'Segoe UI',

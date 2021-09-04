@@ -27,7 +27,7 @@ export default {
 
 <style>
 .footer {
-    padding: 2% 8%;
+    padding: 2%;
     background-color: #2D2D2D;
     color: #FFF;
 }
