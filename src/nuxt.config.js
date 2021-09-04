@@ -9,7 +9,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'あなたの履修登録に幸子あれ。' }
+      { hid: 'description', name: 'description', content: '' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -22,11 +22,11 @@ export default {
     '~/assets/css/reset.css',
     '~/assets/css/bootstrap-grid.min.css',
     '~/assets/css/bootstrap-utilities.min.css',
-    '~/assets/css/fonts.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    // '~/plugins/adobe-fonts',
     '~/plugins/vueselect.js',
   ],
 
@@ -35,25 +35,23 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '@nuxtjs/google-analytics'
   ],
+
+  googleAnalytics: {
+    id: 'G-37GLHHPM93' //アナリティクスコード
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    'nuxt-webfontloader',
-    ['@nuxtjs/google-analytics', {
-      id: 'UA-206699587-1',
-      debug: {
-        sendHitTask: process.env.NODE_ENV === 'production'
-      }
-    }]
-
+    'nuxt-webfontloader'
   ],
 
-  // webfontloader: {
-  //  google: {
-  //    families: ['Noto+Sans:400', 'Noto+Sans+JP:400,700'] 
-  //  }
-  //},
+  webfontloader: {
+    google: {
+      families: ['Noto+Sans:400', 'Noto+Sans+JP:400,700'] 
+    }
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
