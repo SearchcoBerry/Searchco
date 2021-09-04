@@ -9,7 +9,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'あなたの履修登録に幸子あれ。' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -22,11 +22,11 @@ export default {
     '~/assets/css/reset.css',
     '~/assets/css/bootstrap-grid.min.css',
     '~/assets/css/bootstrap-utilities.min.css',
+    '~/assets/css/fonts.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    // '~/plugins/adobe-fonts',
     '~/plugins/vueselect.js',
   ],
 
@@ -46,13 +46,14 @@ export default {
         sendHitTask: process.env.NODE_ENV === 'production'
       }
     }]
+
   ],
 
-  webfontloader: {
-    google: {
-      families: ['Noto+Sans:400', 'Noto+Sans+JP:400,700'] 
-    }
-  },
+  // webfontloader: {
+  //  google: {
+  //    families: ['Noto+Sans:400', 'Noto+Sans+JP:400,700'] 
+  //  }
+  //},
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
