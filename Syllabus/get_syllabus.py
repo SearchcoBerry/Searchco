@@ -80,15 +80,20 @@ def output(PATH):
     subject_schedule_list = []
 
     print("Getting PDF...")
+    index_0 = 0
+    index_1 = 0
+    index_2 = 0
+    index_3 = 0
     for page in tqdm(pages):
+        index_0 += 1
         #print('Processing next page...')
         interpreter.process_page(page)
         layout = device.get_result()
-        print(type(layout))
         """
         for i in range(len(layout)):
             print()
         """
+        
         for lobj in layout:
             
             if isinstance(lobj, LTTextBox):
@@ -97,17 +102,19 @@ def output(PATH):
 
                 word = text
 
-                #f = open('myfile.txt', 'a')
-                #f.write(str(lobj))
+                f = open('myfile.txt', 'a')
+                f.write('At %r is text: %s' % ((x, y), text))
 
                 # 曜日・日限を取得
-                if x == 458.46 or x == 453.96 or x == 449.46:
+                if (x == 458.46 or x == 453.96 or x == 449.46 or x == 444.96) and y == 791.3249999999999:
+                    index_1 += 1
                     word = word.replace('\n', '')
                     word = mojimoji.zen_to_han(word, kana=False, ascii=False) 
                     subject_schedule_list.append(word)
                 
                 # 担当者を取得
-                elif "担当者" in text and x == 31.86 and len(text) < 30:
+                elif "担当者" in text and x == 31.86 and y == 774.405:
+                    index_2 += 1
                     word = word.replace('-', '')
                     word = word.replace('\u3000', '')
                     word = word.replace('担当者', '')
@@ -115,15 +122,31 @@ def output(PATH):
                     subject_teacher_list.append(word)
                     #print(word)
                 # 科目名を取得
-                elif "科目名" in text and x == 31.86:
+                elif "科目名" in text and x == 31.86 and y == 809.865:
+                    index_3 += 1
                     word = word.replace('科目名', '')
                     word = word.replace('\u3000', '')
                     word = word.replace('\n', '')
                     subject_list.append(word)
                     #print(word)
 
+            # print(len(subject_schedule_list),len(subject_teacher_list), len(subject_list))
+        if len(subject_schedule_list) < len(subject_teacher_list):
+            subject_schedule_list.append("")
+        
+        f = open('index_check.txt', 'a')
+        f.write("index_checked:" + str(index_0) + ", " + str(index_1) + ", " + str(index_2) + ", " + str(index_3) + " / ")
+        f.write(str(len(subject_schedule_list)) + ", " + str(len(subject_teacher_list)) + ", " + str(len(subject_list)) + "\n")
+
+        """
+        f = open('index_check.txt', 'a')
+        f.write("index_checked:" + str(index_0) + ", " + str(index_1) + ", " + str(index_2) + ", " + str(index_3) + " / ")
+        f.write(str(len(subject_schedule_list)) + ", " + str(len(subject_teacher_list)) + ", " + str(len(subject_list)) + "\n")
+        print("index_checked:" + str(index_0) + ", " + str(index_1) + ", " + str(index_2) + ", " + str(index_3))
+        """
+
     json_list = []
-    print(len(subject_list),len(subject_teacher_list),len(subject_schedule_list))
+    print(len(subject_schedule_list),len(subject_teacher_list), len(subject_list))
     for i in tqdm(range(len(subject_list))):
         data = OrderedDict()
         data["subject_name"] = subject_list[i]

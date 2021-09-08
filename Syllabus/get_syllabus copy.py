@@ -85,6 +85,9 @@ def output(PATH):
         #print('Processing next page...')
         interpreter.process_page(page)
         layout = device.get_result()
+        index_1 = 0
+        index_2 = 0
+        index_3 = 0
         for lobj in layout:
             if isinstance(lobj, LTTextBox):
                 x, y, text = lobj.bbox[0], lobj.bbox[3], lobj.get_text()
@@ -98,7 +101,7 @@ def output(PATH):
                 if x == 458.46 or x == 453.96 or x == 449.46:
                     word = word.replace('\n', '')
                     subject_schedule_list.append(word)
-                
+                    index_1 += 1
                 
                 # 担当者を取得
                 elif "担当者" in text and x == 31.86 and len(text) < 30:
@@ -107,17 +110,20 @@ def output(PATH):
                     word = word.replace('担当者', '')
                     word = word.replace('\n', '')
                     subject_teacher_list.append(word)
+                    index_2 += 1
                     #print(word)
                 # 科目名を取得
                 elif "科目名" in text and x == 31.86:
+                    index_3 += 1
                     word = word.replace('科目名', '')
                     word = word.replace('\u3000', '')
                     word = word.replace('\n', '')
                     subject_list.append(word)
                     #print(word)
+                    print("index_checked:" + str(index_1 + ", " + index_2))
 
     json_list = []
-    print(len(subject_list),len(subject_teacher_list),len(subject_schedule_list))
+    print(len(subject_schedule_list),len(subject_teacher_list), len(subject_list))
     for i in tqdm(range(len(subject_list))):
         data = OrderedDict()
         data["subject_name"] = subject_list[i]
