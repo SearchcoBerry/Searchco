@@ -8,10 +8,13 @@
                         <div class="col-md-6 order-md-2 top-message">
                             <h1>あなたの履修登録に<br>幸子あれ</h1>
                             <p>
-                                ※時間割データは2021年度前期・後期・通年分です。<br>
-                                　(取得日: 2021年7月24日)<br>
-                                ※時間割は変更の可能性があります。<br>
-                                　学内の掲示板又は沖国大ポータルで最新の情報を確認して下さい。
+                                ※時間割データ「2021年度 後期」(2021年9月8日現在)<br>
+                                　(取得日: 2021年9月8日)<br>
+                                <!-- ※時間割は変更の可能性があります。<br>
+                                　学内の掲示板又は沖国大ポータルで最新の情報を確認して下さい。 -->
+
+                                ※曜日・時間・教室の変更、または閉講・休講の可能性があります！<br>
+                                　随時沖国大ポータルまたは学内の掲示板で最新の情報を確認して下さい。
                             </p>
                         </div>
 
@@ -35,10 +38,6 @@
                     <i class="material-icons">favorite</i>
                     気になるリスト
                 </li>
-                <li :class="{ clickBtn: tab === 3 }" @click="tab = 3">
-                    <i class="material-icons">help_outline</i>
-                    使い方
-                </li>
             </ul>
             <div class="content">
                 <div v-show="tab === 1" class="content-item">
@@ -47,9 +46,6 @@
                 </div>
                 <div v-show="tab === 2" class="content-item">
                     <favorite />
-                </div>
-                <div v-show="tab === 3" class="content-item">
-                    <h2>使い方</h2>
                 </div>
             </div>
         </div>

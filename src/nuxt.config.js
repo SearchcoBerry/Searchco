@@ -22,7 +22,7 @@ export default {
     '~/assets/css/reset.css',
     '~/assets/css/bootstrap-grid.min.css',
     '~/assets/css/bootstrap-utilities.min.css',
-    '~/assets/css/fonts.css'
+    // '~/assets/css/fonts.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -35,24 +35,26 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    '@nuxtjs/google-analytics'
   ],
 
-  googleAnalytics: {
-    id: 'G-37GLHHPM93' //アナリティクスコード
-  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     'nuxt-lazy-load',
-    // 'nuxt-webfontloader'
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-206699587-1',
+      debug: {
+        sendHitTask: process.env.NODE_ENV === 'production'
+      }
+    }],
+    'nuxt-webfontloader'
   ],
 
-  // webfontloader: {
-  //  google: {
-  //    families: ['Noto+Sans:400', 'Noto+Sans+JP:400,700'] 
-  //  }
-  //},
+  webfontloader: {
+    google: {
+      families: ['Noto+Sans:400', 'Noto+Sans+JP:400,700'] 
+    }
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
