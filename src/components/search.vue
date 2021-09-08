@@ -11,7 +11,14 @@
         
         <div class="search-conditions">
             <h3>条件を絞る</h3>
+            <!-------------------------------
+
+            時間割データが後期のみの場合は、学期を隠す
+
+            -------------------------------->
+
             <!-- 学期 -->
+            <!--
             <div class="semester">
                 <input type="radio" id="s_one" value="seasonall" v-model="setSeason">
                 <label for="s_one"><span>すべての学期</span></label>
@@ -28,6 +35,8 @@
                 <label for="s_four"><span>後期</span></label>
                 
             </div>
+
+        -->
             
             <!-- 授業形態 -->
             <div class="class-style">

@@ -1,15 +1,22 @@
 <template>
-    <div v-if="searchWords == '' " class="container">
+    <!------------------------------------
+
+    # 検索結果が多い場合に画像を表示して要素を減らす
+
+    ------------------------------------->
+    <!-- 
+        <div v-if="searchWords == '' " class="container">
         <div class="row hint">
             <img class="pc" src="~/assets/img/hint_pc.png">
             <img class="sp" src="~/assets/img/hint_mb.png">
         </div>
     </div>
+    -->
 
-    <div v-else class="main">
+    <div class="main">
             <div class="row">
                 <div class="col-sm-6 result">
-                    <div v-if="searchWords == ' ' ">
+                    <div v-if="searchWords == '' ">
                         <h3>すべての検索結果</h3>
                     </div>
 
@@ -64,16 +71,16 @@
                         <div class="col-sm-12 col-md-2">{{index+1}}.  {{value.kamoku}} </div>
                         <div class="col-sm-12 col-md-2 gakubu">{{value.gakubu}} <br class="pc">{{value.gakka}}</div>
                         <div class="col-sm-4 col-md-2"> {{value.tantou}}</div>
-                        <div class="col-sm-4 col-md-2">{{value.kyoushitsu}}</div>
-                        <div class="col-sm-4 col-md-2">{{value.gakki}} <br>{{value.niti}}曜 {{value.gen}}限</div>
-                        <div class="col-sm-12 col-md-1 d-flex align-items-center">{{value.bikou}}</div>
+                        <div class="col-sm-4 col-md-1">{{value.kyoushitsu}}</div>
+                        <div class="col-sm-4 col-md-2">{{value.gakki}}　{{value.niti}}{{value.gen}}　{{value.sou}}{{value.ji}}</div>
+                        <div class="col-sm-12 col-md-2 d-flex align-items-center">{{value.bikou}}</div>
                         <div class="col-sm-12 col-md-1 d-flex align-items-center">
                             <input type="checkbox" :id="'value' + index" :value="value" v-model="setFavorite">
                             <label :for="'value' + index"> <i class="icon"></i> </label>
                             
                             <!--<input type="radio" id="s_one" :value="value" v-model="setFavorite">
                             <label for="s_one"><i class="material-icons">info_outline</i><br></label> -->
-                            <i class="material-icons">info_outline</i>
+                            <!-- <i class="material-icons">info_outline</i> -->
                         </div>
                         
                     </div>
@@ -101,7 +108,7 @@
 <script>
 import { mapState } from "vuex";
 import selectModal from '@/components/selectModal.vue'
-import lists from '@/assets/list-2.json'
+import lists from '@/assets/list-Late2021.json'
 
 export default {
 

@@ -33,16 +33,16 @@
                     <div class="col-sm-12 col-md-2">{{index+1}}.  {{value.kamoku}} </div>
                     <div class="col-sm-12 col-md-2 gakubu">{{value.gakubu}} <br class="pc">{{value.gakka}}</div>
                     <div class="col-sm-4 col-md-2"> {{value.tantou}}</div>
-                    <div class="col-sm-4 col-md-2">{{value.kyoushitsu}}</div>
-                    <div class="col-sm-4 col-md-2">{{value.gakki}} <br>{{value.niti}}曜 {{value.gen}}限</div>
-                    <div class="col-sm-12 col-md-1 d-flex align-items-center">{{value.bikou}}</div>
+                    <div class="col-sm-4 col-md-1">{{value.kyoushitsu}}</div>
+                    <div class="col-sm-4 col-md-2">{{value.gakki}}　{{value.niti}}{{value.gen}}　{{value.sou}}{{value.ji}}</div>
+                    <div class="col-sm-12 col-md-2 d-flex align-items-center">{{value.bikou}}</div>
                     <div class="col-sm-12 col-md-1 d-flex align-items-center">
                         <input type="checkbox" :id="'value.kamoku' + index" :value="value" v-model="setFavorite">
                         <label :for="'value.kamoku' + index"> <i class="f_icon"></i> </label>
                         
                         <!--<input type="radio" id="s_one" :value="value" v-model="setFavorite">
                         <label for="s_one"><i class="material-icons">info_outline</i><br></label> -->
-                        <i class="material-icons">info_outline</i>
+                        <!-- <i class="material-icons">info_outline</i> -->
                     </div>
                     
                 </div>
