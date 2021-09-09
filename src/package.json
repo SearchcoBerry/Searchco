@@ -13,6 +13,8 @@
     "core-js": "^3.8.3",
     "nuxt": "^2.14.12",
     "nuxt-webfontloader": "^1.1.0",
+    "pdfjs-dist": "^2.9.359",
+    "vue-pdf": "^4.3.0",
     "vue-select": "^3.12.2"
   },
   "devDependencies": {}

@@ -130,10 +130,12 @@
 import { mapState } from "vuex";
 import selectModal from "@/components/selectModal.vue";
 import lists from "@/assets/list-2.json";
+//import pdf from "vue-pdf";
 
 export default {
   components: {
     selectModal
+    //pdf
   },
 
   data() {
@@ -319,12 +321,19 @@ export default {
         ({ label }) => label === gakka
       );
       console.log(return_url);
+      var tantou = tantou.replace(/\s+/g, "");
       var url = this.gakka_to_filename[return_url].code;
       var url = url.slice(0, -4);
       let json = require(`~/assets/Syllabus/` + url + `.json`);
+      let niti_gen = niti + gen;
+
       let return_json = json.findIndex(
-        ({ subject_name }) => subject_name === kamoku
+        json =>
+          json.subject_name === kamoku &&
+          json.subject_teacher === tantou &&
+          json.subject_schedule == niti_gen
       );
+      console.log("return_json:" + return_json);
       console.log(json[return_json]);
     }
   },
