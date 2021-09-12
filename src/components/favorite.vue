@@ -5,7 +5,7 @@
         </div>
         
         <div class="favorite-box">
-            <table width="989">
+            <table>
                 <tbody>
 
                     <tr>
@@ -109,7 +109,7 @@ export default {
 }
 
 .favorite-box {
-    margin: 0 auto;
+    margin: 0 4%;
     overflow-x: scroll;
 }
 
