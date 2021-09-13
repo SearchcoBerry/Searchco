@@ -1,7 +1,78 @@
 <template>
     <div class="favorite">
-        <div class="favorite-top">
-            <h3>"仮"時間割表</h3>
+        <div class="row">
+            
+                <div class="col-sm-6 result">
+                    <h3>"仮"時間割表</h3>
+                </div>
+
+                <div class="col">
+                    <div class="sort">
+
+                        <!-- DBに保存 モーダル 呼び出し -->
+                        <button class="help_link__button" @click="saveHandler" v-show="setFavorite.length">
+                            保存する
+                            <i class="material-icons">cloud_upload</i>
+                        </button>
+
+                        <!-- DBから読み込み モーダル コンポーネント　呼び出し -->
+                        <button class="help_link__button" @click="loadOpenModal">
+                            読み込む
+                            <i class="material-icons">cloud_download</i>
+                        </button>
+
+                        <!-- DBに保存  表示 -->
+                        <selectModal v-if="modalFlagSave" @close-modal="saveCloseModal">
+                            <h2>時間割を保存しました</h2>
+
+                            <p>合い言葉は…</p>
+                            <h2>{{pass}}</h2>
+                            <p>です。<br><br>保存期間:１ヶ月 </p>
+                            
+                            <button class="closebtn" @click="saveCloseModal">
+                                閉じる
+                                <i class="material-icons">close</i>
+                            </button>
+                        </selectModal>
+
+                        <!-- DBから読み込み  表示 -->
+                        <selectModal v-if="modalFlagLoad" @close-modal="loadCloseModal">
+                            <h2>時間割を読み込む</h2>
+
+                            <p>合い言葉を入力してください</p>
+                            <div class="search-form">
+                                <input type="text" v-model="pass">
+                                <i class="material-icons">lock_open</i>
+                            </div>
+
+                            <button class="closebtn" @click="loadCloseModal">
+                                キャンセル
+                                <i class="material-icons">close</i>
+                            </button>
+
+                            <button class="closebtn done" @click="loadHandler">
+                                読み込む
+                                <i class="material-icons">done</i>
+                            </button>
+                            
+                            
+                        </selectModal>
+
+                        <!-- 読み込み失敗  表示 -->
+                        <selectModal v-if="modalFlagError" @close-modal="errorCloseModal">
+                            <h2>読み込みに失敗…</h2>
+                            <p>合い言葉が一致しませんでした。<br>なーいちどぅう試しくぃみそーれー</p>
+                            
+                            
+                            <button class="closebtn" @click="errorCloseModal">
+                                閉じる
+                                <i class="material-icons">close</i>
+                            </button>
+                        </selectModal>
+
+                    </div>
+                </div>
+            
         </div>
         
         <div class="favorite-box">
@@ -59,21 +130,33 @@
 </template>
 
 <script>
+import firebase from '@/plugins/firebase'
+import selectModal from '@/components/selectModal.vue'
+import passList from '@/assets/pass.json'
+
 export default {
+    components: {
+        selectModal
+    },
+
     data() {
         return {
+            // モーダル状態管理
+            modalFlagSave: false,
+            modalFlagLoad: false,
+            modalFlagError: false,
+
+            // パスフレーズ
+            passList: passList,
+            pass:"",
+
             days: ['月', '火', '水', '木', '金', '土'],
             gen: '',
             niti: ''
         }
     },
-    computed: {
-        favorite: {
-            get: function() {
-                return this.$store.getters['table/timeTable'];
-            }
-        },
 
+    computed: {
         setFavorite: {
             get: function() {
                 return this.$store.state.table.favorite;
@@ -94,13 +177,96 @@ export default {
                 return genfilter.join('')
             }
         }
+    },
 
- 
-    }
+    methods: {
+        // 保存する際の操作
+        saveHandler() {
+            this.generatePass()
+            this.saveOpenModal()
+            this.setTable()
+        },
+        // 読み込む際の動作
+        loadHandler() {
+            this.loadCloseModal()
+            this.getTable()
+        },
+
+        // モーダル状態管理
+        saveOpenModal() { this.modalFlagSave = true },
+        saveCloseModal() { this.modalFlagSave = false },
+
+        loadOpenModal() { this.modalFlagLoad = true },
+        loadCloseModal() { this.modalFlagLoad = false },
+
+        errorOpenModal() { this.modalFlagError = true },
+        errorCloseModal() { this.modalFlagError = false },
+
+        // ランダムでパス生成　→　文字列化
+        generatePass () {
+            var list = this.passList.map((obj) => {
+                return obj.word;
+            });
+            const randomPass = []
+            
+            for(var i=0; i<3; i++) {
+                const rand = Math.floor(Math.random() * list.length);
+                randomPass.push(list[rand])
+            }
+            randomPass.push('')
+
+            this.pass = randomPass.join('。');
+        },
+
+        // DBにセットする
+        setTable () {
+            const time = new Date()
+            const db = firebase.firestore()
+            db.collection('timetables').doc(this.pass)
+                .set({
+                    timestamp: time,
+                    timetable: this.setFavorite,
+                })
+        },
+
+        //　DBから取得する 
+        getTable () {
+            // 空文字の場合に”　”を入れる
+            if(!this.pass.length) {
+                this.pass = " "
+            }
+
+            const db = firebase.firestore()
+            db.collection("timetables").doc(this.pass)
+                .get()
+                .then((doc) => {
+                    if (doc.exists) {
+                        //const getResult = []
+                        console.log("Document data:", doc.data().timetable);
+                        this.$store.commit('table/setFavorite', doc.data().timetable)
+                    } else {
+                        // doc.data() will be undefined in this case
+                        console.log("No such document!");
+                        this.errorOpenModal()
+                    }
+                }).catch((error) => {
+                    console.log("Error getting document:", error);
+                });
+        }
+    },
 }
 </script>
 
 <style>
+.closebtn.done {
+    color: #FFF;
+    background: #FFA100;
+    border-color: #FFA100;
+}
+.closebtn.done i { color: #FFF; }
+
+.closebtn.done:hover { color: #FFA100; background: #FFF; border-color: #FFA100; }
+
 .favorite {
     margin: 1% 0;
 }

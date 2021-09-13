@@ -276,7 +276,7 @@ export default {
 .result { margin: auto 5%; }
 
 /* 検索結果 ソート */
-.sort { width: 170px; margin: 5% 10% 5% auto; }
+.sort {float: right; margin: 5% 10% 5% auto; }
 
 /* 検索結果テーブル */
 .table-box {

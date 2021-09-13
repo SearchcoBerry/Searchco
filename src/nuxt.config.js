@@ -41,12 +41,14 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     'nuxt-lazy-load',
+
     ['@nuxtjs/google-analytics', {
       id: 'UA-206699587-1',
       debug: {
         sendHitTask: process.env.NODE_ENV === 'production'
       }
     }],
+
     'nuxt-webfontloader'
   ],
 
