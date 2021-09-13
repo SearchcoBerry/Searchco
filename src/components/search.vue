@@ -284,6 +284,10 @@ input[type=checkbox] { display: none;} /* ラジオボタンを非表示にす�
   border-color: #FFA100;
 }
 
+.top-search .help_link__button {
+    width: 100%;
+}
+
 /* タブレット　*/ 
 
 @media only screen and (max-width: 766px) {
