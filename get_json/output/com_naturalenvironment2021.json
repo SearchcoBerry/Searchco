@@ -1,0 +1,142 @@
+[
+    {
+        "subject_name": "化学Ⅰ",
+        "subject_teacher": "伊藤拓馬",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "化学Ⅱ",
+        "subject_teacher": "伊藤拓馬",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "環境科学Ⅰ",
+        "subject_teacher": "山川（矢敷）彩子",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "環境科学Ⅰ",
+        "subject_teacher": "山川（矢敷）彩子",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "環境科学Ⅰ",
+        "subject_teacher": "比嘉理麻",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "環境科学Ⅱ",
+        "subject_teacher": "伊藤拓馬",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "環境科学Ⅱ",
+        "subject_teacher": "比嘉理麻",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "環境科学Ⅱ",
+        "subject_teacher": "伊藤拓馬",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "自然科学概論Ⅰ",
+        "subject_teacher": "金城和三",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "自然科学概論Ⅰ",
+        "subject_teacher": "金城和三",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "自然科学概論Ⅱ",
+        "subject_teacher": "金城和三",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "自然科学概論Ⅱ",
+        "subject_teacher": "金城和三",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "自然環境課題研究Ⅰ",
+        "subject_teacher": "大城絢子",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "自然環境課題研究Ⅰ",
+        "subject_teacher": "金城和三",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "自然環境課題研究Ⅰ",
+        "subject_teacher": "比嘉理麻",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "自然環境課題研究Ⅱ",
+        "subject_teacher": "大城絢子",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "自然環境課題研究Ⅱ",
+        "subject_teacher": "金城和三",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "自然環境課題研究Ⅱ",
+        "subject_teacher": "比嘉理麻",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "数学Ⅰ",
+        "subject_teacher": "大城絢子",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "数学Ⅱ",
+        "subject_teacher": "大城絢子",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "生物学Ⅰ",
+        "subject_teacher": "金城和三",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "生物学Ⅰ",
+        "subject_teacher": "金城和三",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "生物学Ⅱ",
+        "subject_teacher": "金城和三",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "生物学Ⅱ",
+        "subject_teacher": "金城和三",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "地学Ⅰ",
+        "subject_teacher": "伊藤拓馬",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "地学Ⅱ",
+        "subject_teacher": "伊藤拓馬",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "統計学Ⅰ",
+        "subject_teacher": "大城絢子",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "統計学Ⅱ",
+        "subject_teacher": "大城絢子",
+        "subject_schedule": "月1"
+    }
+]

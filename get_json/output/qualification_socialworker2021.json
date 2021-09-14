@@ -1,0 +1,177 @@
+[
+    {
+        "subject_name": "相談援助演習Ⅰ",
+        "subject_teacher": "平良純子",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "相談援助演習Ⅰ",
+        "subject_teacher": "樋口美智子",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "相談援助演習Ⅰ",
+        "subject_teacher": "宮城美智子",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "相談援助演習Ⅰ",
+        "subject_teacher": "宮良あさの",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "相談援助演習Ⅱ",
+        "subject_teacher": "樋口美智子",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "相談援助演習Ⅱ",
+        "subject_teacher": "宮城美智子",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "相談援助演習Ⅱ",
+        "subject_teacher": "宮良あさの",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "相談援助演習Ⅱ",
+        "subject_teacher": "平良純子",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "相談援助演習Ⅲ",
+        "subject_teacher": "平良純子",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "相談援助演習Ⅲ",
+        "subject_teacher": "樋口美智子",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "相談援助演習Ⅲ",
+        "subject_teacher": "竹藤登",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "相談援助演習Ⅲ",
+        "subject_teacher": "仲村小夜子",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "相談援助演習Ⅳ",
+        "subject_teacher": "宮城美智子",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "相談援助演習Ⅳ",
+        "subject_teacher": "仲村小夜子",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "相談援助演習Ⅳ",
+        "subject_teacher": "樋口美智子",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "相談援助演習Ⅳ",
+        "subject_teacher": "竹藤登",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "相談援助実習指導Ⅰ",
+        "subject_teacher": "平良純子",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "相談援助実習指導Ⅰ",
+        "subject_teacher": "岩田直子",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "相談援助実習指導Ⅰ",
+        "subject_teacher": "比嘉昌哉",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "相談援助実習指導Ⅰ",
+        "subject_teacher": "樋口美智子",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "相談援助実習指導Ⅱ",
+        "subject_teacher": "仲根建作",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "相談援助実習指導Ⅱ",
+        "subject_teacher": "岩田直子",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "相談援助実習指導Ⅱ",
+        "subject_teacher": "比嘉昌哉",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "相談援助実習指導Ⅱ",
+        "subject_teacher": "樋口美智子",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "相談援助実習指導Ⅲ",
+        "subject_teacher": "仲根建作",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "相談援助実習指導Ⅲ",
+        "subject_teacher": "岩田直子",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "相談援助実習指導Ⅲ",
+        "subject_teacher": "比嘉昌哉",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "相談援助実習指導Ⅲ",
+        "subject_teacher": "樋口美智子",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "相談援助の理論と方法Ⅱ",
+        "subject_teacher": "知名孝（6回）、島袋恭子（5回）、砂川亜紀美（5回）",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "相談援助の理論と方法Ⅲ",
+        "subject_teacher": "當間学",
+        "subject_schedule": "金4"
+    },
+    {
+        "subject_name": "相談援助の理論と方法Ⅳ",
+        "subject_teacher": "岩田直子、他",
+        "subject_schedule": "土2"
+    },
+    {
+        "subject_name": "ソーシャルワーク演習",
+        "subject_teacher": "岩田直子",
+        "subject_schedule": "火5"
+    },
+    {
+        "subject_name": "ソーシャルワーク演習",
+        "subject_teacher": "比嘉昌哉",
+        "subject_schedule": "火5"
+    },
+    {
+        "subject_name": "ソーシャルワーク演習",
+        "subject_teacher": "知名孝",
+        "subject_schedule": "火5"
+    },
+    {
+        "subject_name": "ソーシャルワーク演習",
+        "subject_teacher": "樋口美智子",
+        "subject_schedule": "火5"
+    }
+]

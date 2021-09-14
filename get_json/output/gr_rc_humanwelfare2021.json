@@ -1,0 +1,227 @@
+[
+    {
+        "subject_name": "家族関係・集団・地域社会における心理支援に関する理論と実践",
+        "subject_teacher": "平山篤史・井村弘子",
+        "subject_schedule": "月4"
+    },
+    {
+        "subject_name": "心の健康教育に関する理論と実践",
+        "subject_teacher": "滝友秀",
+        "subject_schedule": "水6"
+    },
+    {
+        "subject_name": "子ども家庭支援特論Ⅰ",
+        "subject_teacher": "比嘉昌哉",
+        "subject_schedule": "火6"
+    },
+    {
+        "subject_name": "産業・労働分野に関する理論と支援の展開",
+        "subject_teacher": "大兼千津子",
+        "subject_schedule": "水6"
+    },
+    {
+        "subject_name": "司法・犯罪分野に関する理論と支援の展開",
+        "subject_teacher": "山入端 津由",
+        "subject_schedule": "水5"
+    },
+    {
+        "subject_name": "社会心理学特論",
+        "subject_teacher": "泊 真児",
+        "subject_schedule": "金5"
+    },
+    {
+        "subject_name": "社会福祉研究法特論Ⅰ",
+        "subject_teacher": "桃原・知名",
+        "subject_schedule": "金6"
+    },
+    {
+        "subject_name": "社会福祉研究法特論Ⅱ",
+        "subject_teacher": "小柳正弘",
+        "subject_schedule": "木6"
+    },
+    {
+        "subject_name": "社会福祉実践演習Ⅰ",
+        "subject_teacher": "ＬＣ教員１",
+        "subject_schedule": "集中"
+    },
+    {
+        "subject_name": "障害者福祉特論",
+        "subject_teacher": "岩田直子",
+        "subject_schedule": "火7"
+    },
+    {
+        "subject_name": "障害児（者）援助特論",
+        "subject_teacher": "知名孝",
+        "subject_schedule": "火6"
+    },
+    {
+        "subject_name": "心理学研究法特論",
+        "subject_teacher": "上田・前堂・平山",
+        "subject_schedule": "木5"
+    },
+    {
+        "subject_name": "心理支援に関する理論と実践",
+        "subject_teacher": "平山篤史",
+        "subject_schedule": "木6"
+    },
+    {
+        "subject_name": "心理実践実習Ⅰ",
+        "subject_teacher": "平山篤史・井村弘子",
+        "subject_schedule": "水7"
+    },
+    {
+        "subject_name": "心理実践実習Ⅱ",
+        "subject_teacher": "上田幸彦・井村弘子",
+        "subject_schedule": "火6・7"
+    },
+    {
+        "subject_name": "心理実践実習Ⅲ",
+        "subject_teacher": "平山篤史・上田幸彦",
+        "subject_schedule": "水7"
+    },
+    {
+        "subject_name": "心理実践実習Ⅳ",
+        "subject_teacher": "上田幸彦・井村弘子",
+        "subject_schedule": "水7"
+    },
+    {
+        "subject_name": "心理的アセスメントに関する理論と実践",
+        "subject_teacher": "上田幸彦",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "心理統計法特論",
+        "subject_teacher": "泊真児",
+        "subject_schedule": "火5"
+    },
+    {
+        "subject_name": "先端社会福祉研究特論",
+        "subject_teacher": "ＬＣ教員１",
+        "subject_schedule": "集中"
+    },
+    {
+        "subject_name": "対人援助特論Ⅰ",
+        "subject_teacher": "知名孝",
+        "subject_schedule": "火6"
+    },
+    {
+        "subject_name": "地域共生社会特論Ⅰ",
+        "subject_teacher": "岩田直子",
+        "subject_schedule": "火7"
+    },
+    {
+        "subject_name": "投映法特論",
+        "subject_teacher": "稲田梨沙",
+        "subject_schedule": "金5"
+    },
+    {
+        "subject_name": "人間福祉特殊研究ⅠＡ",
+        "subject_teacher": "知名孝",
+        "subject_schedule": "月7"
+    },
+    {
+        "subject_name": "人間福祉特殊研究ⅠB",
+        "subject_teacher": "比嘉昌哉",
+        "subject_schedule": "木6"
+    },
+    {
+        "subject_name": "人間福祉特殊研究ⅠC",
+        "subject_teacher": "小柳正弘",
+        "subject_schedule": "水7"
+    },
+    {
+        "subject_name": "人間福祉特殊研究ⅠD",
+        "subject_teacher": "岩田直子",
+        "subject_schedule": "月7"
+    },
+    {
+        "subject_name": "人間福祉特殊研究ⅡB",
+        "subject_teacher": "比嘉昌哉",
+        "subject_schedule": "木6"
+    },
+    {
+        "subject_name": "人間福祉特殊研究ⅡC",
+        "subject_teacher": "小柳正弘",
+        "subject_schedule": "水7"
+    },
+    {
+        "subject_name": "人間福祉特殊研究ⅡD",
+        "subject_teacher": "岩田直子",
+        "subject_schedule": "月7"
+    },
+    {
+        "subject_name": "人間福祉特論",
+        "subject_teacher": "本村真",
+        "subject_schedule": "木6"
+    },
+    {
+        "subject_name": "福祉分野に関する理論と支援の展開",
+        "subject_teacher": "野村れいか",
+        "subject_schedule": "木5"
+    },
+    {
+        "subject_name": "福祉老年学特論Ⅰ",
+        "subject_teacher": "ﾄﾞﾅﾙﾄﾞ ｸﾚｲｸﾞ ｳｨﾙｺｯｸｽ",
+        "subject_schedule": "木6"
+    },
+    {
+        "subject_name": "保健医療福祉特論Ⅰ",
+        "subject_teacher": "樋口美智子",
+        "subject_schedule": "水6"
+    },
+    {
+        "subject_name": "保健医療分野に関する理論と支援の展開",
+        "subject_teacher": "上田幸彦",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "臨床心理学特殊研究ⅠC",
+        "subject_teacher": "井村弘子",
+        "subject_schedule": "金6"
+    },
+    {
+        "subject_name": "臨床心理学特殊研究ⅠＡ",
+        "subject_teacher": "上田幸彦",
+        "subject_schedule": "金6"
+    },
+    {
+        "subject_name": "臨床心理学特殊研究ⅡC",
+        "subject_teacher": "井村弘子",
+        "subject_schedule": "金7"
+    },
+    {
+        "subject_name": "臨床心理学特殊研究ⅡＡ",
+        "subject_teacher": "上田幸彦",
+        "subject_schedule": "金7"
+    },
+    {
+        "subject_name": "臨床心理学特論Ⅰ",
+        "subject_teacher": "井村弘子",
+        "subject_schedule": "月5"
+    },
+    {
+        "subject_name": "臨床心理学特論Ⅱ",
+        "subject_teacher": "平山篤史",
+        "subject_schedule": "木6"
+    },
+    {
+        "subject_name": "臨床心理基礎実習",
+        "subject_teacher": "平山篤史・野村れいか",
+        "subject_schedule": "火6・7"
+    },
+    {
+        "subject_name": "臨床心理査定演習",
+        "subject_teacher": "井村弘子",
+        "subject_schedule": "月5"
+    },
+    {
+        "subject_name": "臨床心理実習Ｂ",
+        "subject_teacher": "上田幸彦・井村弘子・平山篤史・野村れいか",
+        "subject_schedule": "水7"
+    },
+    {
+        "subject_name": "臨床心理面接特論",
+        "subject_teacher": "上田幸彦",
+        "subject_schedule": "木6"
+    }
+]

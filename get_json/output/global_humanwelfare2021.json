@@ -1,0 +1,1017 @@
+[
+    {
+        "subject_name": "医療福祉論",
+        "subject_teacher": "樋口美智子",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "インターンシップⅠ",
+        "subject_teacher": "学科インターンシップ運営委員",
+        "subject_schedule": "その他"
+    },
+    {
+        "subject_name": "インターンシップⅡ",
+        "subject_teacher": "学科インターンシップ運営委員",
+        "subject_schedule": "その他"
+    },
+    {
+        "subject_name": "介護技術Ⅰ",
+        "subject_teacher": "諸見里安知",
+        "subject_schedule": ""
+    },
+    {
+        "subject_name": "介護技術Ⅱ",
+        "subject_teacher": "山城篤志(６回)、山城リサ(５回)、新良典子(５回)",
+        "subject_schedule": ""
+    },
+    {
+        "subject_name": "家族社会学",
+        "subject_teacher": "具志堅邦子",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "感情・人格心理学",
+        "subject_teacher": "山岡明奈",
+        "subject_schedule": "金5"
+    },
+    {
+        "subject_name": "外国語演習Ⅰ（基礎）",
+        "subject_teacher": "柳田正豪",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "外国語演習Ⅱ（基礎）",
+        "subject_teacher": "柳田正豪",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "外国語演習Ⅲ（発展）",
+        "subject_teacher": "大兼千津子",
+        "subject_schedule": "水5"
+    },
+    {
+        "subject_name": "外国語演習Ⅳ（発展）",
+        "subject_teacher": "大兼千津子",
+        "subject_schedule": "水5"
+    },
+    {
+        "subject_name": "学習・言語心理学",
+        "subject_teacher": "遠藤直子",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "基礎演習",
+        "subject_teacher": "ﾄﾞﾅﾙﾄﾞ ｸﾚｲｸﾞ ｳｨﾙｺｯｸｽ",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "基礎演習",
+        "subject_teacher": "安次富郁哉",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "基礎演習",
+        "subject_teacher": "桃原一彦",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "基礎演習",
+        "subject_teacher": "岩田直子",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "基礎演習",
+        "subject_teacher": "ﾄﾞﾅﾙﾄﾞ ｸﾚｲｸﾞ ｳｨﾙｺｯｸｽ",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "基礎演習Ａ",
+        "subject_teacher": "前堂志乃",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "基礎演習Ａ",
+        "subject_teacher": "山岡明奈",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "基礎演習Ａ",
+        "subject_teacher": "平山篤史",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "基礎演習Ｂ",
+        "subject_teacher": "前堂志乃",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "基礎演習Ｂ",
+        "subject_teacher": "山岡明奈",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "基礎演習Ｂ",
+        "subject_teacher": "平山篤史",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "キャリア心理学応用（リテラシー）",
+        "subject_teacher": "鮫島智行",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "キャリア心理学基礎（コンピテンシー）",
+        "subject_teacher": "平山篤史・鮫島智行",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "キャリア心理学入門",
+        "subject_teacher": "平山（4回）・鮫島智行（4回）・前堂（4回）・山岡（4回）",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "教育心理学概論",
+        "subject_teacher": "宜保英理",
+        "subject_schedule": "土3"
+    },
+    {
+        "subject_name": "教育・学校心理学",
+        "subject_teacher": "山本雅子",
+        "subject_schedule": "月4"
+    },
+    {
+        "subject_name": "傾聴トレーニング",
+        "subject_teacher": "井村弘子",
+        "subject_schedule": "月4"
+    },
+    {
+        "subject_name": "健康・医療心理学",
+        "subject_teacher": "大城貞則",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "権利擁護と成年後見制度",
+        "subject_teacher": "竹藤登",
+        "subject_schedule": "金3"
+    },
+    {
+        "subject_name": "芸術療法",
+        "subject_teacher": "中山さおり",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "芸術療法",
+        "subject_teacher": "中山さおり",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "現代社会と福祉Ⅰ",
+        "subject_teacher": "岩田直子",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "現代社会と福祉Ⅱ",
+        "subject_teacher": "岩田直子",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "公衆衛生学",
+        "subject_teacher": "オムニバス（社会人特別講師12回）",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "高齢者に対する支援と介護保険制度Ⅰ",
+        "subject_teacher": "安次富郁哉",
+        "subject_schedule": "火5"
+    },
+    {
+        "subject_name": "高齢者に対する支援と介護保険制度Ⅱ",
+        "subject_teacher": "安次富郁哉",
+        "subject_schedule": "火5"
+    },
+    {
+        "subject_name": "国際福祉論",
+        "subject_teacher": "新垣誠",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "コミュニケーションスキル",
+        "subject_teacher": "島袋有子",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "産業・組織心理学",
+        "subject_teacher": "大兼千津子",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "司法・犯罪心理学",
+        "subject_teacher": "松田盛雄",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "社会科学研究法",
+        "subject_teacher": "古波蔵契",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "社会学概論Ⅰ",
+        "subject_teacher": "桃原一彦",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "社会学概論Ⅱ",
+        "subject_teacher": "桃原一彦",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "社会学と社会システム",
+        "subject_teacher": "古波蔵契",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "社会調査の企画と設計",
+        "subject_teacher": "宮平隆央",
+        "subject_schedule": "金3"
+    },
+    {
+        "subject_name": "社会統計学Ⅰ",
+        "subject_teacher": "細川妃奈子",
+        "subject_schedule": "金4"
+    },
+    {
+        "subject_name": "社会統計学Ⅱ",
+        "subject_teacher": "細川妃奈子",
+        "subject_schedule": "金4"
+    },
+    {
+        "subject_name": "社会福祉学特講Ａ",
+        "subject_teacher": "高山直樹",
+        "subject_schedule": ""
+    },
+    {
+        "subject_name": "社会福祉調査の基礎",
+        "subject_teacher": "糸数温子",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "社会福祉の基礎",
+        "subject_teacher": "岩田直子（2）、ウィルコックス（2）、桃原一彦（2）、比嘉昌哉（3）、樋口美智子（2）、小柳正弘（2）、知名孝（3）",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "社会保障Ⅰ",
+        "subject_teacher": "安次富郁哉",
+        "subject_schedule": "月5"
+    },
+    {
+        "subject_name": "社会保障Ⅱ",
+        "subject_teacher": "安次富郁哉",
+        "subject_schedule": "月5"
+    },
+    {
+        "subject_name": "社会・集団・家族心理学（社会・集団）",
+        "subject_teacher": "山岡明奈",
+        "subject_schedule": "金5"
+    },
+    {
+        "subject_name": "障害者支援実践演習Ａ",
+        "subject_teacher": "田中美也子",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "障害者に対する支援と障害者自立支援制度",
+        "subject_teacher": "仲村小夜子",
+        "subject_schedule": "水5"
+    },
+    {
+        "subject_name": "神経・生理心理学（神経）",
+        "subject_teacher": "前堂志乃",
+        "subject_schedule": "木5"
+    },
+    {
+        "subject_name": "神経・生理心理学（生理）",
+        "subject_teacher": "遠藤直子",
+        "subject_schedule": "水5"
+    },
+    {
+        "subject_name": "心理学概論",
+        "subject_teacher": "前堂志乃（16）、赤嶺遼太郎（16）",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "心理学基礎演習Ａ",
+        "subject_teacher": "前堂志乃",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "心理学基礎演習Ａ",
+        "subject_teacher": "平山篤史",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "心理学基礎演習Ａ",
+        "subject_teacher": "山岡明奈",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "心理学基礎演習Ａ",
+        "subject_teacher": "上田幸彦",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "心理学基礎演習Ｂ",
+        "subject_teacher": "前堂志乃",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "心理学基礎演習Ｂ",
+        "subject_teacher": "山岡明奈",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "心理学基礎演習Ｂ",
+        "subject_teacher": "上田幸彦",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "心理学基礎演習Ｂ",
+        "subject_teacher": "平山篤史",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "心理学研究法Ⅰ",
+        "subject_teacher": "前堂志乃",
+        "subject_schedule": "火5"
+    },
+    {
+        "subject_name": "心理学研究法Ⅱ",
+        "subject_teacher": "前堂志乃",
+        "subject_schedule": "火5"
+    },
+    {
+        "subject_name": "心理学史",
+        "subject_teacher": "平山（4回）・山岡（4回）・前堂（4回）・上田（4回）",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "心理学実験Ａ",
+        "subject_teacher": "前堂志乃",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "心理学実験Ａ",
+        "subject_teacher": "山岡明奈",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "心理学実験Ａ",
+        "subject_teacher": "上田幸彦",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "心理学実験Ａ",
+        "subject_teacher": "平山篤史",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "心理学実験Ｂ",
+        "subject_teacher": "前堂志乃",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "心理学実験Ｂ",
+        "subject_teacher": "山岡明奈",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "心理学実験Ｂ",
+        "subject_teacher": "上田幸彦",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "心理学実験Ｂ",
+        "subject_teacher": "平山篤史",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "心理学専門演習ⅠＡ",
+        "subject_teacher": "山岡明奈",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "心理学専門演習ⅠＡ",
+        "subject_teacher": "上田幸彦",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "心理学専門演習ⅠＡ",
+        "subject_teacher": "平山篤史",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "心理学専門演習ⅠＡ",
+        "subject_teacher": "前堂志乃",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "心理学専門演習ⅠＡ",
+        "subject_teacher": "井村弘子",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "心理学専門演習ⅠＢ",
+        "subject_teacher": "井村弘子",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "心理学専門演習ⅠＢ",
+        "subject_teacher": "山岡明奈",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "心理学専門演習ⅠＢ",
+        "subject_teacher": "前堂志乃",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "心理学専門演習ⅠＢ",
+        "subject_teacher": "上田幸彦",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "心理学専門演習ⅠＢ",
+        "subject_teacher": "平山篤史",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "心理学専門演習ⅡＡ",
+        "subject_teacher": "上田幸彦",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "心理学専門演習ⅡＡ",
+        "subject_teacher": "前堂志乃",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "心理学専門演習ⅡＡ",
+        "subject_teacher": "平山篤史",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "心理学専門演習ⅡＡ",
+        "subject_teacher": "井村弘子",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "心理学専門演習ⅡＢ",
+        "subject_teacher": "上田幸彦",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "心理学専門演習ⅡＢ",
+        "subject_teacher": "前堂志乃",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "心理学専門演習ⅡＢ",
+        "subject_teacher": "平山篤史",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "心理学専門演習ⅡＢ",
+        "subject_teacher": "井村弘子",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "心理学的支援法",
+        "subject_teacher": "赤嶺遼太郎",
+        "subject_schedule": "水5"
+    },
+    {
+        "subject_name": "心理学統計法Ⅰ",
+        "subject_teacher": "遠藤光男",
+        "subject_schedule": "土1"
+    },
+    {
+        "subject_name": "心理学統計法Ⅰ",
+        "subject_teacher": "遠藤光男",
+        "subject_schedule": "土2"
+    },
+    {
+        "subject_name": "心理学統計法Ⅱ",
+        "subject_teacher": "遠藤光男",
+        "subject_schedule": "土1"
+    },
+    {
+        "subject_name": "心理学統計法Ⅱ",
+        "subject_teacher": "遠藤光男",
+        "subject_schedule": "土2"
+    },
+    {
+        "subject_name": "心理学と心理的支援",
+        "subject_teacher": "稲田梨沙",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "心理学特講Ｂ",
+        "subject_teacher": "池田浩",
+        "subject_schedule": ""
+    },
+    {
+        "subject_name": "心理学特講Ｃ",
+        "subject_teacher": "鮫島智行",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "心理調査法",
+        "subject_teacher": "山岡明奈",
+        "subject_schedule": "木5"
+    },
+    {
+        "subject_name": "心理的アセスメントⅠ",
+        "subject_teacher": "稲田梨沙",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "心理的アセスメントⅡ",
+        "subject_teacher": "稲田梨沙",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "心理統計学基礎",
+        "subject_teacher": "山岡明奈",
+        "subject_schedule": "月5"
+    },
+    {
+        "subject_name": "心理プロジェクト演習ⅠＡ",
+        "subject_teacher": "平山篤史",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "心理プロジェクト演習ⅠＡ",
+        "subject_teacher": "山岡明奈",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "心理プロジェクト演習ⅠＡ",
+        "subject_teacher": "前堂志乃",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "心理プロジェクト演習ⅠＢ",
+        "subject_teacher": "平山篤史",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "心理プロジェクト演習ⅠＢ",
+        "subject_teacher": "山岡明奈",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "心理プロジェクト演習ⅠＢ",
+        "subject_teacher": "前堂志乃",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "心理プロジェクト演習ⅡＡ",
+        "subject_teacher": "平山篤史",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "心理プロジェクト演習ⅡＡ",
+        "subject_teacher": "前堂志乃",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "心理プロジェクト演習ⅡＢ",
+        "subject_teacher": "前堂志乃",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "心理プロジェクト演習ⅡＢ",
+        "subject_teacher": "平山篤史",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "心理ボランティア演習",
+        "subject_teacher": "平山篤史・前堂志乃・井村弘子・上田幸彦",
+        "subject_schedule": ""
+    },
+    {
+        "subject_name": "ジェンダー論",
+        "subject_teacher": "崎濱佳代",
+        "subject_schedule": "月4"
+    },
+    {
+        "subject_name": "児童や家庭に対する支援と児童・家庭福祉制度",
+        "subject_teacher": "比嘉昌哉",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "人体の構造と機能及び疾病",
+        "subject_teacher": "富盛宏[心理カウンセリング専攻対象]",
+        "subject_schedule": "土3"
+    },
+    {
+        "subject_name": "スクールソーシャルワーク論",
+        "subject_teacher": "比嘉昌哉",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "ストレス・マネジメント",
+        "subject_teacher": "上田（5回）、平山（1回）、赤嶺遼太郎（２回）、宜保英理（2回）、滝友秀（2回）",
+        "subject_schedule": "土4"
+    },
+    {
+        "subject_name": "精神医学",
+        "subject_teacher": "知名（4）、新垣元（5）、伊室（6）、社会人特別講師（17）",
+        "subject_schedule": "水6"
+    },
+    {
+        "subject_name": "精神疾患とその治療",
+        "subject_teacher": "尾野勤子",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "精神障害者の生活支援システム",
+        "subject_teacher": "兼浜克弥",
+        "subject_schedule": "水6"
+    },
+    {
+        "subject_name": "精神保健学Ⅰ",
+        "subject_teacher": "渡邊浩樹",
+        "subject_schedule": "木6"
+    },
+    {
+        "subject_name": "精神保健学Ⅱ",
+        "subject_teacher": "渡邊浩樹",
+        "subject_schedule": "木6"
+    },
+    {
+        "subject_name": "精神保健福祉相談援助の基盤（専門）",
+        "subject_teacher": "高橋（8）、真栄平（8）",
+        "subject_schedule": "月6"
+    },
+    {
+        "subject_name": "精神保健福祉に関する制度とサービス",
+        "subject_teacher": "熊谷（16）、比嘉俊江（11）、金城由美（4）",
+        "subject_schedule": "火6"
+    },
+    {
+        "subject_name": "精神保健福祉の理論と相談援助の展開Ⅰ",
+        "subject_teacher": "知名孝",
+        "subject_schedule": "木5"
+    },
+    {
+        "subject_name": "専門演習ａ",
+        "subject_teacher": "岩田直子",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "専門演習ａ",
+        "subject_teacher": "小柳正弘",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "専門演習ａ",
+        "subject_teacher": "樋口美智子",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "専門演習ａ",
+        "subject_teacher": "比嘉昌哉",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "専門演習ａ",
+        "subject_teacher": "ﾄﾞﾅﾙﾄﾞ ｸﾚｲｸﾞ ｳｨﾙｺｯｸｽ",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "専門演習ａ",
+        "subject_teacher": "知名孝",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "専門演習ａ",
+        "subject_teacher": "桃原一彦",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "専門演習ｂ",
+        "subject_teacher": "岩田直子",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "専門演習ｂ",
+        "subject_teacher": "小柳正弘",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "専門演習ｂ",
+        "subject_teacher": "樋口美智子",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "専門演習ｂ",
+        "subject_teacher": "ﾄﾞﾅﾙﾄﾞ ｸﾚｲｸﾞ ｳｨﾙｺｯｸｽ",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "専門演習ｂ",
+        "subject_teacher": "比嘉昌哉",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "専門演習ｂ",
+        "subject_teacher": "知名孝",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "専門演習ｂ",
+        "subject_teacher": "桃原一彦",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "専門演習ｃ",
+        "subject_teacher": "岩田直子",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "専門演習ｃ",
+        "subject_teacher": "ﾄﾞﾅﾙﾄﾞ ｸﾚｲｸﾞ ｳｨﾙｺｯｸｽ",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "専門演習ｃ",
+        "subject_teacher": "桃原一彦",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "専門演習ｃ",
+        "subject_teacher": "樋口美智子",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "専門演習ｃ",
+        "subject_teacher": "比嘉昌哉",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "専門演習ｃ",
+        "subject_teacher": "知名孝",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "専門演習ｄ",
+        "subject_teacher": "岩田直子",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "専門演習ｄ",
+        "subject_teacher": "ﾄﾞﾅﾙﾄﾞ ｸﾚｲｸﾞ ｳｨﾙｺｯｸｽ",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "専門演習ｄ",
+        "subject_teacher": "桃原一彦",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "専門演習ｄ",
+        "subject_teacher": "樋口美智子",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "専門演習ｄ",
+        "subject_teacher": "比嘉昌哉",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "専門演習ｄ",
+        "subject_teacher": "知名孝",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "相談援助の基盤と専門職Ⅰ",
+        "subject_teacher": "宮城美智子",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "相談援助の基盤と専門職Ⅱ",
+        "subject_teacher": "宮城美智子",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "相談援助の理論と方法Ⅰ",
+        "subject_teacher": "仲宗根政貴",
+        "subject_schedule": "木6"
+    },
+    {
+        "subject_name": "卒業演習ａ",
+        "subject_teacher": "岩田直子",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "卒業演習ａ",
+        "subject_teacher": "樋口美智子",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "卒業演習ａ",
+        "subject_teacher": "ﾄﾞﾅﾙﾄﾞ ｸﾚｲｸﾞ ｳｨﾙｺｯｸｽ",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "卒業演習ａ",
+        "subject_teacher": "比嘉昌哉",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "卒業演習ａ",
+        "subject_teacher": "知名孝",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "卒業演習ａ",
+        "subject_teacher": "桃原一彦",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "卒業演習ｂ",
+        "subject_teacher": "比嘉昌哉",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "卒業演習ｂ",
+        "subject_teacher": "樋口美智子",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "卒業演習ｂ",
+        "subject_teacher": "ﾄﾞﾅﾙﾄﾞ ｸﾚｲｸﾞ ｳｨﾙｺｯｸｽ",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "卒業演習ｂ",
+        "subject_teacher": "知名孝",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "卒業演習ｂ",
+        "subject_teacher": "桃原一彦",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "卒業演習ｂ",
+        "subject_teacher": "岩田直子",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "地域コーディネーター養成演習",
+        "subject_teacher": "岩田直子（４）、南信乃介（６）、大城喜江子（６）",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "地域福祉の理論と方法Ⅰ",
+        "subject_teacher": "上地武昭",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "地域福祉の理論と方法Ⅱ",
+        "subject_teacher": "上地武昭",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "地域連携演習Ⅰ",
+        "subject_teacher": "稲垣暁",
+        "subject_schedule": ""
+    },
+    {
+        "subject_name": "知覚・認知心理学",
+        "subject_teacher": "前堂志乃",
+        "subject_schedule": "木5"
+    },
+    {
+        "subject_name": "低所得者に対する支援と生活保護制度",
+        "subject_teacher": "伊志嶺利香",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "適応の心理",
+        "subject_teacher": "平山篤史",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "都市社会学",
+        "subject_teacher": "桃原一彦",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "動作法",
+        "subject_teacher": "平山篤史",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "発達心理学",
+        "subject_teacher": "宜保英理",
+        "subject_schedule": "土3"
+    },
+    {
+        "subject_name": "福祉英語Ⅱ",
+        "subject_teacher": "ﾛﾋﾞﾝｿﾝｻｲﾓﾝ",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "福祉行財政と福祉計画",
+        "subject_teacher": "竹藤登",
+        "subject_schedule": "金3"
+    },
+    {
+        "subject_name": "福祉サービス組織と経営",
+        "subject_teacher": "神谷牧人（4）、大城（12）",
+        "subject_schedule": "水5"
+    },
+    {
+        "subject_name": "福祉と倫理",
+        "subject_teacher": "大城信哉",
+        "subject_schedule": "金4"
+    },
+    {
+        "subject_name": "福祉レクリエーション技術Ⅰ",
+        "subject_teacher": "細田奈々",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "福祉レクリエーション技術Ⅱ",
+        "subject_teacher": "細田奈々",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "フレッシュマンセミナー",
+        "subject_teacher": "岩田直子",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "フレッシュマンセミナー",
+        "subject_teacher": "安次富郁哉",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "フレッシュマンセミナー",
+        "subject_teacher": "ﾄﾞﾅﾙﾄﾞ ｸﾚｲｸﾞ ｳｨﾙｺｯｸｽ",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "フレッシュマンセミナー",
+        "subject_teacher": "桃原一彦",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "フレッシュマンセミナー",
+        "subject_teacher": "ﾄﾞﾅﾙﾄﾞ ｸﾚｲｸﾞ ｳｨﾙｺｯｸｽ",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "ヘルスプロモーション",
+        "subject_teacher": "平山篤史、他",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "保健医療サービス",
+        "subject_teacher": "安次富郁哉",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "保健福祉政策論",
+        "subject_teacher": "安次富郁哉",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "ライフステージの心理学",
+        "subject_teacher": "金武育子",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "臨床社会学",
+        "subject_teacher": "知念ウシ",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "臨床心理学概論",
+        "subject_teacher": "佐久本夢来",
+        "subject_schedule": "月4"
+    },
+    {
+        "subject_name": "レクリエーション理論",
+        "subject_teacher": "細田奈々",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "老年学概論Ⅰ",
+        "subject_teacher": "ﾄﾞﾅﾙﾄﾞ ｸﾚｲｸﾞ ｳｨﾙｺｯｸｽ、他（社会人特別講師）",
+        "subject_schedule": "水3"
+    }
+]

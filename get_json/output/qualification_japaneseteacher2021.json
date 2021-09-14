@@ -1,0 +1,52 @@
+[
+    {
+        "subject_name": "日本語教育実習Ⅰ",
+        "subject_teacher": "川野さちよ",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "日本語教育実習Ⅰ",
+        "subject_teacher": "奥山貴之",
+        "subject_schedule": "木5"
+    },
+    {
+        "subject_name": "日本語教育実習Ⅱ",
+        "subject_teacher": "尚真貴子",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "日本語教育実習Ⅱ",
+        "subject_teacher": "奥山貴之",
+        "subject_schedule": "木5"
+    },
+    {
+        "subject_name": "日本語教材研究演習",
+        "subject_teacher": "元山由美子",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "日本語教材研究演習",
+        "subject_teacher": "奥山貴之",
+        "subject_schedule": "水5"
+    },
+    {
+        "subject_name": "日本語教授法演習Ⅰ",
+        "subject_teacher": "尚真貴子",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "日本語教授法演習Ⅰ",
+        "subject_teacher": "石原嘉人",
+        "subject_schedule": "金4"
+    },
+    {
+        "subject_name": "日本語教授法演習Ⅱ",
+        "subject_teacher": "川野さちよ",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "日本語教授法演習Ⅱ",
+        "subject_teacher": "石原嘉人",
+        "subject_schedule": "木4"
+    }
+]

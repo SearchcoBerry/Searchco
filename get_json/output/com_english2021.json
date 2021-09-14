@@ -1,0 +1,462 @@
+[
+    {
+        "subject_name": "英語Ⅰ",
+        "subject_teacher": "大城明子[産業情報]",
+        "subject_schedule": "水1・金1"
+    },
+    {
+        "subject_name": "英語Ⅰ",
+        "subject_teacher": "大城明子[法律・地行]",
+        "subject_schedule": "月2・木2"
+    },
+    {
+        "subject_name": "英語Ⅰ",
+        "subject_teacher": "山入端由美子[経済]",
+        "subject_schedule": "火2・金2"
+    },
+    {
+        "subject_name": "英語Ⅰ",
+        "subject_teacher": "糸数淳子[社文・人福]",
+        "subject_schedule": "火1・金1"
+    },
+    {
+        "subject_name": "英語Ⅰ",
+        "subject_teacher": "山川満夫 [企業システム]",
+        "subject_schedule": "月1・木1"
+    },
+    {
+        "subject_name": "英語Ⅰ",
+        "subject_teacher": "中根佳 [社文・人福]",
+        "subject_schedule": "火1・金1"
+    },
+    {
+        "subject_name": "英語Ⅰ",
+        "subject_teacher": "上原千登勢 [産業情報]",
+        "subject_schedule": "水1・金1"
+    },
+    {
+        "subject_name": "英語Ⅰ",
+        "subject_teacher": "中根佳 [経済]",
+        "subject_schedule": "火2・金2"
+    },
+    {
+        "subject_name": "英語Ⅰ",
+        "subject_teacher": "井上泉[社文・人福]",
+        "subject_schedule": "火1・金1"
+    },
+    {
+        "subject_name": "英語Ⅰ",
+        "subject_teacher": "真喜志満 [社文・人福]",
+        "subject_schedule": "火1・金1"
+    },
+    {
+        "subject_name": "英語Ⅰ",
+        "subject_teacher": "松田順子 [経済]",
+        "subject_schedule": "火2・金2"
+    },
+    {
+        "subject_name": "英語Ⅰ",
+        "subject_teacher": "島村麗[産業情報]",
+        "subject_schedule": "水1・金1"
+    },
+    {
+        "subject_name": "英語Ⅰ",
+        "subject_teacher": "芦峰隆章 [企業システム]",
+        "subject_schedule": "月1・木1"
+    },
+    {
+        "subject_name": "英語Ⅰ",
+        "subject_teacher": "上里博美 [法律・地行]",
+        "subject_schedule": "月2・木2"
+    },
+    {
+        "subject_name": "英語Ⅰ",
+        "subject_teacher": "芦峰隆章 [日文]",
+        "subject_schedule": "水4・土3"
+    },
+    {
+        "subject_name": "英語Ⅰ",
+        "subject_teacher": "上里博美 [日文・人福（2年以上）]",
+        "subject_schedule": "月4・木4"
+    },
+    {
+        "subject_name": "英語Ⅰ",
+        "subject_teacher": "ｸﾚｲｸﾞKｼﾞｪｲｺﾌﾞｿﾝ[経・環・企・産（2年以上）]",
+        "subject_schedule": "月5・木5"
+    },
+    {
+        "subject_name": "英語Ⅰ",
+        "subject_teacher": "ﾍﾞﾝｼﾞｬﾐﾝ ﾌｫｰｹﾞﾙ [地域環境政策]",
+        "subject_schedule": "火2・金2"
+    },
+    {
+        "subject_name": "英語Ⅰ",
+        "subject_teacher": "小橋川里美[地域環境政策]",
+        "subject_schedule": "火2・金2"
+    },
+    {
+        "subject_name": "英語Ⅰ",
+        "subject_teacher": "ﾍﾞﾝｼﾞｬﾐﾝ ﾌｫｰｹﾞﾙ [法律・地行]",
+        "subject_schedule": "月2・木2"
+    },
+    {
+        "subject_name": "英語Ⅰ",
+        "subject_teacher": " 空閑 洋始[地域環境政策]",
+        "subject_schedule": "火2・金2"
+    },
+    {
+        "subject_name": "英語Ⅰ",
+        "subject_teacher": "糸数ｼﾞｭﾆﾖｰﾙﾃﾞﾋﾞｯﾄ [社文・人福]",
+        "subject_schedule": "火1・金1"
+    },
+    {
+        "subject_name": "英語Ⅰ",
+        "subject_teacher": " 空閑 洋始[社文・人福]",
+        "subject_schedule": "火1・金1"
+    },
+    {
+        "subject_name": "英語Ⅰ",
+        "subject_teacher": "新城知子 [法律・地行]",
+        "subject_schedule": "月2・木2"
+    },
+    {
+        "subject_name": "英語Ⅰ",
+        "subject_teacher": "渡慶次 ﾏｰｶﾞﾚｯﾄ 有子[日文]",
+        "subject_schedule": "水4・土3"
+    },
+    {
+        "subject_name": "英語Ⅰ",
+        "subject_teacher": "新城知子 [企業システム)]",
+        "subject_schedule": "月1・木1"
+    },
+    {
+        "subject_name": "英語Ⅰ",
+        "subject_teacher": "ｼﾞｮｳﾝﾀｰﾊﾞｰﾄ [英米]",
+        "subject_schedule": "火1・金1"
+    },
+    {
+        "subject_name": "英語Ⅰ",
+        "subject_teacher": "富里明美 [日文]",
+        "subject_schedule": "水4・土3"
+    },
+    {
+        "subject_name": "英語Ⅰ",
+        "subject_teacher": "野口正樹 [英米]",
+        "subject_schedule": "火1・金1"
+    },
+    {
+        "subject_name": "英語Ⅰ",
+        "subject_teacher": "赤嶺ゆかり [法律・地行・社文（２年以上）]",
+        "subject_schedule": "月5・木5"
+    },
+    {
+        "subject_name": "英語Ⅰ",
+        "subject_teacher": "山川満夫 [法律・地行]",
+        "subject_schedule": "月2・木2"
+    },
+    {
+        "subject_name": "英語Ⅰ",
+        "subject_teacher": "宮平勝行[法律・地行]",
+        "subject_schedule": "月2・木2"
+    },
+    {
+        "subject_name": "英語Ⅱ",
+        "subject_teacher": "糸数 ｼﾞｭﾆﾖｰﾙ ﾃﾞﾋﾞｯﾄ [社文・人福]",
+        "subject_schedule": "火1・金1"
+    },
+    {
+        "subject_name": "英語Ⅱ",
+        "subject_teacher": "中根佳 [経済]",
+        "subject_schedule": "火2・金2"
+    },
+    {
+        "subject_name": "英語Ⅱ",
+        "subject_teacher": "中根佳 [社文・人福]",
+        "subject_schedule": "火1・金1"
+    },
+    {
+        "subject_name": "英語Ⅱ",
+        "subject_teacher": "糸数淳子[社文・人福]",
+        "subject_schedule": "火1・金1"
+    },
+    {
+        "subject_name": "英語Ⅱ",
+        "subject_teacher": "真喜志満 [社文・人福]",
+        "subject_schedule": "火1・金1"
+    },
+    {
+        "subject_name": "英語Ⅱ",
+        "subject_teacher": "新城知子 [企業システム]",
+        "subject_schedule": "月1・木1"
+    },
+    {
+        "subject_name": "英語Ⅱ",
+        "subject_teacher": "新城知子 [法律・地行]",
+        "subject_schedule": "月2・木2"
+    },
+    {
+        "subject_name": "英語Ⅱ",
+        "subject_teacher": "大城明子[産業情報]",
+        "subject_schedule": "水1・金1"
+    },
+    {
+        "subject_name": "英語Ⅱ",
+        "subject_teacher": "渡慶次 ﾏｰｶﾞﾚｯﾄ 有子[日文]",
+        "subject_schedule": "水4・土3"
+    },
+    {
+        "subject_name": "英語Ⅱ",
+        "subject_teacher": " 空閑 洋始[社文・人福]",
+        "subject_schedule": "火1・金1"
+    },
+    {
+        "subject_name": "英語Ⅱ",
+        "subject_teacher": " 空閑 洋始[地域環境政策]",
+        "subject_schedule": "火2・金2"
+    },
+    {
+        "subject_name": "英語Ⅱ",
+        "subject_teacher": "ﾍﾞﾝｼﾞｬﾐﾝ ﾌｫｰｹﾞﾙ [法律・地行]",
+        "subject_schedule": "月2・木2"
+    },
+    {
+        "subject_name": "英語Ⅱ",
+        "subject_teacher": "ﾍﾞﾝｼﾞｬﾐﾝ ﾌｫｰｹﾞﾙ[地域環境政策]",
+        "subject_schedule": "火2・金2"
+    },
+    {
+        "subject_name": "英語Ⅱ",
+        "subject_teacher": "上里博美 [日文・人福（2年以上）]",
+        "subject_schedule": "月4・木4"
+    },
+    {
+        "subject_name": "英語Ⅱ",
+        "subject_teacher": "上里博美 [法律・地行]",
+        "subject_schedule": "月2・木2"
+    },
+    {
+        "subject_name": "英語Ⅱ",
+        "subject_teacher": "大城明子[法律・地行]",
+        "subject_schedule": "月2・木2"
+    },
+    {
+        "subject_name": "英語Ⅱ",
+        "subject_teacher": "ｸﾚｲｸﾞKｼﾞｪｲｺﾌﾞｿﾝ[経・環・企・産（2年以上）]",
+        "subject_schedule": "月5・木5"
+    },
+    {
+        "subject_name": "英語Ⅱ",
+        "subject_teacher": "宮平勝行[法律・地行]",
+        "subject_schedule": "月2・木2"
+    },
+    {
+        "subject_name": "英語Ⅱ",
+        "subject_teacher": "島村麗[産業情報]",
+        "subject_schedule": "水1・金1"
+    },
+    {
+        "subject_name": "英語Ⅱ",
+        "subject_teacher": "赤嶺ゆかり [法律・地行・社文（２年以上）]",
+        "subject_schedule": "月5・木5"
+    },
+    {
+        "subject_name": "英語Ⅱ",
+        "subject_teacher": "富里明美 [日文]",
+        "subject_schedule": "水4・土3"
+    },
+    {
+        "subject_name": "英語Ⅱ",
+        "subject_teacher": "ｼﾞｮｳﾝﾀｰﾊﾞｰﾄ [英米]",
+        "subject_schedule": "火1・金1"
+    },
+    {
+        "subject_name": "英語Ⅱ",
+        "subject_teacher": "山川満夫 [法律・地行]",
+        "subject_schedule": "月2・木2"
+    },
+    {
+        "subject_name": "英語Ⅱ",
+        "subject_teacher": "山入端由美子[経済]",
+        "subject_schedule": "火2・金2"
+    },
+    {
+        "subject_name": "英語Ⅱ",
+        "subject_teacher": "野口正樹 [英米]",
+        "subject_schedule": "火1・金1"
+    },
+    {
+        "subject_name": "英語Ⅱ",
+        "subject_teacher": "小橋川里美 [地域環境政策]",
+        "subject_schedule": "火2・金2"
+    },
+    {
+        "subject_name": "英語Ⅱ",
+        "subject_teacher": "芦峰隆章 [日文]",
+        "subject_schedule": "水4・土3"
+    },
+    {
+        "subject_name": "英語Ⅱ",
+        "subject_teacher": "芦峰隆章 [企業システム]",
+        "subject_schedule": "月1・木1"
+    },
+    {
+        "subject_name": "英語Ⅱ",
+        "subject_teacher": "松田順子 [経済]",
+        "subject_schedule": "火2・金2"
+    },
+    {
+        "subject_name": "英語Ⅱ",
+        "subject_teacher": "井上泉 [社文・人福]",
+        "subject_schedule": "火1・金1"
+    },
+    {
+        "subject_name": "英語Ⅱ",
+        "subject_teacher": "上原千登勢 [産業情報]",
+        "subject_schedule": "水1・金1"
+    },
+    {
+        "subject_name": "英語Ⅱ",
+        "subject_teacher": "山川満夫 [企業システム]",
+        "subject_schedule": "月1・木1"
+    },
+    {
+        "subject_name": "英語Ⅲ",
+        "subject_teacher": "宮城和文 [全学科(全学年)]",
+        "subject_schedule": "水2・土2"
+    },
+    {
+        "subject_name": "英語Ⅲ",
+        "subject_teacher": "松田順子[法律・地行]",
+        "subject_schedule": "火3・金3"
+    },
+    {
+        "subject_name": "英語Ⅲ",
+        "subject_teacher": "糸数 ｼﾞｭﾆﾖｰﾙ ﾃﾞﾋﾞｯﾄ[法律・地行]",
+        "subject_schedule": "火3・金3"
+    },
+    {
+        "subject_name": "英語Ⅲ",
+        "subject_teacher": "糸数淳子 [法律・地行]",
+        "subject_schedule": "火3・金3"
+    },
+    {
+        "subject_name": "英語Ⅲ",
+        "subject_teacher": "渡久山幸功 [法律・地行]",
+        "subject_schedule": "火3・金3"
+    },
+    {
+        "subject_name": "英語Ⅲ",
+        "subject_teacher": "阿嘉奈月[全学科（全学年）]",
+        "subject_schedule": "火1・金1"
+    },
+    {
+        "subject_name": "英語Ⅲ",
+        "subject_teacher": "阿嘉奈月[全学科（全学年）]",
+        "subject_schedule": "火2・金2"
+    },
+    {
+        "subject_name": "英語Ⅲ",
+        "subject_teacher": "奥間隆伸 [全学科（全学年）]",
+        "subject_schedule": "火1・金1"
+    },
+    {
+        "subject_name": "英語Ⅲ",
+        "subject_teacher": "奥間隆伸 [法律・地行]",
+        "subject_schedule": "火3・金3"
+    },
+    {
+        "subject_name": "英語Ⅲ",
+        "subject_teacher": "親泊かお里 [法律・地行]",
+        "subject_schedule": "火3・金3"
+    },
+    {
+        "subject_name": "英語Ⅳ",
+        "subject_teacher": "渡久山幸功 [法律・地行]",
+        "subject_schedule": "火3・金3"
+    },
+    {
+        "subject_name": "英語Ⅳ",
+        "subject_teacher": "糸数 ｼﾞｭﾆﾖｰﾙ ﾃﾞﾋﾞｯﾄ[法律・地行]",
+        "subject_schedule": "火3・金3"
+    },
+    {
+        "subject_name": "英語Ⅳ",
+        "subject_teacher": "阿嘉奈月[全学科（全学年）]",
+        "subject_schedule": "火2・金2"
+    },
+    {
+        "subject_name": "英語Ⅳ",
+        "subject_teacher": "阿嘉奈月[全学科（全学年）]",
+        "subject_schedule": "火1・金1"
+    },
+    {
+        "subject_name": "英語Ⅳ",
+        "subject_teacher": "松田順子[法律・地行]",
+        "subject_schedule": "火3・金3"
+    },
+    {
+        "subject_name": "英語Ⅳ",
+        "subject_teacher": "奥間隆伸 [全学科（全学年）]",
+        "subject_schedule": "火1・金1"
+    },
+    {
+        "subject_name": "英語Ⅳ",
+        "subject_teacher": "奥間隆伸 [法律・地行]",
+        "subject_schedule": "火3・金3"
+    },
+    {
+        "subject_name": "英語Ⅳ",
+        "subject_teacher": "親泊かお里 [法律・地行]",
+        "subject_schedule": "火3・金3"
+    },
+    {
+        "subject_name": "英語Ⅳ",
+        "subject_teacher": "宮城和文 [全学科（全学年）]",
+        "subject_schedule": "水2・土2"
+    },
+    {
+        "subject_name": "英語Ⅳ",
+        "subject_teacher": "糸数淳子 [法律・地行]",
+        "subject_schedule": "火3・金3"
+    },
+    {
+        "subject_name": "英語Ⅴ",
+        "subject_teacher": "津波聡 [全学科]",
+        "subject_schedule": "火1・金1"
+    },
+    {
+        "subject_name": "英語Ⅴ",
+        "subject_teacher": "山川満夫[全学科]",
+        "subject_schedule": "火1・金1"
+    },
+    {
+        "subject_name": "英語Ⅵ",
+        "subject_teacher": "大城明子[全学科]",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "英語Ⅵ",
+        "subject_teacher": "山川満夫[全学科]",
+        "subject_schedule": "火1・金1"
+    },
+    {
+        "subject_name": "英語Ⅶ",
+        "subject_teacher": "上原千登勢 [全学科]",
+        "subject_schedule": "火2・金2"
+    },
+    {
+        "subject_name": "英語Ⅶ",
+        "subject_teacher": "上原千登勢 [全学科]",
+        "subject_schedule": "火2・金2"
+    },
+    {
+        "subject_name": "外国語研究（英語圏）Ⅰ",
+        "subject_teacher": "井上泉",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "外国語研究（英語圏）Ⅱ",
+        "subject_teacher": "井上泉",
+        "subject_schedule": "水2"
+    }
+]

@@ -142,13 +142,6 @@ def output(PATH):
         f.write("index_checked:" + str(index_0) + ", " + str(index_1) + ", " + str(index_2) + ", " + str(index_3) + " / ")
         f.write(str(len(subject_schedule_list)) + ", " + str(len(subject_teacher_list)) + ", " + str(len(subject_list)) + "\n")
 
-        """
-        f = open('index_check.txt', 'a')
-        f.write("index_checked:" + str(index_0) + ", " + str(index_1) + ", " + str(index_2) + ", " + str(index_3) + " / ")
-        f.write(str(len(subject_schedule_list)) + ", " + str(len(subject_teacher_list)) + ", " + str(len(subject_list)) + "\n")
-        print("index_checked:" + str(index_0) + ", " + str(index_1) + ", " + str(index_2) + ", " + str(index_3))
-        """
-
     json_list = []
     print(len(subject_schedule_list), len(subject_teacher_list), len(subject_list))
     for i in tqdm(range(len(subject_list))):

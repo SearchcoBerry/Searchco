@@ -1,0 +1,882 @@
+[
+    {
+        "subject_name": "アカデミック・セミナー",
+        "subject_teacher": "山口真也(4回)、伊佐常利（8回）、島村麗（4回）",
+        "subject_schedule": "土1"
+    },
+    {
+        "subject_name": "アカデミック・セミナー",
+        "subject_teacher": "山口真也(4回)、伊佐常利（8回）、島村麗（4回）",
+        "subject_schedule": "土1"
+    },
+    {
+        "subject_name": "アカデミック・ライティング",
+        "subject_teacher": "田場裕規(11回)、芳山紀子(5回)",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "アカデミック・ライティング",
+        "subject_teacher": "下地賀代子（11回）・芳山紀子(5回)",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "アカデミック・ライティング",
+        "subject_teacher": "村上陽子（11回）芳山紀子(5回)",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "アジア太平洋文化論",
+        "subject_teacher": "安志那",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "インターンシップⅠ",
+        "subject_teacher": "学科インターンシップ運営委員（田場・桃原）",
+        "subject_schedule": "その他"
+    },
+    {
+        "subject_name": "インターンシップⅡ",
+        "subject_teacher": "学科インターンシップ運営委員（田場・桃原）",
+        "subject_schedule": "その他"
+    },
+    {
+        "subject_name": "エリアスタディ演習",
+        "subject_teacher": "伊佐常利",
+        "subject_schedule": "土3"
+    },
+    {
+        "subject_name": "応用言語学",
+        "subject_teacher": "仲間恵子",
+        "subject_schedule": "木5"
+    },
+    {
+        "subject_name": "漢文学Ⅰ",
+        "subject_teacher": "田場裕規",
+        "subject_schedule": "月5"
+    },
+    {
+        "subject_name": "漢文学Ⅱ",
+        "subject_teacher": "田場裕規",
+        "subject_schedule": "月5"
+    },
+    {
+        "subject_name": "外国語コミュニケーション演習",
+        "subject_teacher": "島村麗",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "学校図書館サービス論",
+        "subject_teacher": "山口真也",
+        "subject_schedule": "水6"
+    },
+    {
+        "subject_name": "学校図書館情報サービス論",
+        "subject_teacher": "山口真也",
+        "subject_schedule": "月6"
+    },
+    {
+        "subject_name": "グローバルコミュニケーション論",
+        "subject_teacher": "奥山貴之（3回）孫恵仁（3回）島村麗（3回）岡野薫（3回）兼本敏（3回）",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "言語文化接触論Ⅰ",
+        "subject_teacher": "安志那",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "言語文化接触論Ⅱ",
+        "subject_teacher": "安志那",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "現代沖縄文学論",
+        "subject_teacher": "佐久本佳奈",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "現代文学理論Ⅰ",
+        "subject_teacher": "村上陽子",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "現代文学理論Ⅱ",
+        "subject_teacher": "村上陽子",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "国語科教材研究Ⅰ",
+        "subject_teacher": "桃原千英子",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "国語科教材研究Ⅱ",
+        "subject_teacher": "桃原千英子",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "国語科教材研究演習Ⅰ",
+        "subject_teacher": "大城健",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "国語科教材研究演習Ⅱ",
+        "subject_teacher": "大城健",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "古典に親しむ",
+        "subject_teacher": "平良忍",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "古典に親しむ",
+        "subject_teacher": "葛綿正一",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "古典に学ぶ",
+        "subject_teacher": "平良忍",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "古典に学ぶ",
+        "subject_teacher": "葛綿正一",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "コミュニケーションスキルⅠ",
+        "subject_teacher": "安志那",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "コミュニケーションスキルⅡ",
+        "subject_teacher": "安志那",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "書写",
+        "subject_teacher": "比嘉德次",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "書写",
+        "subject_teacher": "比嘉德次",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "書道実習",
+        "subject_teacher": "比嘉德次",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "書道実習",
+        "subject_teacher": "比嘉德次",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "児童文化論",
+        "subject_teacher": "山口真也",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "児童文化論",
+        "subject_teacher": "山口真也",
+        "subject_schedule": "水5"
+    },
+    {
+        "subject_name": "ジャパノロジーⅠ",
+        "subject_teacher": "奥山貴之",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "ジャパノロジーⅡ",
+        "subject_teacher": "奥山貴之",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "ゼミナールⅠ",
+        "subject_teacher": "安志那",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "ゼミナールⅠ",
+        "subject_teacher": "下地賀代子",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "ゼミナールⅠ",
+        "subject_teacher": "葛綿正一",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "ゼミナールⅠ",
+        "subject_teacher": "西岡敏",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "ゼミナールⅠ",
+        "subject_teacher": "桃原千英子",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "ゼミナールⅠ",
+        "subject_teacher": "村上陽子",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "ゼミナールⅠ",
+        "subject_teacher": "奥山貴之",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "ゼミナールⅠ",
+        "subject_teacher": "田場裕規",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "ゼミナールⅠ",
+        "subject_teacher": "我部大和",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "ゼミナールⅠ",
+        "subject_teacher": "兼本敏",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "ゼミナールⅠ",
+        "subject_teacher": "山口真也",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "ゼミナールⅡ",
+        "subject_teacher": "西岡敏",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "ゼミナールⅡ",
+        "subject_teacher": "下地賀代子",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "ゼミナールⅡ",
+        "subject_teacher": "葛綿正一",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "ゼミナールⅡ",
+        "subject_teacher": "兼本敏",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "ゼミナールⅡ",
+        "subject_teacher": "安志那",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "ゼミナールⅡ",
+        "subject_teacher": "田場裕規",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "ゼミナールⅡ",
+        "subject_teacher": "桃原千英子",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "ゼミナールⅡ",
+        "subject_teacher": "村上陽子",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "ゼミナールⅡ",
+        "subject_teacher": "奥山貴之",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "ゼミナールⅡ",
+        "subject_teacher": "我部大和",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "ゼミナールⅡ",
+        "subject_teacher": "山口真也",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "ゼミナールⅢ",
+        "subject_teacher": "葛綿正一",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "ゼミナールⅢ",
+        "subject_teacher": "我部大和",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "ゼミナールⅢ",
+        "subject_teacher": "下地賀代子",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "ゼミナールⅢ",
+        "subject_teacher": "桃原千英子",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "ゼミナールⅢ",
+        "subject_teacher": "村上陽子",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "ゼミナールⅢ",
+        "subject_teacher": "奥山貴之",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "ゼミナールⅢ",
+        "subject_teacher": "兼本敏",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "ゼミナールⅢ",
+        "subject_teacher": "吉田肇吾",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "ゼミナールⅢ",
+        "subject_teacher": "西岡敏",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "ゼミナールⅢ",
+        "subject_teacher": "田場裕規",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "ゼミナールⅣ",
+        "subject_teacher": "西岡敏",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "ゼミナールⅣ",
+        "subject_teacher": "我部大和",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "ゼミナールⅣ",
+        "subject_teacher": "兼本敏",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "ゼミナールⅣ",
+        "subject_teacher": "葛綿正一",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "ゼミナールⅣ",
+        "subject_teacher": "吉田肇吾",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "ゼミナールⅣ",
+        "subject_teacher": "田場裕規",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "ゼミナールⅣ",
+        "subject_teacher": "下地賀代子",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "ゼミナールⅣ",
+        "subject_teacher": "桃原千英子",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "ゼミナールⅣ",
+        "subject_teacher": "村上陽子",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "ゼミナールⅣ",
+        "subject_teacher": "奥山貴之",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "ゼミナール入門",
+        "subject_teacher": "田場、村上、下地、葛綿、兼本、西岡、桃原、奥山、我部、安、山口",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "卒業論文Ⅰ",
+        "subject_teacher": "奥山貴之",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "卒業論文Ⅰ",
+        "subject_teacher": "葛綿正一",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "卒業論文Ⅰ",
+        "subject_teacher": "我部大和",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "卒業論文Ⅰ",
+        "subject_teacher": "兼本敏",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "卒業論文Ⅰ",
+        "subject_teacher": "吉田肇吾",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "卒業論文Ⅰ",
+        "subject_teacher": "西岡敏",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "卒業論文Ⅰ",
+        "subject_teacher": "田場裕規",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "卒業論文Ⅰ",
+        "subject_teacher": "下地賀代子",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "卒業論文Ⅰ",
+        "subject_teacher": "桃原千英子",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "卒業論文Ⅰ",
+        "subject_teacher": "村上陽子",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "卒業論文Ⅱ",
+        "subject_teacher": "下地賀代子",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "卒業論文Ⅱ",
+        "subject_teacher": "桃原千英子",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "卒業論文Ⅱ",
+        "subject_teacher": "村上陽子",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "卒業論文Ⅱ",
+        "subject_teacher": "奥山貴之",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "卒業論文Ⅱ",
+        "subject_teacher": "葛綿正一",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "卒業論文Ⅱ",
+        "subject_teacher": "我部大和",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "卒業論文Ⅱ",
+        "subject_teacher": "兼本敏",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "卒業論文Ⅱ",
+        "subject_teacher": "吉田肇吾",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "卒業論文Ⅱ",
+        "subject_teacher": "西岡敏",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "卒業論文Ⅱ",
+        "subject_teacher": "田場裕規",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "多文化間コミュニケーション特別講義",
+        "subject_teacher": "高野吾朗",
+        "subject_schedule": "集中"
+    },
+    {
+        "subject_name": "多文化共生入門",
+        "subject_teacher": "奥山貴之",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "多文化共生論",
+        "subject_teacher": "安志那",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "多文化体験実習",
+        "subject_teacher": "兼本敏",
+        "subject_schedule": "集中"
+    },
+    {
+        "subject_name": "多文化体験実習",
+        "subject_teacher": "安志那",
+        "subject_schedule": "集中"
+    },
+    {
+        "subject_name": "多文化体験実習",
+        "subject_teacher": "奥山貴之（8回）兼本敏（8回）",
+        "subject_schedule": "集中"
+    },
+    {
+        "subject_name": "地域文化情報論",
+        "subject_teacher": "西岡敏(3回)、芳山紀子(6回)、伊佐常利(7回)",
+        "subject_schedule": "土2"
+    },
+    {
+        "subject_name": "図書館概論",
+        "subject_teacher": "山口真也",
+        "subject_schedule": "火6"
+    },
+    {
+        "subject_name": "図書館サービス概論",
+        "subject_teacher": "富永一也、呉屋美奈子",
+        "subject_schedule": "土2"
+    },
+    {
+        "subject_name": "図書館情報資源概論",
+        "subject_teacher": "山口真也",
+        "subject_schedule": "火6"
+    },
+    {
+        "subject_name": "図書館情報資源概論",
+        "subject_teacher": "山口真也",
+        "subject_schedule": "月6"
+    },
+    {
+        "subject_name": "図書館文化論",
+        "subject_teacher": "吉田肇吾",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "日本近代文学史Ⅰ",
+        "subject_teacher": "村上陽子",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "日本近代文学史Ⅱ",
+        "subject_teacher": "村上陽子",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "日本芸能史",
+        "subject_teacher": "我部大和",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "日本言語史Ⅰ",
+        "subject_teacher": "下地賀代子",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "日本言語史Ⅱ",
+        "subject_teacher": "下地賀代子",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "日本古典文学史",
+        "subject_teacher": "葛綿正一",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "日本語音声学",
+        "subject_teacher": "西岡敏",
+        "subject_schedule": "木5"
+    },
+    {
+        "subject_name": "日本語音声学特講",
+        "subject_teacher": "仲間恵子",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "日本語学概論",
+        "subject_teacher": "下地賀代子",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "日本語学入門",
+        "subject_teacher": "下地賀代子",
+        "subject_schedule": "月4"
+    },
+    {
+        "subject_name": "日本語表現法演習Ⅰ",
+        "subject_teacher": "佐渡山美智子",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "日本語表現法演習Ⅱ",
+        "subject_teacher": "佐渡山美智子",
+        "subject_schedule": "木5"
+    },
+    {
+        "subject_name": "日本語文法基礎Ⅰ",
+        "subject_teacher": "平良忍",
+        "subject_schedule": "土1"
+    },
+    {
+        "subject_name": "日本語文法基礎Ⅰ",
+        "subject_teacher": "平良忍",
+        "subject_schedule": "土2"
+    },
+    {
+        "subject_name": "日本語文法基礎Ⅱ",
+        "subject_teacher": "平良忍",
+        "subject_schedule": "土1"
+    },
+    {
+        "subject_name": "日本語文法基礎Ⅱ",
+        "subject_teacher": "平良忍",
+        "subject_schedule": "土2"
+    },
+    {
+        "subject_name": "日本語文法論Ⅰ",
+        "subject_teacher": "下地賀代子",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "日本語文法論Ⅱ",
+        "subject_teacher": "下地賀代子",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "日本の美術",
+        "subject_teacher": "金城美奈子",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "日本文化論Ⅰ",
+        "subject_teacher": "葛綿正一",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "日本文化論Ⅱ",
+        "subject_teacher": "葛綿正一",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "日本文学概論",
+        "subject_teacher": "葛綿正一",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "日本文学を読むⅠ",
+        "subject_teacher": "田場裕規",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "日本文学を読むⅡ",
+        "subject_teacher": "田場裕規",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "日本文学を読むⅢ",
+        "subject_teacher": "村上陽子",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "日本文学を読むⅣ",
+        "subject_teacher": "村上陽子",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "認知言語学",
+        "subject_teacher": "仲間恵子",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "比較文化演習",
+        "subject_teacher": "我部大和",
+        "subject_schedule": "月4"
+    },
+    {
+        "subject_name": "比較文化論",
+        "subject_teacher": "安志那",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "文化情報処理入門",
+        "subject_teacher": "山口真也（８回）、芳山紀子（８回）",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "文化情報処理入門",
+        "subject_teacher": "山口真也（８回）、芳山紀子（８回）",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "文化テクスト論Ⅰ",
+        "subject_teacher": "佐久本佳奈",
+        "subject_schedule": "金3"
+    },
+    {
+        "subject_name": "文化テクスト論Ⅱ",
+        "subject_teacher": "佐久本佳奈",
+        "subject_schedule": "金3"
+    },
+    {
+        "subject_name": "文学実作演習",
+        "subject_teacher": "崎浜慎",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "プロジェクト演習",
+        "subject_teacher": "佐渡山美智子",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "ポップカルチャー論",
+        "subject_teacher": "久万田晋（６回）大胡太郎（５回）土屋誠一（５回）",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "リテラシー入門Ⅰ",
+        "subject_teacher": "下地賀代子",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "リテラシー入門Ⅰ",
+        "subject_teacher": "我部大和",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "リテラシー入門Ⅰ",
+        "subject_teacher": "葛綿正一",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "リテラシー入門Ⅰ",
+        "subject_teacher": "田場裕規",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "リテラシー入門Ⅰ",
+        "subject_teacher": "村上陽子",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "リテラシー入門Ⅰ",
+        "subject_teacher": "安志那",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "リテラシー入門Ⅱ",
+        "subject_teacher": "葛綿正一",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "リテラシー入門Ⅱ",
+        "subject_teacher": "田場裕規",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "リテラシー入門Ⅱ",
+        "subject_teacher": "村上陽子",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "リテラシー入門Ⅱ",
+        "subject_teacher": "安志那",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "リテラシー入門Ⅱ",
+        "subject_teacher": "我部大和",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "リテラシー入門Ⅱ",
+        "subject_teacher": "下地賀代子",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "琉球芸能史",
+        "subject_teacher": "我部大和",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "琉球語会話Ⅰ",
+        "subject_teacher": "仲原穣",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "琉球語会話Ⅱ",
+        "subject_teacher": "仲原穣",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "琉球語学概論",
+        "subject_teacher": "下地賀代子",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "琉球語学特講Ⅰ",
+        "subject_teacher": "狩俣繁久",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "琉球語学特講Ⅱ",
+        "subject_teacher": "狩俣繁久",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "琉球語学入門",
+        "subject_teacher": "西岡敏",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "琉球文化特別講義",
+        "subject_teacher": "白田理人",
+        "subject_schedule": "集中"
+    },
+    {
+        "subject_name": "琉球文化論",
+        "subject_teacher": "我部大和",
+        "subject_schedule": "月4"
+    },
+    {
+        "subject_name": "琉球文学概論",
+        "subject_teacher": "我部大和",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "琉球文学特講Ⅰ",
+        "subject_teacher": "宮城茂雄",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "琉球文学特講Ⅱ",
+        "subject_teacher": "宮城茂雄",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "琉球文学を読むⅠ",
+        "subject_teacher": "仲原伸子",
+        "subject_schedule": "金3"
+    },
+    {
+        "subject_name": "琉球文学を読むⅡ",
+        "subject_teacher": "仲原伸子",
+        "subject_schedule": "金3"
+    }
+]
