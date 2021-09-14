@@ -4,6 +4,7 @@
             
                 <div class="col-sm-6 result">
                     <h3>"仮"時間割表</h3>
+                    <p>{{pass}}</p>
                 </div>
 
                 <div class="col">
@@ -171,7 +172,7 @@ export default {
                 const genfilter = this.setFavorite
                         .flatMap(
                             value => value.gen == gen && value.niti == niti
-                            ? [value.kamoku, "(", value.tantou, ")", "\n"]
+                            ? [value.kamoku, "\n", "(", value.tantou, ")", "\n"]
                             : []
                         )
                 return genfilter.join('')

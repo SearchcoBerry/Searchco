@@ -9,7 +9,7 @@
                 </div>
                 
                 <div class="col system-name pc">
-                    <p>授業検索エンジン さちこ ver1.1 🥳</p>
+                    <p>授業検索エンジン さちこ ver1.2 🥳</p>
                 </div>
             </div>
             
