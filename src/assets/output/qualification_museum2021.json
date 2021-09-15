@@ -1,0 +1,67 @@
+[
+    {
+        "subject_name": "考古学概論２",
+        "subject_teacher": "宮城弘樹",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "博物館概論",
+        "subject_teacher": "稲福政斉",
+        "subject_schedule": "土6"
+    },
+    {
+        "subject_name": "博物館学史",
+        "subject_teacher": "比嘉明子",
+        "subject_schedule": "月5"
+    },
+    {
+        "subject_name": "博物館学評論",
+        "subject_teacher": "比嘉明子",
+        "subject_schedule": "月5"
+    },
+    {
+        "subject_name": "博物館教育論",
+        "subject_teacher": "前田一舟",
+        "subject_schedule": "土4"
+    },
+    {
+        "subject_name": "博物館経営論",
+        "subject_teacher": "瑞慶山昇",
+        "subject_schedule": "月4"
+    },
+    {
+        "subject_name": "博物館資料保存論",
+        "subject_teacher": "大湾ゆかり",
+        "subject_schedule": "土5"
+    },
+    {
+        "subject_name": "博物館資料保存論",
+        "subject_teacher": "藤波朋子",
+        "subject_schedule": "金3"
+    },
+    {
+        "subject_name": "博物館資料論",
+        "subject_teacher": "宮城弘樹",
+        "subject_schedule": "火5"
+    },
+    {
+        "subject_name": "博物館情報・メディア論",
+        "subject_teacher": "浦本寛史",
+        "subject_schedule": "月6"
+    },
+    {
+        "subject_name": "博物館展示論",
+        "subject_teacher": "瑞慶山昇",
+        "subject_schedule": "月4"
+    },
+    {
+        "subject_name": "文化史Ⅰ",
+        "subject_teacher": "真久田巧",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "文化史Ⅱ",
+        "subject_teacher": "真久田巧",
+        "subject_schedule": "水4"
+    }
+]

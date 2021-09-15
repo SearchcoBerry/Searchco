@@ -1,0 +1,867 @@
+[
+    {
+        "subject_name": "アジア経済と環境",
+        "subject_teacher": "呉錫畢",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "インターンシップⅠ",
+        "subject_teacher": "学科インターンシップ運営委員",
+        "subject_schedule": "その他"
+    },
+    {
+        "subject_name": "インターンシップⅡ",
+        "subject_teacher": "学科インターンシップ運営委員",
+        "subject_schedule": "その他"
+    },
+    {
+        "subject_name": "エコビジネス論",
+        "subject_teacher": "島袋伊津子９回、齋藤２回、上江洲薫２回、砂川２回、山川１回",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "エネルギーと社会",
+        "subject_teacher": "玉栄章宏",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "演習Ⅰ",
+        "subject_teacher": "前泊博盛",
+        "subject_schedule": "月4"
+    },
+    {
+        "subject_name": "演習Ⅰ",
+        "subject_teacher": "伊藤拓馬",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "演習Ⅰ",
+        "subject_teacher": "渡久地朝央",
+        "subject_schedule": "月4"
+    },
+    {
+        "subject_name": "演習Ⅰ",
+        "subject_teacher": "小川護",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "演習Ⅰ",
+        "subject_teacher": "呉錫畢",
+        "subject_schedule": "月4"
+    },
+    {
+        "subject_name": "演習Ⅰ",
+        "subject_teacher": "根路銘もえ子",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "演習Ⅰ",
+        "subject_teacher": "島袋伊津子",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "演習Ⅰ",
+        "subject_teacher": "友知政樹",
+        "subject_schedule": "月4"
+    },
+    {
+        "subject_name": "演習Ⅰ",
+        "subject_teacher": "山川（矢敷）彩子",
+        "subject_schedule": "月4"
+    },
+    {
+        "subject_name": "演習Ⅰ",
+        "subject_teacher": "上江洲薫",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "演習Ⅰ",
+        "subject_teacher": "齋藤星耕",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "演習Ⅰ",
+        "subject_teacher": "砂川かおり",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "演習Ⅱ",
+        "subject_teacher": "齋藤星耕",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "演習Ⅱ",
+        "subject_teacher": "伊藤拓馬",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "演習Ⅱ",
+        "subject_teacher": "島袋伊津子",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "演習Ⅱ",
+        "subject_teacher": "砂川かおり",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "演習Ⅱ",
+        "subject_teacher": "前泊博盛",
+        "subject_schedule": "月4"
+    },
+    {
+        "subject_name": "演習Ⅱ",
+        "subject_teacher": "小川護",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "演習Ⅱ",
+        "subject_teacher": "呉錫畢",
+        "subject_schedule": "月4"
+    },
+    {
+        "subject_name": "演習Ⅱ",
+        "subject_teacher": "根路銘もえ子",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "演習Ⅱ",
+        "subject_teacher": "友知政樹",
+        "subject_schedule": "月4"
+    },
+    {
+        "subject_name": "演習Ⅱ",
+        "subject_teacher": "山川（矢敷）彩子",
+        "subject_schedule": "月4"
+    },
+    {
+        "subject_name": "演習Ⅱ",
+        "subject_teacher": "上江洲薫",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "演習Ⅱ",
+        "subject_teacher": "渡久地朝央",
+        "subject_schedule": "月4"
+    },
+    {
+        "subject_name": "演習Ⅲ",
+        "subject_teacher": "上江洲薫",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "演習Ⅲ",
+        "subject_teacher": "島袋伊津子",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "演習Ⅲ",
+        "subject_teacher": "前泊博盛",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "演習Ⅲ",
+        "subject_teacher": "山川（矢敷）彩子",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "演習Ⅲ",
+        "subject_teacher": "砂川かおり",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "演習Ⅲ",
+        "subject_teacher": "渡久地朝央",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "演習Ⅲ",
+        "subject_teacher": "齋藤星耕",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "演習Ⅲ",
+        "subject_teacher": "小川護",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "演習Ⅲ",
+        "subject_teacher": "呉錫畢",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "演習Ⅲ",
+        "subject_teacher": "根路銘もえ子",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "演習Ⅲ",
+        "subject_teacher": "友知政樹",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "演習Ⅳ",
+        "subject_teacher": "友知政樹",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "演習Ⅳ",
+        "subject_teacher": "島袋伊津子",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "演習Ⅳ",
+        "subject_teacher": "根路銘もえ子",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "演習Ⅳ",
+        "subject_teacher": "小川護",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "演習Ⅳ",
+        "subject_teacher": "呉錫畢",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "演習Ⅳ",
+        "subject_teacher": "山川（矢敷）彩子",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "演習Ⅳ",
+        "subject_teacher": "砂川かおり",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "演習Ⅳ",
+        "subject_teacher": "前泊博盛",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "演習Ⅳ",
+        "subject_teacher": "渡久地朝央",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "演習Ⅳ",
+        "subject_teacher": "齋藤星耕",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "演習Ⅳ",
+        "subject_teacher": "上江洲薫",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "沖縄経済論Ⅰ",
+        "subject_teacher": "前泊博盛",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "沖縄経済論Ⅱ",
+        "subject_teacher": "前泊博盛",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "沖縄社会統計セミナー",
+        "subject_teacher": "安里長従",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "沖縄の経済事情Ⅰ",
+        "subject_teacher": "_沖縄の経済事情Ⅰ教",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "環境アセスメントⅠ",
+        "subject_teacher": "木村英彰",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "環境アセスメントⅡ",
+        "subject_teacher": "木村英彰",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "環境会計",
+        "subject_teacher": "船越沙香",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "環境科学実験",
+        "subject_teacher": "齋藤星耕",
+        "subject_schedule": "火3・火4"
+    },
+    {
+        "subject_name": "環境教育論",
+        "subject_teacher": "砂川かおり",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "環境経営",
+        "subject_teacher": "船越沙香",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "環境経済学Ⅰ",
+        "subject_teacher": "呉錫畢",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "環境経済学Ⅰ",
+        "subject_teacher": "呉錫畢",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "環境経済学Ⅱ",
+        "subject_teacher": "呉錫畢",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "環境経済学Ⅱ",
+        "subject_teacher": "呉錫畢",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "環境資源論",
+        "subject_teacher": "山川（矢敷）彩子",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "環境政策特別講義Ⅰ（開発と環境）",
+        "subject_teacher": "原美登里",
+        "subject_schedule": ""
+    },
+    {
+        "subject_name": "環境政策論Ⅰ",
+        "subject_teacher": "高平兼司",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "環境政策論Ⅱ",
+        "subject_teacher": "砂川かおり",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "環境統計学Ⅰ",
+        "subject_teacher": "友知政樹",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "環境統計学Ⅱ",
+        "subject_teacher": "友知政樹",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "環境評価実践論",
+        "subject_teacher": "渡久地朝央",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "環境評価入門",
+        "subject_teacher": "渡久地朝央",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "環境法",
+        "subject_teacher": "砂川かおり",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "観光経済論",
+        "subject_teacher": "上江洲薫",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "観光情報論",
+        "subject_teacher": "根路銘もえ子",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "基礎演習Ⅰ",
+        "subject_teacher": "齋藤星耕",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "基礎演習Ⅰ",
+        "subject_teacher": "友知政樹",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "基礎演習Ⅰ",
+        "subject_teacher": "上江洲律子",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "基礎演習Ⅰ",
+        "subject_teacher": "伊藤拓馬",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "基礎演習Ⅰ",
+        "subject_teacher": "島袋伊津子",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "基礎演習Ⅰ",
+        "subject_teacher": "山川（矢敷）彩子",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "基礎演習Ⅰ",
+        "subject_teacher": "砂川かおり",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "基礎演習Ⅱ",
+        "subject_teacher": "齋藤星耕",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "基礎演習Ⅱ",
+        "subject_teacher": "砂川かおり",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "基礎演習Ⅱ",
+        "subject_teacher": "島袋伊津子",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "基礎演習Ⅱ",
+        "subject_teacher": "友知政樹",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "基礎演習Ⅱ",
+        "subject_teacher": "山川（矢敷）彩子",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "基礎演習Ⅱ",
+        "subject_teacher": "上江洲律子",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "基礎演習Ⅱ",
+        "subject_teacher": "伊藤拓馬",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "キャリアデザイン論",
+        "subject_teacher": "名嘉座元一",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "金融論Ⅰ",
+        "subject_teacher": "島袋伊津子",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "金融論Ⅱ",
+        "subject_teacher": "島袋伊津子",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "グローカルセミナーⅠ",
+        "subject_teacher": "砂川かおり",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "グローカルセミナーⅡ",
+        "subject_teacher": "砂川かおり",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "経済学入門Ⅰ",
+        "subject_teacher": "島袋伊津子",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "経済学入門Ⅱ",
+        "subject_teacher": "島袋伊津子",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "経済数学Ⅰ",
+        "subject_teacher": "根路銘もえ子",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "経済数学Ⅱ",
+        "subject_teacher": "根路銘もえ子",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "経済地理Ⅰ",
+        "subject_teacher": "小川護",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "経済地理Ⅱ",
+        "subject_teacher": "小川護",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "計量経済学Ⅰ",
+        "subject_teacher": "友知政樹",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "計量経済学Ⅱ",
+        "subject_teacher": "友知政樹",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "公害概論",
+        "subject_teacher": "玉栄章宏",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "交通と環境",
+        "subject_teacher": "玉栄章宏",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "国際経済論Ⅰ",
+        "subject_teacher": "鹿毛理恵",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "国際経済論Ⅱ",
+        "subject_teacher": "鹿毛理恵",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "産業と環境",
+        "subject_teacher": "山川（矢敷）彩子",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "産業連関論の応用",
+        "subject_teacher": "渡久地朝央",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "産業連関論の基礎",
+        "subject_teacher": "渡久地朝央",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "社会調査演習",
+        "subject_teacher": "小川護",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "社会調査論Ⅰ",
+        "subject_teacher": "千住直広",
+        "subject_schedule": "土3"
+    },
+    {
+        "subject_name": "社会調査論Ⅱ",
+        "subject_teacher": "千住直広",
+        "subject_schedule": "土3"
+    },
+    {
+        "subject_name": "集落地理論Ⅰ",
+        "subject_teacher": "崎浜靖",
+        "subject_schedule": "木5"
+    },
+    {
+        "subject_name": "集落地理論Ⅱ",
+        "subject_teacher": "濱里正史",
+        "subject_schedule": "木5"
+    },
+    {
+        "subject_name": "情報産業論",
+        "subject_teacher": "根路銘もえ子",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "情報社会論",
+        "subject_teacher": "根路銘もえ子",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "情報処理概論",
+        "subject_teacher": "大城絢子",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "情報リテラシー演習",
+        "subject_teacher": "赤嶺有平",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "情報リテラシー演習",
+        "subject_teacher": "根路銘もえ子",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "情報リテラシー演習",
+        "subject_teacher": "根路銘もえ子",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "情報リテラシー演習",
+        "subject_teacher": "赤嶺有平",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "人口食糧論",
+        "subject_teacher": "小川護",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "政策金融論",
+        "subject_teacher": "酒巻浩",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "生態学概論",
+        "subject_teacher": "佐藤寛之",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "地域開発論",
+        "subject_teacher": "藤原昌樹",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "地域環境政策入門",
+        "subject_teacher": "島袋伊津子、他専任教員",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "地域経済学Ⅰ",
+        "subject_teacher": "渡久地朝央",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "地域経済学Ⅱ",
+        "subject_teacher": "渡久地朝央",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "地域経済書講読Ⅰ",
+        "subject_teacher": "渡久地朝央",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "地域経済書講読Ⅱ",
+        "subject_teacher": "渡久地朝央",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "地域セミナーⅠ",
+        "subject_teacher": "伊藤拓馬",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "地域セミナーⅠ",
+        "subject_teacher": "友知政樹",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "地域セミナーⅠ",
+        "subject_teacher": "呉錫畢",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "地域セミナーⅠ",
+        "subject_teacher": "根路銘もえ子",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "地域セミナーⅠ",
+        "subject_teacher": "島袋伊津子",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "地域セミナーⅠ",
+        "subject_teacher": "山川（矢敷）彩子",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "地域セミナーⅠ",
+        "subject_teacher": "前泊博盛",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "地域セミナーⅠ",
+        "subject_teacher": "齋藤星耕",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "地域セミナーⅡ",
+        "subject_teacher": "齋藤星耕",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "地域セミナーⅡ",
+        "subject_teacher": "友知政樹",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "地域セミナーⅡ",
+        "subject_teacher": "砂川かおり",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "地域セミナーⅡ",
+        "subject_teacher": "小川護",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "地域セミナーⅡ",
+        "subject_teacher": "根路銘もえ子",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "地域セミナーⅡ",
+        "subject_teacher": "島袋伊津子",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "地域セミナーⅡ",
+        "subject_teacher": "山川（矢敷）彩子",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "地域セミナーⅡ",
+        "subject_teacher": "渡久地朝央",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "地理情報システム論Ⅰ",
+        "subject_teacher": "渡邊康志",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "地理情報システム論Ⅰ",
+        "subject_teacher": "渡邊康志",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "地理情報システム論Ⅱ",
+        "subject_teacher": "渡邊康志",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "統計情報処理Ⅰ",
+        "subject_teacher": "友知政樹",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "統計情報処理Ⅱ",
+        "subject_teacher": "友知政樹",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "島嶼経済論Ⅰ",
+        "subject_teacher": "玉城優希",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "島嶼経済論Ⅱ",
+        "subject_teacher": "玉城優希",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "島嶼環境論",
+        "subject_teacher": "齋藤星耕",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "都市環境論",
+        "subject_teacher": "上江洲薫",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "土壌学概論",
+        "subject_teacher": "齋藤星耕",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "農業と環境",
+        "subject_teacher": "齋藤星耕",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "農業と経済",
+        "subject_teacher": "藤原昌樹",
+        "subject_schedule": "月4"
+    },
+    {
+        "subject_name": "廃棄物論",
+        "subject_teacher": "玉栄章宏",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "ファイナンシャル・プランニングⅠ",
+        "subject_teacher": "名城佳枝",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "ファイナンシャル・プランニングⅡ",
+        "subject_teacher": "名城佳枝",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "不動産評価論",
+        "subject_teacher": "玉那覇兼雄",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "プログラミング演習",
+        "subject_teacher": "根路銘もえ子",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "プログラミング演習",
+        "subject_teacher": "根路銘もえ子",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "簿記原理Ⅰ",
+        "subject_teacher": "町田真子",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "簿記原理Ⅱ",
+        "subject_teacher": "上間功",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "マクロ経済学Ⅰ",
+        "subject_teacher": "渡久地朝央",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "マクロ経済学Ⅱ",
+        "subject_teacher": "渡久地朝央",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "ミクロ経済学Ⅰ",
+        "subject_teacher": "藤原昌樹",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "ミクロ経済学Ⅱ",
+        "subject_teacher": "藤原昌樹",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "琉球・沖縄経済史Ⅰ",
+        "subject_teacher": "前泊博盛",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "琉球・沖縄経済史Ⅱ",
+        "subject_teacher": "前泊博盛",
+        "subject_schedule": "木3"
+    }
+]

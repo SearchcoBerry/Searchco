@@ -1,0 +1,167 @@
+[
+    {
+        "subject_name": "エコロジーの思想",
+        "subject_teacher": "村井忠康",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "環境の倫理学",
+        "subject_teacher": "村井忠康",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "キャンパスライフの心理学",
+        "subject_teacher": "山岡明奈",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "キャンパスライフの心理学",
+        "subject_teacher": "山岡明奈",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "芸術学Ⅰ",
+        "subject_teacher": "浦本寛史",
+        "subject_schedule": "水5"
+    },
+    {
+        "subject_name": "芸術学Ⅱ",
+        "subject_teacher": "浦本寛史",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "コミュニケーション論",
+        "subject_teacher": "田添暢彦",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "コミュニケーション論",
+        "subject_teacher": "田添暢彦",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "心理学Ⅰ",
+        "subject_teacher": "山岡明奈",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "心理学Ⅰ",
+        "subject_teacher": "山岡明奈",
+        "subject_schedule": "水5"
+    },
+    {
+        "subject_name": "心理学Ⅱ",
+        "subject_teacher": "山岡明奈",
+        "subject_schedule": "水5"
+    },
+    {
+        "subject_name": "心理学Ⅱ",
+        "subject_teacher": "山岡明奈",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "女性と文化",
+        "subject_teacher": "粟国恭子",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "女性と文化",
+        "subject_teacher": "粟国恭子",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "女性と歴史",
+        "subject_teacher": "粟国恭子",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "世界の歴史Ⅰ",
+        "subject_teacher": "藤波潔",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "世界の歴史Ⅱ",
+        "subject_teacher": "藤波潔",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "哲学Ⅰ",
+        "subject_teacher": "村井忠康",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "哲学Ⅱ",
+        "subject_teacher": "村井忠康",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "日本の歴史Ⅰ",
+        "subject_teacher": "市川智生",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "日本の歴史Ⅱ",
+        "subject_teacher": "市川智生",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "人間文化課題研究Ⅰ",
+        "subject_teacher": "村井忠康",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "人間文化課題研究Ⅰ",
+        "subject_teacher": "兼本敏",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "人間文化課題研究Ⅰ",
+        "subject_teacher": "市川智生",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "人間文化課題研究Ⅱ",
+        "subject_teacher": "村井忠康",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "人間文化課題研究Ⅱ",
+        "subject_teacher": "兼本敏",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "人間文化課題研究Ⅱ",
+        "subject_teacher": "市川智生",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "フェミニズム思想",
+        "subject_teacher": "具志堅邦子",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "文学Ⅰ",
+        "subject_teacher": "岡野薫",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "文学Ⅱ",
+        "subject_teacher": "上江洲律子",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "平和と文化",
+        "subject_teacher": "吉川由紀",
+        "subject_schedule": "水5"
+    },
+    {
+        "subject_name": "倫理学Ⅰ",
+        "subject_teacher": "大城信哉",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "倫理学Ⅱ",
+        "subject_teacher": "大城信哉",
+        "subject_schedule": "木4"
+    }
+]

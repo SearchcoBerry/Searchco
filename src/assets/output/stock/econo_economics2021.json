@@ -1,0 +1,787 @@
+[
+  {
+    "subject_name": "アジア経済論Ⅰ",
+    "subject_teacher": "鹿毛理恵",
+    "subject_schedule": "火2"
+  },
+  {
+    "subject_name": "アジア経済論Ⅱ",
+    "subject_teacher": "鹿毛理恵",
+    "subject_schedule": "月2"
+  },
+  {
+    "subject_name": "インターネットと経済学",
+    "subject_teacher": "浦本寛史",
+    "subject_schedule": "月5"
+  },
+  {
+    "subject_name": "インターンシップⅠ",
+    "subject_teacher": "学科インターンシップ運営委員",
+    "subject_schedule": "その他"
+  },
+  {
+    "subject_name": "インターンシップⅡ",
+    "subject_teacher": "学科インターンシップ運営委員",
+    "subject_schedule": "その他"
+  },
+  {
+    "subject_name": "欧米経済論Ⅰ",
+    "subject_teacher": "村上了太",
+    "subject_schedule": "水2"
+  },
+  {
+    "subject_name": "欧米経済論Ⅱ",
+    "subject_teacher": "村上了太",
+    "subject_schedule": "水2"
+  },
+  {
+    "subject_name": "応用マクロ経済学",
+    "subject_teacher": "高哲央",
+    "subject_schedule": "火2"
+  },
+  {
+    "subject_name": "応用ミクロ経済学",
+    "subject_teacher": "比嘉正茂",
+    "subject_schedule": "火2"
+  },
+  {
+    "subject_name": "沖縄経済入門",
+    "subject_teacher": "比嘉、村上、浦本、名嘉座、平敷、宮城、崎浜、高、安藤、小濱、鹿毛、大城",
+    "subject_schedule": "木2"
+  },
+  {
+    "subject_name": "沖縄経済論",
+    "subject_teacher": "平敷卓",
+    "subject_schedule": "月2"
+  },
+  {
+    "subject_name": "沖縄の経済事情Ⅰ",
+    "subject_teacher": "_沖縄の経済事情Ⅰ教",
+    "subject_schedule": "水4"
+  },
+  {
+    "subject_name": "企業と産業の経済学Ⅰ",
+    "subject_teacher": "宮城和宏",
+    "subject_schedule": "月2"
+  },
+  {
+    "subject_name": "企業と産業の経済学Ⅱ",
+    "subject_teacher": "宮城和宏",
+    "subject_schedule": "月2"
+  },
+  {
+    "subject_name": "企業分析",
+    "subject_teacher": "安藤由美",
+    "subject_schedule": "木3"
+  },
+  {
+    "subject_name": "基礎演習Ⅰ",
+    "subject_teacher": "大城絢子",
+    "subject_schedule": "月4"
+  },
+  {
+    "subject_name": "基礎演習Ⅰ",
+    "subject_teacher": "村上了太",
+    "subject_schedule": "月4"
+  },
+  {
+    "subject_name": "基礎演習Ⅰ",
+    "subject_teacher": "崎浜靖",
+    "subject_schedule": "月4"
+  },
+  {
+    "subject_name": "基礎演習Ⅰ",
+    "subject_teacher": "宮城和宏",
+    "subject_schedule": "月4"
+  },
+  {
+    "subject_name": "基礎演習Ⅰ",
+    "subject_teacher": "浦本寛史",
+    "subject_schedule": "月4"
+  },
+  {
+    "subject_name": "基礎演習Ⅰ",
+    "subject_teacher": "平敷卓",
+    "subject_schedule": "月4"
+  },
+  {
+    "subject_name": "基礎演習Ⅰ",
+    "subject_teacher": "名嘉座元一",
+    "subject_schedule": "月4"
+  },
+  {
+    "subject_name": "基礎演習Ⅰ",
+    "subject_teacher": "小濱武",
+    "subject_schedule": "月4"
+  },
+  {
+    "subject_name": "基礎演習Ⅱ",
+    "subject_teacher": "平敷卓",
+    "subject_schedule": "月4"
+  },
+  {
+    "subject_name": "基礎演習Ⅱ",
+    "subject_teacher": "名嘉座元一",
+    "subject_schedule": "月4"
+  },
+  {
+    "subject_name": "基礎演習Ⅱ",
+    "subject_teacher": "村上了太",
+    "subject_schedule": "月4"
+  },
+  {
+    "subject_name": "基礎演習Ⅱ",
+    "subject_teacher": "崎浜靖",
+    "subject_schedule": "月4"
+  },
+  {
+    "subject_name": "基礎演習Ⅱ",
+    "subject_teacher": "宮城和宏",
+    "subject_schedule": "月4"
+  },
+  {
+    "subject_name": "基礎演習Ⅱ",
+    "subject_teacher": "小濱武",
+    "subject_schedule": "月4"
+  },
+  {
+    "subject_name": "基礎演習Ⅱ",
+    "subject_teacher": "大城絢子",
+    "subject_schedule": "月4"
+  },
+  {
+    "subject_name": "基礎演習Ⅱ",
+    "subject_teacher": "浦本寛史",
+    "subject_schedule": "月4"
+  },
+  {
+    "subject_name": "基礎演習Ⅲ",
+    "subject_teacher": "宮城和宏",
+    "subject_schedule": "月3"
+  },
+  {
+    "subject_name": "基礎演習Ⅲ",
+    "subject_teacher": "平敷卓",
+    "subject_schedule": "月3"
+  },
+  {
+    "subject_name": "基礎演習Ⅲ",
+    "subject_teacher": "比嘉正茂",
+    "subject_schedule": "月3"
+  },
+  {
+    "subject_name": "基礎演習Ⅲ",
+    "subject_teacher": "鹿毛理恵",
+    "subject_schedule": "月3"
+  },
+  {
+    "subject_name": "基礎演習Ⅲ",
+    "subject_teacher": "村上了太",
+    "subject_schedule": "月3"
+  },
+  {
+    "subject_name": "基礎演習Ⅲ",
+    "subject_teacher": "名嘉座元一",
+    "subject_schedule": "月3"
+  },
+  {
+    "subject_name": "基礎演習Ⅲ",
+    "subject_teacher": "安藤由美",
+    "subject_schedule": "月3"
+  },
+  {
+    "subject_name": "基礎演習Ⅲ",
+    "subject_teacher": "浦本寛史",
+    "subject_schedule": "月3"
+  },
+  {
+    "subject_name": "基礎演習Ⅲ",
+    "subject_teacher": "高哲央",
+    "subject_schedule": "月3"
+  },
+  {
+    "subject_name": "基礎演習Ⅳ",
+    "subject_teacher": "宮城和宏",
+    "subject_schedule": "月3"
+  },
+  {
+    "subject_name": "基礎演習Ⅳ",
+    "subject_teacher": "高哲央",
+    "subject_schedule": "月3"
+  },
+  {
+    "subject_name": "基礎演習Ⅳ",
+    "subject_teacher": "村上了太",
+    "subject_schedule": "月3"
+  },
+  {
+    "subject_name": "基礎演習Ⅳ",
+    "subject_teacher": "名嘉座元一",
+    "subject_schedule": "月3"
+  },
+  {
+    "subject_name": "基礎演習Ⅳ",
+    "subject_teacher": "安藤由美",
+    "subject_schedule": "月3"
+  },
+  {
+    "subject_name": "基礎演習Ⅳ",
+    "subject_teacher": "浦本寛史",
+    "subject_schedule": "月3"
+  },
+  {
+    "subject_name": "基礎演習Ⅳ",
+    "subject_teacher": "平敷卓",
+    "subject_schedule": "月3"
+  },
+  {
+    "subject_name": "基礎演習Ⅳ",
+    "subject_teacher": "比嘉正茂",
+    "subject_schedule": "月3"
+  },
+  {
+    "subject_name": "基礎演習Ⅳ",
+    "subject_teacher": "鹿毛理恵",
+    "subject_schedule": "月3"
+  },
+  {
+    "subject_name": "キャリアデザイン論",
+    "subject_teacher": "名嘉座元一",
+    "subject_schedule": "木2"
+  },
+  {
+    "subject_name": "金融投資Ⅰ",
+    "subject_teacher": "安藤由美",
+    "subject_schedule": "火2"
+  },
+  {
+    "subject_name": "金融投資Ⅱ",
+    "subject_teacher": "安藤由美",
+    "subject_schedule": "火2"
+  },
+  {
+    "subject_name": "経営学Ⅰ",
+    "subject_teacher": "村上了太",
+    "subject_schedule": "水1"
+  },
+  {
+    "subject_name": "経営学Ⅱ",
+    "subject_teacher": "村上了太",
+    "subject_schedule": "水1"
+  },
+  {
+    "subject_name": "経済学史Ⅰ",
+    "subject_teacher": "未定",
+    "subject_schedule": "水2"
+  },
+  {
+    "subject_name": "経済学史Ⅱ",
+    "subject_teacher": "未定",
+    "subject_schedule": "金2"
+  },
+  {
+    "subject_name": "経済学特別講義Ⅲ（日本経済事情）",
+    "subject_teacher": "櫻澤誠",
+    "subject_schedule": "集中"
+  },
+  {
+    "subject_name": "経済学入門",
+    "subject_teacher": "比嘉、名嘉座、崎浜、浦本、宮城、平敷、村上、小濱、安藤、大城、鹿毛、高",
+    "subject_schedule": "土2"
+  },
+  {
+    "subject_name": "経済史入門",
+    "subject_teacher": "未定",
+    "subject_schedule": "月1"
+  },
+  {
+    "subject_name": "経済情報処理Ⅰ",
+    "subject_teacher": "大城絢子",
+    "subject_schedule": "木3"
+  },
+  {
+    "subject_name": "経済情報処理Ⅱ",
+    "subject_teacher": "大城絢子",
+    "subject_schedule": "木3"
+  },
+  {
+    "subject_name": "経済数学",
+    "subject_teacher": "大城絢子",
+    "subject_schedule": "水2"
+  },
+  {
+    "subject_name": "経済政策総論Ⅰ",
+    "subject_teacher": "平敷卓",
+    "subject_schedule": "木1"
+  },
+  {
+    "subject_name": "経済政策総論Ⅱ",
+    "subject_teacher": "比嘉正茂",
+    "subject_schedule": "月4"
+  },
+  {
+    "subject_name": "経済地理Ⅰ",
+    "subject_teacher": "崎浜靖",
+    "subject_schedule": "木1"
+  },
+  {
+    "subject_name": "経済地理Ⅱ",
+    "subject_teacher": "崎浜靖",
+    "subject_schedule": "木1"
+  },
+  {
+    "subject_name": "経済データ",
+    "subject_teacher": "名嘉座元一",
+    "subject_schedule": "火1"
+  },
+  {
+    "subject_name": "経済統計学",
+    "subject_teacher": "大城絢子",
+    "subject_schedule": "水2"
+  },
+  {
+    "subject_name": "経済と社会",
+    "subject_teacher": "平敷卓",
+    "subject_schedule": "木3"
+  },
+  {
+    "subject_name": "計量経済学Ⅰ",
+    "subject_teacher": "大城絢子",
+    "subject_schedule": "水1"
+  },
+  {
+    "subject_name": "計量経済学Ⅱ",
+    "subject_teacher": "大城絢子",
+    "subject_schedule": "水1"
+  },
+  {
+    "subject_name": "公共経済学",
+    "subject_teacher": "比嘉正茂",
+    "subject_schedule": "月2"
+  },
+  {
+    "subject_name": "国際経済論Ⅰ",
+    "subject_teacher": "鹿毛理恵",
+    "subject_schedule": "水4"
+  },
+  {
+    "subject_name": "国際経済論Ⅱ",
+    "subject_teacher": "鹿毛理恵",
+    "subject_schedule": "水4"
+  },
+  {
+    "subject_name": "産業政策論",
+    "subject_teacher": "比嘉正茂",
+    "subject_schedule": "火2"
+  },
+  {
+    "subject_name": "財政学Ⅰ",
+    "subject_teacher": "高哲央",
+    "subject_schedule": "月2"
+  },
+  {
+    "subject_name": "財政学Ⅱ",
+    "subject_teacher": "高哲央",
+    "subject_schedule": "月2"
+  },
+  {
+    "subject_name": "社会思想史",
+    "subject_teacher": "未定",
+    "subject_schedule": "水1"
+  },
+  {
+    "subject_name": "社会保障論",
+    "subject_teacher": "高哲央",
+    "subject_schedule": "火2"
+  },
+  {
+    "subject_name": "集落地理論Ⅰ",
+    "subject_teacher": "崎浜靖",
+    "subject_schedule": "木5"
+  },
+  {
+    "subject_name": "集落地理論Ⅱ",
+    "subject_teacher": "濱里正史",
+    "subject_schedule": "木5"
+  },
+  {
+    "subject_name": "情報システムⅠ",
+    "subject_teacher": "真栄田好史",
+    "subject_schedule": "木4"
+  },
+  {
+    "subject_name": "情報システムⅡ",
+    "subject_teacher": "真栄田好史",
+    "subject_schedule": "木4"
+  },
+  {
+    "subject_name": "情報処理概論",
+    "subject_teacher": "大城絢子",
+    "subject_schedule": "木1"
+  },
+  {
+    "subject_name": "情報と社会",
+    "subject_teacher": "浦本寛史",
+    "subject_schedule": "水4"
+  },
+  {
+    "subject_name": "情報文化論Ⅰ",
+    "subject_teacher": "浦本寛史",
+    "subject_schedule": "木4"
+  },
+  {
+    "subject_name": "情報文化論Ⅱ",
+    "subject_teacher": "浦本寛史",
+    "subject_schedule": "木4"
+  },
+  {
+    "subject_name": "情報リテラシー演習",
+    "subject_teacher": "與那覇徹也",
+    "subject_schedule": "金3"
+  },
+  {
+    "subject_name": "情報リテラシー演習",
+    "subject_teacher": "安藤由美",
+    "subject_schedule": "木1"
+  },
+  {
+    "subject_name": "情報リテラシー演習",
+    "subject_teacher": "大城絢子",
+    "subject_schedule": "木1"
+  },
+  {
+    "subject_name": "西洋経済史Ⅰ",
+    "subject_teacher": "未定",
+    "subject_schedule": "火5"
+  },
+  {
+    "subject_name": "西洋経済史Ⅱ",
+    "subject_teacher": "未定",
+    "subject_schedule": "火1"
+  },
+  {
+    "subject_name": "専門演習ⅠＡ",
+    "subject_teacher": "平敷卓",
+    "subject_schedule": "火3"
+  },
+  {
+    "subject_name": "専門演習ⅠＡ",
+    "subject_teacher": "高哲央",
+    "subject_schedule": "火3"
+  },
+  {
+    "subject_name": "専門演習ⅠＡ",
+    "subject_teacher": "村上了太",
+    "subject_schedule": "火3"
+  },
+  {
+    "subject_name": "専門演習ⅠＡ",
+    "subject_teacher": "安藤由美",
+    "subject_schedule": "火3"
+  },
+  {
+    "subject_name": "専門演習ⅠＡ",
+    "subject_teacher": "浦本寛史",
+    "subject_schedule": "火3"
+  },
+  {
+    "subject_name": "専門演習ⅠＡ",
+    "subject_teacher": "比嘉正茂",
+    "subject_schedule": "火3"
+  },
+  {
+    "subject_name": "専門演習ⅠＡ",
+    "subject_teacher": "小濱武",
+    "subject_schedule": "月3"
+  },
+  {
+    "subject_name": "専門演習ⅠＡ",
+    "subject_teacher": "鹿毛理恵",
+    "subject_schedule": "火3"
+  },
+  {
+    "subject_name": "専門演習ⅠＡ",
+    "subject_teacher": "宮城和宏",
+    "subject_schedule": "水4"
+  },
+  {
+    "subject_name": "専門演習ⅠＢ",
+    "subject_teacher": "平敷卓",
+    "subject_schedule": "火3"
+  },
+  {
+    "subject_name": "専門演習ⅠＢ",
+    "subject_teacher": "鹿毛理恵",
+    "subject_schedule": "火3"
+  },
+  {
+    "subject_name": "専門演習ⅠＢ",
+    "subject_teacher": "安藤由美",
+    "subject_schedule": "火3"
+  },
+  {
+    "subject_name": "専門演習ⅠＢ",
+    "subject_teacher": "浦本寛史",
+    "subject_schedule": "火3"
+  },
+  {
+    "subject_name": "専門演習ⅠＢ",
+    "subject_teacher": "比嘉正茂",
+    "subject_schedule": "火3"
+  },
+  {
+    "subject_name": "専門演習ⅠＢ",
+    "subject_teacher": "小濱武",
+    "subject_schedule": "月3"
+  },
+  {
+    "subject_name": "専門演習ⅠＢ",
+    "subject_teacher": "高哲央",
+    "subject_schedule": "火3"
+  },
+  {
+    "subject_name": "専門演習ⅠＢ",
+    "subject_teacher": "村上了太",
+    "subject_schedule": "火3"
+  },
+  {
+    "subject_name": "専門演習ⅠＢ",
+    "subject_teacher": "宮城和宏",
+    "subject_schedule": "水4"
+  },
+  {
+    "subject_name": "専門演習ⅡＡ",
+    "subject_teacher": "小濱武",
+    "subject_schedule": "火2"
+  },
+  {
+    "subject_name": "専門演習ⅡＡ",
+    "subject_teacher": "高哲央",
+    "subject_schedule": "火4"
+  },
+  {
+    "subject_name": "専門演習ⅡＡ",
+    "subject_teacher": "村上了太",
+    "subject_schedule": "火4"
+  },
+  {
+    "subject_name": "専門演習ⅡＡ",
+    "subject_teacher": "名嘉座元一",
+    "subject_schedule": "火4"
+  },
+  {
+    "subject_name": "専門演習ⅡＡ",
+    "subject_teacher": "宮城和宏",
+    "subject_schedule": "水5"
+  },
+  {
+    "subject_name": "専門演習ⅡＡ",
+    "subject_teacher": "安藤由美",
+    "subject_schedule": "火4"
+  },
+  {
+    "subject_name": "専門演習ⅡＡ",
+    "subject_teacher": "浦本寛史",
+    "subject_schedule": "火4"
+  },
+  {
+    "subject_name": "専門演習ⅡＡ",
+    "subject_teacher": "平敷卓",
+    "subject_schedule": "火4"
+  },
+  {
+    "subject_name": "専門演習ⅡＡ",
+    "subject_teacher": "比嘉正茂",
+    "subject_schedule": "火4"
+  },
+  {
+    "subject_name": "専門演習ⅡＡ",
+    "subject_teacher": "鹿毛理恵",
+    "subject_schedule": "火4"
+  },
+  {
+    "subject_name": "専門演習ⅡＢ",
+    "subject_teacher": "小濱武",
+    "subject_schedule": "火2"
+  },
+  {
+    "subject_name": "専門演習ⅡＢ",
+    "subject_teacher": "高哲央",
+    "subject_schedule": "火4"
+  },
+  {
+    "subject_name": "専門演習ⅡＢ",
+    "subject_teacher": "鹿毛理恵",
+    "subject_schedule": "火4"
+  },
+  {
+    "subject_name": "専門演習ⅡＢ",
+    "subject_teacher": "村上了太",
+    "subject_schedule": "火4"
+  },
+  {
+    "subject_name": "専門演習ⅡＢ",
+    "subject_teacher": "名嘉座元一",
+    "subject_schedule": "火4"
+  },
+  {
+    "subject_name": "専門演習ⅡＢ",
+    "subject_teacher": "宮城和宏",
+    "subject_schedule": "水5"
+  },
+  {
+    "subject_name": "専門演習ⅡＢ",
+    "subject_teacher": "安藤由美",
+    "subject_schedule": "火4"
+  },
+  {
+    "subject_name": "専門演習ⅡＢ",
+    "subject_teacher": "浦本寛史",
+    "subject_schedule": "火4"
+  },
+  {
+    "subject_name": "専門演習ⅡＢ",
+    "subject_teacher": "平敷卓",
+    "subject_schedule": "火4"
+  },
+  {
+    "subject_name": "専門演習ⅡＢ",
+    "subject_teacher": "比嘉正茂",
+    "subject_schedule": "火4"
+  },
+  {
+    "subject_name": "地域経済論",
+    "subject_teacher": "平敷卓",
+    "subject_schedule": "月1"
+  },
+  {
+    "subject_name": "地方財政論Ⅰ",
+    "subject_teacher": "名嘉座元一",
+    "subject_schedule": "月2"
+  },
+  {
+    "subject_name": "地方財政論Ⅱ",
+    "subject_teacher": "名嘉座元一",
+    "subject_schedule": "月2"
+  },
+  {
+    "subject_name": "中小企業論Ⅰ",
+    "subject_teacher": "宮城和宏",
+    "subject_schedule": "金2"
+  },
+  {
+    "subject_name": "中小企業論Ⅱ",
+    "subject_teacher": "宮城和宏",
+    "subject_schedule": "金2"
+  },
+  {
+    "subject_name": "日本経済史Ⅰ",
+    "subject_teacher": "小濱武",
+    "subject_schedule": "水5"
+  },
+  {
+    "subject_name": "日本経済史Ⅱ",
+    "subject_teacher": "小濱武",
+    "subject_schedule": "水5"
+  },
+  {
+    "subject_name": "日本経済論Ⅰ",
+    "subject_teacher": "小濱武",
+    "subject_schedule": "水4"
+  },
+  {
+    "subject_name": "日本経済論Ⅱ",
+    "subject_teacher": "小濱武",
+    "subject_schedule": "水4"
+  },
+  {
+    "subject_name": "ファイナンシャル・プランニング",
+    "subject_teacher": "安藤由美",
+    "subject_schedule": "月2・水2"
+  },
+  {
+    "subject_name": "福祉国家論",
+    "subject_teacher": "平敷卓",
+    "subject_schedule": "木1"
+  },
+  {
+    "subject_name": "貿易実務Ⅰ",
+    "subject_teacher": "新垣勝弘",
+    "subject_schedule": "火4"
+  },
+  {
+    "subject_name": "貿易実務Ⅱ",
+    "subject_teacher": "新垣勝弘",
+    "subject_schedule": "火4"
+  },
+  {
+    "subject_name": "簿記",
+    "subject_teacher": "安藤由美",
+    "subject_schedule": "月4・木4"
+  },
+  {
+    "subject_name": "マクロ経済学Ａ",
+    "subject_teacher": "小濱武",
+    "subject_schedule": "火1"
+  },
+  {
+    "subject_name": "マクロ経済学Ａ",
+    "subject_teacher": "高哲央",
+    "subject_schedule": "金1"
+  },
+  {
+    "subject_name": "マクロ経済学Ｂ",
+    "subject_teacher": "高哲央",
+    "subject_schedule": "金1"
+  },
+  {
+    "subject_name": "マクロ経済学Ｂ",
+    "subject_teacher": "小濱武",
+    "subject_schedule": "火1"
+  },
+  {
+    "subject_name": "マルチメディア表現",
+    "subject_teacher": "浦本寛史",
+    "subject_schedule": "水4"
+  },
+  {
+    "subject_name": "ミクロ経済学Ａ",
+    "subject_teacher": "比嘉正茂",
+    "subject_schedule": "月1"
+  },
+  {
+    "subject_name": "ミクロ経済学Ａ",
+    "subject_teacher": "名嘉座元一",
+    "subject_schedule": "水1"
+  },
+  {
+    "subject_name": "ミクロ経済学Ｂ",
+    "subject_teacher": "名嘉座元一",
+    "subject_schedule": "水1"
+  },
+  {
+    "subject_name": "ミクロ経済学Ｂ",
+    "subject_teacher": "比嘉正茂",
+    "subject_schedule": "月1"
+  },
+  {
+    "subject_name": "理論経済学Ⅰ",
+    "subject_teacher": "小濱武",
+    "subject_schedule": "火4"
+  },
+  {
+    "subject_name": "理論経済学Ⅱ",
+    "subject_teacher": "小濱武",
+    "subject_schedule": "火4"
+  },
+  {
+    "subject_name": "労働経済学Ⅰ",
+    "subject_teacher": "名嘉座元一",
+    "subject_schedule": "水3"
+  },
+  {
+    "subject_name": "労働経済学Ⅱ",
+    "subject_teacher": "名嘉座元一",
+    "subject_schedule": "水3"
+  }
+]

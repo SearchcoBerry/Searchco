@@ -1,0 +1,150 @@
+[
+    {
+        "label": "人間文化科目群",
+        "code": "com_humanculture2021.pdf"
+    },
+    {
+        "label": "社会生活科目群",
+        "code": "com_sociallife2021.pdf"
+    },
+    {
+        "label": "自然環境科目群",
+        "code": "com_naturalenvironment2021.pdf"
+    },
+    {
+        "label": "国際理解科目群",
+        "code": "com_internationalunderstanding2021.pdf"
+    },
+    {
+        "label": "情報科目群",
+        "code": "com_information2021.pdf"
+    },
+    {
+        "label": "沖縄科目群",
+        "code": "com_okinawa2021.pdf"
+    },
+    {
+        "label": "健康科目群",
+        "code": "com_health2021.pdf"
+    },
+    {
+        "label": "外国語科目群（英語）",
+        "code": "com_english2021.pdf"
+    },
+    {
+        "label": "外国語科目群（英語以外）",
+        "code": "com_foreignlanguage2021.pdf"
+    },
+    {
+        "label": "キャリア科目群",
+        "code": "com_careereducation2021.pdf"
+    },
+    {
+        "label": "法律学科",
+        "code": "law_law2021.pdf"
+    },
+    {
+        "label": "地域行政学科",
+        "code": "law_regionaladministration2021.pdf"
+    },
+    {
+        "label": "経済学科",
+        "code": "econo_economics2021.pdf"
+    },
+    {
+        "label": "地域環境政策学科",
+        "code": "econo_regionalenvironmentalpolicy2021.pdf"
+    },
+    {
+        "label": "企業システム学科",
+        "code": "industrial_businessadministration2021.pdf"
+    },
+    {
+        "label": "産業情報学科",
+        "code": "industrial_industrialinformation2021.pdf"
+    },
+    {
+        "label": "日本文化学科",
+        "code": "global_japaneselanguageandculture2021.pdf"
+    },
+    {
+        "label": "英米言語文化学科",
+        "code": "global_britishandamericanlanguage2021.pdf"
+    },
+    {
+        "label": "社会文化学科",
+        "code": "global_societyandregionalculture2021.pdf"
+    },
+    {
+        "label": "人間福祉学科",
+        "code": "global_humanwelfare2021.pdf"
+    },
+    {
+        "label": "南島文化専攻",
+        "code": "gr_rc_ryukyuanculture2021.pdf"
+    },
+    {
+        "label": "英米言語文化専攻",
+        "code": "gr_rc_britishandamericanstudies2021.pdf"
+    },
+    {
+        "label": "人間福祉専攻",
+        "code": "gr_rc_humanwelfare2021.pdf"
+    },
+    {
+        "label": "地域産業専攻",
+        "code": "gr_regionalbusinessandeconomics2021.pdf"
+    },
+    {
+        "label": "法律学専攻",
+        "code": "gr_law2021.pdf"
+    },
+    {
+        "label": "教職課程",
+        "code": "qualification_tp2021.pdf"
+    },
+    {
+        "label": "博物館学芸員",
+        "code": "qualification_museum2021.pdf"
+    },
+    {
+        "label": "図書館司書",
+        "code": "qualification_library2021.pdf"
+    },
+    {
+        "label": "学校図書館司書教諭",
+        "code": "qualification_schoollibrary2021.pdf"
+    },
+    {
+        "label": "上級情報処理士／上級ビジネス実務士",
+        "code": "qualification_informationprocessing2021.pdf"
+    },
+    {
+        "label": "社会福祉士",
+        "code": "qualification_socialworker2021.pdf"
+    },
+    {
+        "label": "精神保健福祉士",
+        "code": "qualification_psychiatricsocialworker2021.pdf"
+    },
+    {
+        "label": "スクール・ソーシャルワーカー",
+        "code": "qualification_ssocialworker2021.pdf"
+    },
+    {
+        "label": "日本語教員",
+        "code": "qualification_japaneseteacher2021.pdf"
+    },
+    {
+        "label": "公認心理師",
+        "code": "qualification_licensed psychologists2021.pdf"
+    },
+    {
+        "label": "日本語科目",
+        "code": "gaikokujinn_nihongo2021.pdf"
+    },
+    {
+        "label": "実務経験のある教員等による授業科目",
+        "code": "jitsumu_jitsumu2021.pdf"
+    }
+]

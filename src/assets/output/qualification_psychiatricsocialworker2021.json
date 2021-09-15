@@ -1,0 +1,67 @@
+[
+    {
+        "subject_name": "精神保健福祉援助演習（Ⅰ）",
+        "subject_teacher": "知名孝",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "精神保健福祉援助演習（Ⅱ）",
+        "subject_teacher": "比嘉俊江・熊谷晋",
+        "subject_schedule": "月6"
+    },
+    {
+        "subject_name": "精神保健福祉援助演習（Ⅲ）",
+        "subject_teacher": "知名孝",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "精神保健福祉援助実習指導（Ⅰ）",
+        "subject_teacher": "知名孝",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "精神保健福祉援助実習指導（Ⅱ）",
+        "subject_teacher": "知名孝",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "精神保健福祉援助実習指導（Ⅲ）",
+        "subject_teacher": "知名孝",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "精神保健福祉の理論と相談援助の展開Ⅱ",
+        "subject_teacher": "知名孝・伊井統章・山川ゆかり",
+        "subject_schedule": "金5"
+    },
+    {
+        "subject_name": "精神保健福祉の理論と相談援助の展開Ⅲ",
+        "subject_teacher": "山城涼子",
+        "subject_schedule": "火6"
+    },
+    {
+        "subject_name": "精神保健福祉の理論と相談援助の展開Ⅳ",
+        "subject_teacher": "諸留将人（8）、安村勤（8）",
+        "subject_schedule": "火6"
+    },
+    {
+        "subject_name": "ソーシャルワーク演習",
+        "subject_teacher": "樋口美智子",
+        "subject_schedule": "火5"
+    },
+    {
+        "subject_name": "ソーシャルワーク演習",
+        "subject_teacher": "比嘉昌哉",
+        "subject_schedule": "火5"
+    },
+    {
+        "subject_name": "ソーシャルワーク演習",
+        "subject_teacher": "知名孝",
+        "subject_schedule": "火5"
+    },
+    {
+        "subject_name": "ソーシャルワーク演習",
+        "subject_teacher": "岩田直子",
+        "subject_schedule": "火5"
+    }
+]
