@@ -5,7 +5,7 @@ import pprint
 import time
 
 # エクセルファイルのロード
-excel_path='2021jikanwari_kensaku.xlsx'
+excel_path = '2021jikanwari_kensaku.xlsx'
 workbook = openpyxl.load_workbook(filename=excel_path, read_only=True)
 
 # シートのロード
@@ -16,9 +16,9 @@ sheet = workbook['後期']
 # 範囲データ取得
 sheet_range = sheet['A3':'M1164']
 
-gakubu = [] 
-gakka = [] 
-No  = [] 
+gakubu = []
+gakka = []
+No = []
 niti = []
 gen = []
 gakki = []
@@ -83,12 +83,7 @@ for i in range(len(kamoku)):
 
     json_list.append(data)
 output_name = './output/timetable.json'
-output_name = output_name.replace('./pdf/','')
+output_name = output_name.replace('./pdf/', '')
 with open(output_name, 'w') as file:
     json.dump(json_list, file, indent=4, ensure_ascii=False)
 print("Success!!")
-
-
-
-
-
