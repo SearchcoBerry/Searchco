@@ -115,14 +115,13 @@ def generation_dict(key):
     return dict_name[key].rstrip('\n')
 
 
-
 def convert_json(excel_path='syllabus.xlsx'):
     excel_path = './input/' + excel_path
     workbook = openpyxl.load_workbook(filename=excel_path, read_only=False)
     # シートのロード
     sheet = workbook['Sheet1']
     f = open('log.txt', 'a')
-
+    """
     for row in sheet.iter_cols():
         for cell in row:
             # print("行:" + str(cell.row), "列:" + str(cell.column))
@@ -130,15 +129,31 @@ def convert_json(excel_path='syllabus.xlsx'):
             # f.write("行:" + str(cell.row) + "列:" + str(cell.column) + " " + str(cell.value) + '\n')
             if cell.row >= 2:
                 f.write("行:" + str(cell.row) + "列:" + str(cell.column) + " " + str(cell.value) + '\n')
-                """
                 if sheet.cell(row=1, column=cell.column).value == 'subject':
                     print(cell.value)
-                """
                 print(generation_dict(int(cell.column) - 1))
+    """
+    json_list = []
+    first_counter = True
+    for row in sheet.iter_rows():
+        if first_counter:
+            first_counter = False
+            continue
+        else:
+            data = OrderedDict()
+        for cell in row:
+            # print("行:" + str(cell.row), "列:" + str(cell.column))
+            # print(cell.value)
+            # f.write("行:" + str(cell.row) + "列:" + str(cell.column) + " " + str(cell.value) + '\n')
+            if cell.row >= 2:
+                # print("行:" + str(cell.row) + "列:" + str(cell.column) + " " + str(cell.value) + '\n')
+                # print(generation_dict(int(cell.column) - 1))
+                data[generation_dict(int(cell.column) - 1)] = cell.value
+        json_list.append(data)
+    output_name = './test_data.json'
+    with open(output_name, 'w') as file:
+        json.dump(json_list, file, indent=4, ensure_ascii=False)
 
-    f.close()
-# convert_json()
+    print("Success!!")
 
-
-# print(generation_dict(0))
 convert_json()
