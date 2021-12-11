@@ -112,8 +112,12 @@ def generation_dict(key):
     f = open('./input/dict_name.txt', 'r')
     dict_name = f.readlines()
     f.close()
-    return dict_name[key].rstrip('\n')
-
+    if key <= 20 or key >= 83:
+        return dict_name[key].rstrip('\n')
+    elif key % 2 != 0:
+        return "theme"
+    elif key % 2 == 0:
+        return "homework"
 
 def convert_json(excel_path='syllabus.xlsx'):
     excel_path = './input/' + excel_path
@@ -121,21 +125,13 @@ def convert_json(excel_path='syllabus.xlsx'):
     # シートのロード
     sheet = workbook['Sheet1']
     f = open('log.txt', 'a')
-    """
-    for row in sheet.iter_cols():
-        for cell in row:
-            # print("行:" + str(cell.row), "列:" + str(cell.column))
-            # print(cell.value)
-            # f.write("行:" + str(cell.row) + "列:" + str(cell.column) + " " + str(cell.value) + '\n')
-            if cell.row >= 2:
-                f.write("行:" + str(cell.row) + "列:" + str(cell.column) + " " + str(cell.value) + '\n')
-                if sheet.cell(row=1, column=cell.column).value == 'subject':
-                    print(cell.value)
-                print(generation_dict(int(cell.column) - 1))
-    """
+
     json_list = []
     first_counter = True
     for row in sheet.iter_rows():
+        theme = []
+        homework = []
+
         if first_counter:
             first_counter = False
             continue
@@ -148,7 +144,15 @@ def convert_json(excel_path='syllabus.xlsx'):
             if cell.row >= 2:
                 # print("行:" + str(cell.row) + "列:" + str(cell.column) + " " + str(cell.value) + '\n')
                 # print(generation_dict(int(cell.column) - 1))
-                data[generation_dict(int(cell.column) - 1)] = cell.value
+                if generation_dict(int(cell.column) - 1) == "theme":
+                    theme.append(cell.value)
+                    data[generation_dict(int(cell.column) - 1)] = theme
+                elif generation_dict(int(cell.column) - 1) == "homework":
+                    homework.append(cell.value)
+                    data[generation_dict(int(cell.column) - 1)] = homework
+                else:
+                    data[generation_dict(int(cell.column) - 1)] = cell.value
+                
         json_list.append(data)
     output_name = './test_data.json'
     with open(output_name, 'w') as file:
@@ -157,3 +161,4 @@ def convert_json(excel_path='syllabus.xlsx'):
     print("Success!!")
 
 convert_json()
+
