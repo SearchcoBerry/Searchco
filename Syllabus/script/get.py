@@ -3,6 +3,7 @@ import json
 from collections import OrderedDict
 import pprint
 import time
+from tqdm import tqdm
 
 # 辞書を生成するときに使用する関数
 
@@ -26,7 +27,11 @@ def convert_json(excel_path='syllabus.xlsx'):
 
     json_list = []
     first_counter = True
-    for row in sheet.iter_rows():
+    # tqdm(sheet.iter_rows(), total=len(len(sheet.iter_rows())))
+    # sheet.iter_rows()
+    print(sheet.max_row, sheet.max_column)
+    sheet_len = sheet.max_row
+    for row in tqdm(sheet.iter_rows(), total=sheet_len):
         theme = []
         homework = []
 
@@ -48,7 +53,7 @@ def convert_json(excel_path='syllabus.xlsx'):
                     data[generation_dict(int(cell.column) - 1)] = value
                 
         json_list.append(data)
-    output_name = './output/test_data.json'
+    output_name = './output/syllabus.json'
     with open(output_name, 'w') as file:
         json.dump(json_list, file, indent=4, ensure_ascii=False)
 
