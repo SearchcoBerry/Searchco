@@ -1,0 +1,652 @@
+[
+  {
+    "subject_name": "Applied Writing Skills",
+    "subject_teacher": "ﾋﾟｰﾀｰｼﾝﾌﾟｿﾝ",
+    "subject_schedule": "水2・土2"
+  },
+  {
+    "subject_name": "アメリカの社会と文化",
+    "subject_teacher": "ｸﾚｲｸﾞKｼﾞｪｲｺﾌﾞｿﾝ",
+    "subject_schedule": "水1・金1"
+  },
+  {
+    "subject_name": "アメリカ文学史",
+    "subject_teacher": "追立祐嗣",
+    "subject_schedule": "火2・金2"
+  },
+  {
+    "subject_name": "イギリスの社会と文化",
+    "subject_teacher": "ﾋﾟｰﾀｰｼﾝﾌﾟｿﾝ",
+    "subject_schedule": "月4・木4"
+  },
+  {
+    "subject_name": "イギリス文学史",
+    "subject_teacher": "西原幹子",
+    "subject_schedule": "火3・木3"
+  },
+  {
+    "subject_name": "異文化理解Ⅰ",
+    "subject_teacher": "李イニッド",
+    "subject_schedule": "水1"
+  },
+  {
+    "subject_name": "異文化理解Ⅱ",
+    "subject_teacher": "李イニッド",
+    "subject_schedule": "水1"
+  },
+  {
+    "subject_name": "English Grammar Ⅰ",
+    "subject_teacher": "宮城和文",
+    "subject_schedule": "火2・金2"
+  },
+  {
+    "subject_name": "English Grammar Ⅰ",
+    "subject_teacher": "追立祐嗣",
+    "subject_schedule": "火2・金2"
+  },
+  {
+    "subject_name": "English Grammar Ⅰ",
+    "subject_teacher": "野口正樹",
+    "subject_schedule": "木2・金2"
+  },
+  {
+    "subject_name": "English Grammar Ⅱ",
+    "subject_teacher": "宮城和文",
+    "subject_schedule": "火2・金2"
+  },
+  {
+    "subject_name": "English Grammar Ⅱ",
+    "subject_teacher": "西原幹子",
+    "subject_schedule": "水1・土1"
+  },
+  {
+    "subject_name": "English Grammar Ⅱ",
+    "subject_teacher": "島村麗",
+    "subject_schedule": "月1・木1"
+  },
+  {
+    "subject_name": "English for Special Purposes",
+    "subject_teacher": "東恩納ミシェル",
+    "subject_schedule": "月1・木1"
+  },
+  {
+    "subject_name": "English for Special Purposes",
+    "subject_teacher": "ﾛﾋﾞﾝｿﾝｻｲﾓﾝ",
+    "subject_schedule": "月1・木1"
+  },
+  {
+    "subject_name": "English Reading Ⅰ",
+    "subject_teacher": "西原幹子",
+    "subject_schedule": "火3・木3"
+  },
+  {
+    "subject_name": "English Reading Ⅰ",
+    "subject_teacher": "津波聡",
+    "subject_schedule": "火4・木4"
+  },
+  {
+    "subject_name": "English Reading Ⅰ",
+    "subject_teacher": "ﾌｨﾘｯﾌﾟｽ O ｸﾞﾚｳﾞｨﾙ",
+    "subject_schedule": "月4・木4"
+  },
+  {
+    "subject_name": "English Reading Ⅱ",
+    "subject_teacher": "ﾌｨﾘｯﾌﾟｽ O ｸﾞﾚｳﾞｨﾙ",
+    "subject_schedule": "月4・木4"
+  },
+  {
+    "subject_name": "English Reading Ⅱ",
+    "subject_teacher": "津波聡",
+    "subject_schedule": "火4・木4"
+  },
+  {
+    "subject_name": "English Reading Ⅱ",
+    "subject_teacher": "島袋美智子",
+    "subject_schedule": "月4・木4"
+  },
+  {
+    "subject_name": "インターネット英語",
+    "subject_teacher": "素民喜霞",
+    "subject_schedule": "月2・木2"
+  },
+  {
+    "subject_name": "インターンシップⅠ",
+    "subject_teacher": "学科インターンシップ運営委員",
+    "subject_schedule": "その他"
+  },
+  {
+    "subject_name": "インターンシップⅡ",
+    "subject_teacher": "学科インターンシップ運営委員",
+    "subject_schedule": "その他"
+  },
+  {
+    "subject_name": "英語音声学",
+    "subject_teacher": "李イニッド",
+    "subject_schedule": "月3・木3"
+  },
+  {
+    "subject_name": "英語学概論",
+    "subject_teacher": "李イニッド",
+    "subject_schedule": "月3・木3"
+  },
+  {
+    "subject_name": "英語学特殊講義",
+    "subject_teacher": "李イニッド",
+    "subject_schedule": "月2・木2"
+  },
+  {
+    "subject_name": "英語教育学",
+    "subject_teacher": "野口正樹",
+    "subject_schedule": "火3"
+  },
+  {
+    "subject_name": "英語教育教材研究",
+    "subject_teacher": "野口正樹",
+    "subject_schedule": "火3・金2"
+  },
+  {
+    "subject_name": "英語教育特論",
+    "subject_teacher": "池野修",
+    "subject_schedule": "集中"
+  },
+  {
+    "subject_name": "英語圏社会文化特殊講義",
+    "subject_teacher": "ﾋﾟｰﾀｰｼﾝﾌﾟｿﾝ",
+    "subject_schedule": "月3・木3"
+  },
+  {
+    "subject_name": "英語情報処理Ⅰ",
+    "subject_teacher": "ﾀﾞｸﾞﾗｽﾄﾞﾗｲｽﾀｯﾄ",
+    "subject_schedule": "水3"
+  },
+  {
+    "subject_name": "英語情報処理Ⅰ",
+    "subject_teacher": "真喜志満",
+    "subject_schedule": "水4"
+  },
+  {
+    "subject_name": "英語情報処理Ⅰ",
+    "subject_teacher": "真喜志満",
+    "subject_schedule": "水3"
+  },
+  {
+    "subject_name": "英語情報処理Ⅰ",
+    "subject_teacher": "真島知秀",
+    "subject_schedule": "金3"
+  },
+  {
+    "subject_name": "英語情報処理Ⅱ",
+    "subject_teacher": "ﾀﾞｸﾞﾗｽﾄﾞﾗｲｽﾀｯﾄ",
+    "subject_schedule": "水3"
+  },
+  {
+    "subject_name": "英語情報処理Ⅱ",
+    "subject_teacher": "真喜志満",
+    "subject_schedule": "水4"
+  },
+  {
+    "subject_name": "英語情報処理Ⅱ",
+    "subject_teacher": "真喜志満",
+    "subject_schedule": "水3"
+  },
+  {
+    "subject_name": "英語情報処理Ⅱ",
+    "subject_teacher": "真島知秀",
+    "subject_schedule": "金3"
+  },
+  {
+    "subject_name": "英語情報処理Ⅲ",
+    "subject_teacher": "ﾀﾞｸﾞﾗｽﾄﾞﾗｲｽﾀｯﾄ",
+    "subject_schedule": "火5"
+  },
+  {
+    "subject_name": "英語情報処理Ⅳ",
+    "subject_teacher": "ﾀﾞｸﾞﾗｽﾄﾞﾗｲｽﾀｯﾄ",
+    "subject_schedule": "火5"
+  },
+  {
+    "subject_name": "英米演劇概論",
+    "subject_teacher": "西原幹子",
+    "subject_schedule": "火4・木4"
+  },
+  {
+    "subject_name": "英米詩概論",
+    "subject_teacher": "西原幹子",
+    "subject_schedule": "火4・木4"
+  },
+  {
+    "subject_name": "英米小説概論",
+    "subject_teacher": "西原幹子",
+    "subject_schedule": "水1・土1"
+  },
+  {
+    "subject_name": "英米文学概論",
+    "subject_teacher": "追立祐嗣",
+    "subject_schedule": "火1・金1"
+  },
+  {
+    "subject_name": "Oral Communication Ⅰ",
+    "subject_teacher": "ﾀﾞｸﾞﾗｽﾄﾞﾗｲｽﾀｯﾄ",
+    "subject_schedule": "月1・木1"
+  },
+  {
+    "subject_name": "Oral Communication Ⅰ",
+    "subject_teacher": "ｸﾚｲｸﾞKｼﾞｪｲｺﾌﾞｿﾝ",
+    "subject_schedule": "月1・木1"
+  },
+  {
+    "subject_name": "Oral Communication Ⅰ",
+    "subject_teacher": "ﾋﾟｰﾀｰｼﾝﾌﾟｿﾝ",
+    "subject_schedule": "月2・木2"
+  },
+  {
+    "subject_name": "Oral Communication Ⅰ",
+    "subject_teacher": "素民喜霞",
+    "subject_schedule": "月1・木1"
+  },
+  {
+    "subject_name": "Oral Communication Ⅰ",
+    "subject_teacher": "ﾛﾋﾞﾝｿﾝｻｲﾓﾝ",
+    "subject_schedule": "月1・木1"
+  },
+  {
+    "subject_name": "Oral Communication Ⅱ",
+    "subject_teacher": "ﾌｨﾘｯﾌﾟｽ O ｸﾞﾚｳﾞｨﾙ",
+    "subject_schedule": "月2・木2"
+  },
+  {
+    "subject_name": "Oral Communication Ⅱ",
+    "subject_teacher": "ｸﾚｲｸﾞKｼﾞｪｲｺﾌﾞｿﾝ",
+    "subject_schedule": "月2・木2"
+  },
+  {
+    "subject_name": "Oral Communication Ⅱ",
+    "subject_teacher": "ｼﾞｮｳﾝﾀｰﾊﾞｰﾄ",
+    "subject_schedule": "月2・木2"
+  },
+  {
+    "subject_name": "Oral Communication Ⅱ",
+    "subject_teacher": "東恩納ミシェル",
+    "subject_schedule": "月2・木2"
+  },
+  {
+    "subject_name": "Oral Communication Ⅱ",
+    "subject_teacher": "ｼﾞｮﾅｻﾝﾊｯﾁｬｰ",
+    "subject_schedule": "月2・木2"
+  },
+  {
+    "subject_name": "Oral Communication Ⅲ",
+    "subject_teacher": "ﾌｨﾘｯﾌﾟｽ O ｸﾞﾚｳﾞｨﾙ",
+    "subject_schedule": "月2・木2"
+  },
+  {
+    "subject_name": "Oral Communication Ⅲ",
+    "subject_teacher": "ケイトオカラハン",
+    "subject_schedule": "月2・木2"
+  },
+  {
+    "subject_name": "Oral Communication Ⅲ",
+    "subject_teacher": "ｼﾞｮｳﾝﾀｰﾊﾞｰﾄ",
+    "subject_schedule": "月2・木2"
+  },
+  {
+    "subject_name": "Oral Communication Ⅲ",
+    "subject_teacher": "東恩納ミシェル",
+    "subject_schedule": "月2・木2"
+  },
+  {
+    "subject_name": "Oral Communication Ⅲ",
+    "subject_teacher": "ﾃﾞｲﾋﾞｯﾄﾞﾚｲﾌｨｰﾙﾄﾞ",
+    "subject_schedule": "月2・木2"
+  },
+  {
+    "subject_name": "観光英語",
+    "subject_teacher": "東菜美",
+    "subject_schedule": "月1・木1"
+  },
+  {
+    "subject_name": "観光英語",
+    "subject_teacher": "ケイトオカラハン",
+    "subject_schedule": "月1・木1"
+  },
+  {
+    "subject_name": "基礎演習Ⅰ",
+    "subject_teacher": "西原幹子",
+    "subject_schedule": "水2"
+  },
+  {
+    "subject_name": "基礎演習Ⅰ",
+    "subject_teacher": "追立祐嗣",
+    "subject_schedule": "水2"
+  },
+  {
+    "subject_name": "基礎演習Ⅰ",
+    "subject_teacher": "尚真貴子",
+    "subject_schedule": "水2"
+  },
+  {
+    "subject_name": "基礎演習Ⅰ",
+    "subject_teacher": "津波聡",
+    "subject_schedule": "水2"
+  },
+  {
+    "subject_name": "基礎演習Ⅰ",
+    "subject_teacher": "岡野薫",
+    "subject_schedule": "水2"
+  },
+  {
+    "subject_name": "基礎演習Ⅱ",
+    "subject_teacher": "西原幹子",
+    "subject_schedule": "水2"
+  },
+  {
+    "subject_name": "基礎演習Ⅱ",
+    "subject_teacher": "追立祐嗣",
+    "subject_schedule": "水2"
+  },
+  {
+    "subject_name": "基礎演習Ⅱ",
+    "subject_teacher": "津波聡",
+    "subject_schedule": "水2"
+  },
+  {
+    "subject_name": "基礎演習Ⅱ",
+    "subject_teacher": "岡野薫",
+    "subject_schedule": "水2"
+  },
+  {
+    "subject_name": "基礎演習Ⅱ",
+    "subject_teacher": "尚真貴子",
+    "subject_schedule": "水2"
+  },
+  {
+    "subject_name": "基礎演習Ⅲ",
+    "subject_teacher": "素民喜霞",
+    "subject_schedule": "水4"
+  },
+  {
+    "subject_name": "基礎演習Ⅲ",
+    "subject_teacher": "ﾋﾟｰﾀｰｼﾝﾌﾟｿﾝ",
+    "subject_schedule": "水4"
+  },
+  {
+    "subject_name": "基礎演習Ⅲ",
+    "subject_teacher": "素民喜霞",
+    "subject_schedule": "水3"
+  },
+  {
+    "subject_name": "基礎演習Ⅲ",
+    "subject_teacher": "李イニッド",
+    "subject_schedule": "水3"
+  },
+  {
+    "subject_name": "基礎演習Ⅲ",
+    "subject_teacher": "ｸﾚｲｸﾞKｼﾞｪｲｺﾌﾞｿﾝ",
+    "subject_schedule": "火1"
+  },
+  {
+    "subject_name": "基礎演習Ⅳ",
+    "subject_teacher": "ｸﾚｲｸﾞKｼﾞｪｲｺﾌﾞｿﾝ",
+    "subject_schedule": "火1"
+  },
+  {
+    "subject_name": "基礎演習Ⅳ",
+    "subject_teacher": "ﾋﾟｰﾀｰｼﾝﾌﾟｿﾝ",
+    "subject_schedule": "水4"
+  },
+  {
+    "subject_name": "基礎演習Ⅳ",
+    "subject_teacher": "素民喜霞",
+    "subject_schedule": "水3"
+  },
+  {
+    "subject_name": "基礎演習Ⅳ",
+    "subject_teacher": "李イニッド",
+    "subject_schedule": "水3"
+  },
+  {
+    "subject_name": "基礎演習Ⅳ",
+    "subject_teacher": "素民喜霞",
+    "subject_schedule": "水4"
+  },
+  {
+    "subject_name": "言語学概論Ⅰ",
+    "subject_teacher": "里麻奈美",
+    "subject_schedule": "火4"
+  },
+  {
+    "subject_name": "言語学概論Ⅱ",
+    "subject_teacher": "里麻奈美",
+    "subject_schedule": "火4"
+  },
+  {
+    "subject_name": "言語研究特論",
+    "subject_teacher": "ＬＣ教員１",
+    "subject_schedule": "集中"
+  },
+  {
+    "subject_name": "時事英語",
+    "subject_teacher": "ﾋﾟｰﾀｰｼﾝﾌﾟｿﾝ",
+    "subject_schedule": "水2・土2"
+  },
+  {
+    "subject_name": "専門演習Ⅰ",
+    "subject_teacher": "ﾋﾟｰﾀｰｼﾝﾌﾟｿﾝ",
+    "subject_schedule": "火3"
+  },
+  {
+    "subject_name": "専門演習Ⅰ",
+    "subject_teacher": "李イニッド",
+    "subject_schedule": "水4"
+  },
+  {
+    "subject_name": "専門演習Ⅰ",
+    "subject_teacher": "追立祐嗣",
+    "subject_schedule": "水4"
+  },
+  {
+    "subject_name": "専門演習Ⅰ",
+    "subject_teacher": "野口正樹",
+    "subject_schedule": "水4"
+  },
+  {
+    "subject_name": "専門演習Ⅰ",
+    "subject_teacher": "井上泉",
+    "subject_schedule": "水4"
+  },
+  {
+    "subject_name": "専門演習Ⅰ",
+    "subject_teacher": "ケイトオカラハン",
+    "subject_schedule": "水3"
+  },
+  {
+    "subject_name": "専門演習Ⅱ",
+    "subject_teacher": "ﾋﾟｰﾀｰｼﾝﾌﾟｿﾝ",
+    "subject_schedule": "火3"
+  },
+  {
+    "subject_name": "専門演習Ⅱ",
+    "subject_teacher": "李イニッド",
+    "subject_schedule": "水4"
+  },
+  {
+    "subject_name": "専門演習Ⅱ",
+    "subject_teacher": "追立祐嗣",
+    "subject_schedule": "水4"
+  },
+  {
+    "subject_name": "専門演習Ⅱ",
+    "subject_teacher": "野口正樹",
+    "subject_schedule": "水4"
+  },
+  {
+    "subject_name": "専門演習Ⅱ",
+    "subject_teacher": "井上泉",
+    "subject_schedule": "水4"
+  },
+  {
+    "subject_name": "専門演習Ⅱ",
+    "subject_teacher": "ケイトオカラハン",
+    "subject_schedule": "水3"
+  },
+  {
+    "subject_name": "早期英語教育",
+    "subject_teacher": "津波聡",
+    "subject_schedule": "金2"
+  },
+  {
+    "subject_name": "卒業論文Ⅰ",
+    "subject_teacher": "尚真貴子",
+    "subject_schedule": "火4"
+  },
+  {
+    "subject_name": "卒業論文Ⅰ",
+    "subject_teacher": "津波聡",
+    "subject_schedule": "水4"
+  },
+  {
+    "subject_name": "卒業論文Ⅰ",
+    "subject_teacher": "岡野薫",
+    "subject_schedule": "水4"
+  },
+  {
+    "subject_name": "卒業論文Ⅰ",
+    "subject_teacher": "ｸﾚｲｸﾞKｼﾞｪｲｺﾌﾞｿﾝ",
+    "subject_schedule": "水4"
+  },
+  {
+    "subject_name": "卒業論文Ⅰ",
+    "subject_teacher": "ケイトオカラハン",
+    "subject_schedule": "水4"
+  },
+  {
+    "subject_name": "卒業論文Ⅰ",
+    "subject_teacher": "西原幹子",
+    "subject_schedule": "水3"
+  },
+  {
+    "subject_name": "卒業論文Ⅰ",
+    "subject_teacher": "里麻奈美",
+    "subject_schedule": "水2"
+  },
+  {
+    "subject_name": "卒業論文Ⅱ",
+    "subject_teacher": "ケイトオカラハン",
+    "subject_schedule": "水4"
+  },
+  {
+    "subject_name": "卒業論文Ⅱ",
+    "subject_teacher": "尚真貴子",
+    "subject_schedule": "火4"
+  },
+  {
+    "subject_name": "卒業論文Ⅱ",
+    "subject_teacher": "西原幹子",
+    "subject_schedule": "水3"
+  },
+  {
+    "subject_name": "卒業論文Ⅱ",
+    "subject_teacher": "津波聡",
+    "subject_schedule": "水4"
+  },
+  {
+    "subject_name": "卒業論文Ⅱ",
+    "subject_teacher": "岡野薫",
+    "subject_schedule": "水4"
+  },
+  {
+    "subject_name": "卒業論文Ⅱ",
+    "subject_teacher": "ｸﾚｲｸﾞKｼﾞｪｲｺﾌﾞｿﾝ",
+    "subject_schedule": "水4"
+  },
+  {
+    "subject_name": "卒業論文Ⅱ",
+    "subject_teacher": "里麻奈美",
+    "subject_schedule": "水2"
+  },
+  {
+    "subject_name": "多文化コミュニケーション論",
+    "subject_teacher": "ケイトオカラハン",
+    "subject_schedule": "水2・金2"
+  },
+  {
+    "subject_name": "Discussion Skills",
+    "subject_teacher": "ケイトオカラハン",
+    "subject_schedule": "火2・金1"
+  },
+  {
+    "subject_name": "Debate",
+    "subject_teacher": "素民喜霞",
+    "subject_schedule": "火1・金1"
+  },
+  {
+    "subject_name": "同時通訳",
+    "subject_teacher": "井上泉（16回）素民喜霞（16回）",
+    "subject_schedule": "火2・金2"
+  },
+  {
+    "subject_name": "日英語比較研究",
+    "subject_teacher": "野口正樹",
+    "subject_schedule": "水2・木2"
+  },
+  {
+    "subject_name": "日本語現代文法Ⅰ",
+    "subject_teacher": "里麻奈美",
+    "subject_schedule": "火5"
+  },
+  {
+    "subject_name": "日本語現代文法Ⅱ",
+    "subject_teacher": "里麻奈美",
+    "subject_schedule": "火5"
+  },
+  {
+    "subject_name": "日本語表現法演習Ⅰ",
+    "subject_teacher": "ケリ綾子",
+    "subject_schedule": "水1"
+  },
+  {
+    "subject_name": "日本語表現法演習Ⅰ",
+    "subject_teacher": "元山由美子",
+    "subject_schedule": "水1"
+  },
+  {
+    "subject_name": "日本語表現法演習Ⅱ",
+    "subject_teacher": "ケリ綾子",
+    "subject_schedule": "水1"
+  },
+  {
+    "subject_name": "日本語表現法演習Ⅱ",
+    "subject_teacher": "元山由美子",
+    "subject_schedule": "水1"
+  },
+  {
+    "subject_name": "Public Speaking",
+    "subject_teacher": "素民喜霞",
+    "subject_schedule": "火1・金1"
+  },
+  {
+    "subject_name": "ビジネス英語",
+    "subject_teacher": "ケイトオカラハン",
+    "subject_schedule": "月3・木3"
+  },
+  {
+    "subject_name": "ビジネス英語",
+    "subject_teacher": "島袋美智子",
+    "subject_schedule": "火3・金3"
+  },
+  {
+    "subject_name": "Pronunciation Workshop",
+    "subject_teacher": "李イニッド",
+    "subject_schedule": "月1・木1"
+  },
+  {
+    "subject_name": "Pronunciation Workshop",
+    "subject_teacher": "李イニッド",
+    "subject_schedule": "月2・木2"
+  },
+  {
+    "subject_name": "翻訳研究",
+    "subject_teacher": "素民喜霞（16回）井上泉（16回）",
+    "subject_schedule": "月1・水2"
+  }
+]

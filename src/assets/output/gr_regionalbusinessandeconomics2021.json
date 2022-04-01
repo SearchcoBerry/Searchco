@@ -1,0 +1,162 @@
+[
+    {
+        "subject_name": "インターネット・マーケティング特論",
+        "subject_teacher": "宮森正樹・安里肇",
+        "subject_schedule": "集中"
+    },
+    {
+        "subject_name": "応用マクロ経済学特論",
+        "subject_teacher": "比嘉正茂",
+        "subject_schedule": "月5"
+    },
+    {
+        "subject_name": "沖縄経済特殊研究Ⅰ",
+        "subject_teacher": "前泊博盛",
+        "subject_schedule": "木5"
+    },
+    {
+        "subject_name": "沖縄経済特殊研究Ⅱ",
+        "subject_teacher": "前泊博盛",
+        "subject_schedule": "火5"
+    },
+    {
+        "subject_name": "沖縄経済特論",
+        "subject_teacher": "前泊博盛",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "環境経済特殊研究Ⅰ",
+        "subject_teacher": "呉錫畢",
+        "subject_schedule": "木6"
+    },
+    {
+        "subject_name": "環境経済特殊研究Ⅱ",
+        "subject_teacher": "呉錫畢",
+        "subject_schedule": "月7"
+    },
+    {
+        "subject_name": "環境経済特論",
+        "subject_teacher": "呉錫畢",
+        "subject_schedule": "月6"
+    },
+    {
+        "subject_name": "経済情報統計解析特殊研究Ⅰ",
+        "subject_teacher": "兪炳強",
+        "subject_schedule": "木5"
+    },
+    {
+        "subject_name": "経済情報統計解析特殊研究Ⅱ",
+        "subject_teacher": "兪炳強",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "経済情報統計解析特論Ｂ",
+        "subject_teacher": "友知政樹",
+        "subject_schedule": "月5"
+    },
+    {
+        "subject_name": "公企業特論",
+        "subject_teacher": "村上了太",
+        "subject_schedule": "水5"
+    },
+    {
+        "subject_name": "産業組織特殊研究Ⅰ",
+        "subject_teacher": "宮城和宏",
+        "subject_schedule": "水7"
+    },
+    {
+        "subject_name": "産業組織特殊研究Ⅱ",
+        "subject_teacher": "宮城和宏",
+        "subject_schedule": "月5"
+    },
+    {
+        "subject_name": "産業組織特論",
+        "subject_teacher": "宮城和宏",
+        "subject_schedule": "水6"
+    },
+    {
+        "subject_name": "商学特論",
+        "subject_teacher": "宮森正樹",
+        "subject_schedule": "水7"
+    },
+    {
+        "subject_name": "人的資源管理特論",
+        "subject_teacher": "岩橋建治",
+        "subject_schedule": "金6"
+    },
+    {
+        "subject_name": "数理経済情報特論",
+        "subject_teacher": "比嘉正茂",
+        "subject_schedule": "集中"
+    },
+    {
+        "subject_name": "地域小売業特論",
+        "subject_teacher": "宮森正樹",
+        "subject_schedule": "水7"
+    },
+    {
+        "subject_name": "地域産業セミナー",
+        "subject_teacher": "オムニバス（友知政樹前泊博盛兪炳強又吉光邦）岩橋建治",
+        "subject_schedule": "集中"
+    },
+    {
+        "subject_name": "地域社会経済システム特殊研究Ⅰ",
+        "subject_teacher": "村上了太",
+        "subject_schedule": "水7"
+    },
+    {
+        "subject_name": "地域社会経済システム特殊研究Ⅱ",
+        "subject_teacher": "村上了太",
+        "subject_schedule": "火5"
+    },
+    {
+        "subject_name": "地域社会経済システム特論",
+        "subject_teacher": "村上了太",
+        "subject_schedule": "水6"
+    },
+    {
+        "subject_name": "地方財政特論",
+        "subject_teacher": "前村昌健",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "比較経営特殊研究Ⅰ",
+        "subject_teacher": "佐久本朝一",
+        "subject_schedule": "土3"
+    },
+    {
+        "subject_name": "比較経営特殊研究Ⅱ",
+        "subject_teacher": "佐久本朝一",
+        "subject_schedule": "土4"
+    },
+    {
+        "subject_name": "比較経営特論",
+        "subject_teacher": "佐久本朝一",
+        "subject_schedule": "土2"
+    },
+    {
+        "subject_name": "ビジネス特論",
+        "subject_teacher": "原田優也、宮森正樹",
+        "subject_schedule": "集中"
+    },
+    {
+        "subject_name": "マーケティング・コミュニケーション特論",
+        "subject_teacher": "原田優也・宮森正樹",
+        "subject_schedule": "集中"
+    },
+    {
+        "subject_name": "マーケティング特殊研究Ⅰ",
+        "subject_teacher": "原田優也",
+        "subject_schedule": "木6"
+    },
+    {
+        "subject_name": "マーケティング特殊研究Ⅱ",
+        "subject_teacher": "原田優也",
+        "subject_schedule": "水7"
+    },
+    {
+        "subject_name": "マーケティング・マネジメント特論",
+        "subject_teacher": "原田優也",
+        "subject_schedule": "金7"
+    }
+]

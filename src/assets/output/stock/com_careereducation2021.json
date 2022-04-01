@@ -1,0 +1,77 @@
+[
+    {
+        "subject_name": "キャリア入門",
+        "subject_teacher": "村上、名嘉座、島袋、井村、藤波、平山、平良",
+        "subject_schedule": "木３"
+    },
+    {
+        "subject_name": "キャリア入門",
+        "subject_teacher": "村上、名嘉座、島袋、井村、平山、平良",
+        "subject_schedule": "木４"
+    },
+    {
+        "subject_name": "キャリア入門",
+        "subject_teacher": "村上、名嘉座、島袋、井村、藤波、平山、平良",
+        "subject_schedule": "木３"
+    },
+    {
+        "subject_name": "キャリア入門",
+        "subject_teacher": "村上、名嘉座、島袋、井村、藤波、平山、平良",
+        "subject_schedule": "木４"
+    },
+    {
+        "subject_name": "キャリア・デザイン",
+        "subject_teacher": "村上了太",
+        "subject_schedule": "火２"
+    },
+    {
+        "subject_name": "キャリア・デザイン",
+        "subject_teacher": "村上了太",
+        "subject_schedule": "火２"
+    },
+    {
+        "subject_name": "グローバル・キャリア",
+        "subject_teacher": "金城和光",
+        "subject_schedule": "集中"
+    },
+    {
+        "subject_name": "グローバル・キャリア・デザイン演習",
+        "subject_teacher": "金城和光",
+        "subject_schedule": "集中"
+    },
+    {
+        "subject_name": "グローバル・キャリア・デザインＡ",
+        "subject_teacher": "認定科目",
+        "subject_schedule": "その他"
+    },
+    {
+        "subject_name": "グローバル・キャリア・デザインＢ",
+        "subject_teacher": "認定科目",
+        "subject_schedule": "その他"
+    },
+    {
+        "subject_name": "自己表現入門",
+        "subject_teacher": "大田よしみ",
+        "subject_schedule": "水２"
+    },
+    {
+        "subject_name": "自己表現入門",
+        "subject_teacher": "大田よしみ",
+        "subject_schedule": "水２"
+    },
+    {
+        "subject_name": "ジョブ・インタビュー入門",
+        "subject_teacher": "松堂美和子",
+        "subject_schedule": "水２"
+    },
+    {
+        "subject_name": "ジョブ・インタビュー入門",
+        "subject_teacher": "松堂美和子",
+        "subject_schedule": "水２"
+    },
+    {
+        "subject_name": "ワーカーズコープ論",
+        "subject_teacher": "_ﾜｰｶｰｽﾞｺｰﾌﾟ論教員",
+        "subject_schedule": "集中講義"
+    }
+]

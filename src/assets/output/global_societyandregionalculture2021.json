@@ -1,0 +1,507 @@
+[
+    {
+        "subject_name": "アジア考古学",
+        "subject_teacher": "新里貴之",
+        "subject_schedule": "火5"
+    },
+    {
+        "subject_name": "アジア史",
+        "subject_teacher": "前田勇樹",
+        "subject_schedule": "土2"
+    },
+    {
+        "subject_name": "アジア社会文化論Ⅰ",
+        "subject_teacher": "石垣直",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "アジア社会文化論Ⅱ",
+        "subject_teacher": "神谷智昭",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "アジア社会文化論Ⅲ",
+        "subject_teacher": "ﾀﾞｸﾞﾗｽﾄﾞﾗｲｽﾀｯﾄ",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "アジア社会論",
+        "subject_teacher": "河村雅美(7回)・坪井美恵(8回)",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "アジア文化概論",
+        "subject_teacher": "石垣直",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "インターンシップⅠ",
+        "subject_teacher": "学科インターンシップ運営委員",
+        "subject_schedule": "その他"
+    },
+    {
+        "subject_name": "インターンシップⅡ",
+        "subject_teacher": "学科インターンシップ運営委員",
+        "subject_schedule": "その他"
+    },
+    {
+        "subject_name": "演習Ⅰ",
+        "subject_teacher": "新里貴之",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "演習Ⅰ",
+        "subject_teacher": "及川高",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "演習Ⅰ",
+        "subject_teacher": "深澤秋人",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "演習Ⅰ",
+        "subject_teacher": "崎濱佳代",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "演習Ⅰ",
+        "subject_teacher": "秋山道宏",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "演習Ⅰ",
+        "subject_teacher": "藤波潔",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "演習Ⅰ",
+        "subject_teacher": "石垣直",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "演習Ⅱ",
+        "subject_teacher": "新里貴之",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "演習Ⅱ",
+        "subject_teacher": "藤波潔",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "演習Ⅱ",
+        "subject_teacher": "石垣直",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "演習Ⅱ",
+        "subject_teacher": "及川高",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "演習Ⅱ",
+        "subject_teacher": "深澤秋人",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "演習Ⅱ",
+        "subject_teacher": "崎濱佳代",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "演習Ⅱ",
+        "subject_teacher": "秋山道宏",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "沖縄近現代史Ⅰ",
+        "subject_teacher": "川島淳",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "沖縄近現代史Ⅱ",
+        "subject_teacher": "川島淳",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "沖縄社会入門",
+        "subject_teacher": "崎濱佳代、秋山道宏、月野楓子",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "沖縄ジャーナリズム論",
+        "subject_teacher": "沖縄ジャーナリズム論教員",
+        "subject_schedule": "金3"
+    },
+    {
+        "subject_name": "沖縄前近代史Ⅰ",
+        "subject_teacher": "深澤秋人",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "沖縄前近代史Ⅱ",
+        "subject_teacher": "深澤秋人",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "沖縄文化入門",
+        "subject_teacher": "及川高、石垣直",
+        "subject_schedule": "火5"
+    },
+    {
+        "subject_name": "沖縄平和学",
+        "subject_teacher": "鳥山淳",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "家族社会学",
+        "subject_teacher": "具志堅邦子",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "環境開発論",
+        "subject_teacher": "前田一舟",
+        "subject_schedule": "土4"
+    },
+    {
+        "subject_name": "外国語資料講読演習Ⅰ",
+        "subject_teacher": "及川高",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "外国語資料講読演習Ⅰ",
+        "subject_teacher": "比嘉理麻",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "外国語資料講読演習Ⅰ",
+        "subject_teacher": "末吉重人",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "外国語資料講読演習Ⅱ",
+        "subject_teacher": "末吉重人",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "外国語資料講読演習Ⅱ",
+        "subject_teacher": "及川高",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "外国語資料講読演習Ⅱ",
+        "subject_teacher": "比嘉理麻",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "考古学概論",
+        "subject_teacher": "新里貴之",
+        "subject_schedule": "月4"
+    },
+    {
+        "subject_name": "考古学特講Ⅰ",
+        "subject_teacher": "新里貴之",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "考古学特講Ⅱ",
+        "subject_teacher": "新里貴之",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "国際関係論",
+        "subject_teacher": "河村雅美",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "国際社会学",
+        "subject_teacher": "野入直美",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "国際平和論",
+        "subject_teacher": "ﾀﾞｸﾞﾗｽﾄﾞﾗｲｽﾀｯﾄ",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "古文書講読Ⅰ",
+        "subject_teacher": "深澤秋人",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "古文書講読Ⅱ",
+        "subject_teacher": "深澤秋人",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "社会学概論",
+        "subject_teacher": "崎濱佳代",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "社会学理論",
+        "subject_teacher": "秋山道宏",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "社会調査法Ⅰ",
+        "subject_teacher": "玉城福子",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "社会調査法Ⅰ",
+        "subject_teacher": "崎濱佳代",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "社会調査法Ⅱ",
+        "subject_teacher": "玉城福子",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "社会調査法Ⅱ",
+        "subject_teacher": "崎濱佳代",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "社会統計学Ⅰ",
+        "subject_teacher": "細川妃奈子",
+        "subject_schedule": "金4"
+    },
+    {
+        "subject_name": "社会統計学Ⅱ",
+        "subject_teacher": "細川妃奈子",
+        "subject_schedule": "金4"
+    },
+    {
+        "subject_name": "ジェンダー論",
+        "subject_teacher": "崎濱佳代",
+        "subject_schedule": "月4"
+    },
+    {
+        "subject_name": "実習",
+        "subject_teacher": "新里貴之",
+        "subject_schedule": "集中"
+    },
+    {
+        "subject_name": "実習",
+        "subject_teacher": "藤波潔",
+        "subject_schedule": "集中"
+    },
+    {
+        "subject_name": "実習",
+        "subject_teacher": "石垣直",
+        "subject_schedule": "集中"
+    },
+    {
+        "subject_name": "実習",
+        "subject_teacher": "及川高",
+        "subject_schedule": "集中"
+    },
+    {
+        "subject_name": "実習",
+        "subject_teacher": "深澤秋人",
+        "subject_schedule": "集中"
+    },
+    {
+        "subject_name": "実習",
+        "subject_teacher": "崎濱佳代",
+        "subject_schedule": "集中"
+    },
+    {
+        "subject_name": "実習",
+        "subject_teacher": "宮城弘樹・新里貴之",
+        "subject_schedule": "集中"
+    },
+    {
+        "subject_name": "都市社会学",
+        "subject_teacher": "桃原一彦",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "南島考古学Ⅰ",
+        "subject_teacher": "上原靜",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "南島考古学Ⅱ",
+        "subject_teacher": "上原靜",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "南島社会学",
+        "subject_teacher": "石川朋子",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "南島先史学Ⅰ",
+        "subject_teacher": "新里貴之",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "南島先史学Ⅱ",
+        "subject_teacher": "新里貴之",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "南島民俗学史Ⅰ",
+        "subject_teacher": "及川高",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "南島民俗学史Ⅱ",
+        "subject_teacher": "城間義勝",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "南島民俗学Ⅰ",
+        "subject_teacher": "宮平盛晃",
+        "subject_schedule": "金4"
+    },
+    {
+        "subject_name": "南島民俗学Ⅱ",
+        "subject_teacher": "及川高",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "南島民俗学Ⅲ",
+        "subject_teacher": "高江洲敦子",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "南島民俗学Ⅳ",
+        "subject_teacher": "高江洲敦子",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "日本史概論Ⅰ",
+        "subject_teacher": "市川智生",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "日本史概論Ⅱ",
+        "subject_teacher": "市川智生",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "比較民俗学",
+        "subject_teacher": "大城博美（8回）、神谷智昭（7回）",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "フレッシュマンセミナー",
+        "subject_teacher": "月野楓子",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "フレッシュマンセミナー",
+        "subject_teacher": "宮城弘樹",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "フレッシュマンセミナー",
+        "subject_teacher": "秋山道宏",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "フレッシュマンセミナー",
+        "subject_teacher": "市川智生",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "フレッシュマンセミナー",
+        "subject_teacher": "比嘉理麻",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "文化人類学概論",
+        "subject_teacher": "石垣直",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "文化人類学理論",
+        "subject_teacher": "石垣直",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "平和運動史",
+        "subject_teacher": "秋山道宏",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "平和学概論",
+        "subject_teacher": "秋山道宏",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "平和教育学",
+        "subject_teacher": "古賀徳子",
+        "subject_schedule": "金3"
+    },
+    {
+        "subject_name": "平和思想",
+        "subject_teacher": "大城尚子",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "マスコミ論",
+        "subject_teacher": "謝花直美",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "民俗学概論",
+        "subject_teacher": "及川高",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "民俗・人類学特殊講義Ⅰ",
+        "subject_teacher": "小熊誠",
+        "subject_schedule": "集中"
+    },
+    {
+        "subject_name": "琉球アジア文化論",
+        "subject_teacher": "石垣直",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "琉球・沖縄史入門",
+        "subject_teacher": "宮城弘樹４回・深澤秋人４回・市川智生３回・藤波潔４回",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "琉中交流史",
+        "subject_teacher": "深澤秋人",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "領域演習",
+        "subject_teacher": "前期：崎濱佳代後期： 秋山道宏",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "領域演習",
+        "subject_teacher": "宮城弘樹（前期）・新里貴之（後期）",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "領域演習",
+        "subject_teacher": "前期：石垣直後期：及川高",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "領域演習",
+        "subject_teacher": "前期：藤波潔後期：深澤秋人",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "歴史学概論",
+        "subject_teacher": "藤波潔",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "歴史学特殊講義Ⅰ",
+        "subject_teacher": "近藤健一郎",
+        "subject_schedule": "集中"
+    }
+]

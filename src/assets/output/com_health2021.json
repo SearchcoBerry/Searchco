@@ -1,0 +1,292 @@
+[
+    {
+        "subject_name": "エアロビクスダンスⅠ",
+        "subject_teacher": "嶺井美香子",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "エアロビクスダンスⅠ",
+        "subject_teacher": "嶺井美香子",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "エアロビクスダンスⅡ",
+        "subject_teacher": "嶺井美香子",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "エアロビクスダンスⅡ",
+        "subject_teacher": "嶺井美香子",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "空手Ⅰ",
+        "subject_teacher": "清水由佳",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "空手Ⅱ",
+        "subject_teacher": "清水由佳",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "健康と運動の科学",
+        "subject_teacher": "島袋桂",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "健康と運動の科学",
+        "subject_teacher": "島袋桂",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "健康と運動の科学",
+        "subject_teacher": "慶田花英太",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "健康と運動の科学",
+        "subject_teacher": "慶田花英太",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "健康と運動の科学",
+        "subject_teacher": "島袋桂",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "健康と運動の科学",
+        "subject_teacher": "島袋桂",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "健康と運動の科学",
+        "subject_teacher": "島袋桂",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "健康と運動の科学",
+        "subject_teacher": "島袋桂",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "ゴルフⅠ",
+        "subject_teacher": "又吉拓之",
+        "subject_schedule": "金3"
+    },
+    {
+        "subject_name": "ゴルフⅠ",
+        "subject_teacher": "又吉拓之",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "ゴルフⅡ",
+        "subject_teacher": "又吉拓之",
+        "subject_schedule": "金3"
+    },
+    {
+        "subject_name": "ゴルフⅡ",
+        "subject_teacher": "又吉拓之",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "サッカーⅠ",
+        "subject_teacher": "島袋桂",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "サッカーⅠ",
+        "subject_teacher": "島袋桂",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "サッカーⅡ",
+        "subject_teacher": "島袋桂",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "サッカーⅡ",
+        "subject_teacher": "島袋桂",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "スポーツ演習",
+        "subject_teacher": "安田知子",
+        "subject_schedule": "金3"
+    },
+    {
+        "subject_name": "スポーツ演習",
+        "subject_teacher": "慶田花英太",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "スポーツ演習",
+        "subject_teacher": "慶田花英太",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "スポーツ演習",
+        "subject_teacher": "慶田花英太",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "スポーツ演習",
+        "subject_teacher": "慶田花英太",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "スポーツ演習",
+        "subject_teacher": "宮城政也",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "スポーツ演習",
+        "subject_teacher": "宮城政也",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "スポーツ演習",
+        "subject_teacher": "笹澤吉明",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "スポーツ演習",
+        "subject_teacher": "笹澤吉明",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "スポーツ演習",
+        "subject_teacher": "安田知子",
+        "subject_schedule": "金3"
+    },
+    {
+        "subject_name": "スポーツ課題研究Ⅰ",
+        "subject_teacher": "慶田花英太",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "スポーツ課題研究Ⅱ",
+        "subject_teacher": "慶田花英太",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "スポーツトレーニングⅠ",
+        "subject_teacher": "大城英稔",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "スポーツトレーニングⅠ",
+        "subject_teacher": "大城英稔",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "スポーツトレーニングⅡ",
+        "subject_teacher": "大城英稔",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "スポーツトレーニングⅡ",
+        "subject_teacher": "大城英稔",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "卓球Ⅰ",
+        "subject_teacher": "外間政克",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "卓球Ⅰ",
+        "subject_teacher": "外間政克",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "卓球Ⅱ",
+        "subject_teacher": "外間政克",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "卓球Ⅱ",
+        "subject_teacher": "外間政克",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "バスケットボールⅠ",
+        "subject_teacher": "大城英稔",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "バスケットボールⅠ",
+        "subject_teacher": "大城英稔",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "バスケットボールⅡ",
+        "subject_teacher": "大城英稔",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "バスケットボールⅡ",
+        "subject_teacher": "大城英稔",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "バドミントンⅠ",
+        "subject_teacher": "大城真吾",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "バドミントンⅠ",
+        "subject_teacher": "慶田花英太",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "バドミントンⅠ",
+        "subject_teacher": "慶田花英太",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "バドミントンⅠ",
+        "subject_teacher": "大城真吾",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "バドミントンⅡ",
+        "subject_teacher": "大城真吾",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "バドミントンⅡ",
+        "subject_teacher": "慶田花英太",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "バドミントンⅡ",
+        "subject_teacher": "慶田花英太",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "バドミントンⅡ",
+        "subject_teacher": "大城真吾",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "バレーボールⅠ",
+        "subject_teacher": "西銘進",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "バレーボールⅠ",
+        "subject_teacher": "西銘進",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "バレーボールⅡ",
+        "subject_teacher": "西銘進",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "バレーボールⅡ",
+        "subject_teacher": "西銘進",
+        "subject_schedule": "木2"
+    }
+]

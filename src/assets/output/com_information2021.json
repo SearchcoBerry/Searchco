@@ -1,0 +1,107 @@
+[
+    {
+        "subject_name": "インターネットと情報倫理",
+        "subject_teacher": "曹真",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "情報科学",
+        "subject_teacher": "鈴木康元",
+        "subject_schedule": "土2"
+    },
+    {
+        "subject_name": "情報処理基礎",
+        "subject_teacher": "曹真[ 学科指定（法・行・社・福・産）]",
+        "subject_schedule": "木5"
+    },
+    {
+        "subject_name": "情報処理基礎",
+        "subject_teacher": "仲地健[ 学科指定（法・行・社・福・日）]",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "情報処理基礎",
+        "subject_teacher": "平良直之",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "情報処理基礎",
+        "subject_teacher": "大井肇[ 学科指定（法・行・社・福・企）]",
+        "subject_schedule": "月5"
+    },
+    {
+        "subject_name": "情報処理基礎",
+        "subject_teacher": "鈴木康元",
+        "subject_schedule": "土1"
+    },
+    {
+        "subject_name": "情報処理基礎",
+        "subject_teacher": "深水孝則[ 学科指定（法・行・社・福・日）]",
+        "subject_schedule": "土2"
+    },
+    {
+        "subject_name": "情報処理基礎",
+        "subject_teacher": "深水孝則[ 学科指定（法・行・社・福・日）]",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "情報処理基礎",
+        "subject_teacher": "金城秀樹[ 学科指定（法・行・社・福・産）]",
+        "subject_schedule": "木5"
+    },
+    {
+        "subject_name": "情報処理基礎",
+        "subject_teacher": "親泊かお里[ 学科指定（法・行・社・福・日）]",
+        "subject_schedule": "月4"
+    },
+    {
+        "subject_name": "情報処理基礎",
+        "subject_teacher": "親泊かお里[ 学科指定（法・行・社・福・日）]",
+        "subject_schedule": "月4"
+    },
+    {
+        "subject_name": "情報処理基礎",
+        "subject_teacher": "親泊かお里[ 学科指定（法・行・社・福・企）]",
+        "subject_schedule": "月5"
+    },
+    {
+        "subject_name": "情報処理基礎",
+        "subject_teacher": "親泊かお里[ 学科指定（法・行・社・福・日）]",
+        "subject_schedule": "月5"
+    },
+    {
+        "subject_name": "情報処理基礎",
+        "subject_teacher": "深水孝則[ 学科指定（法・行・社・福・日）]",
+        "subject_schedule": "土1"
+    },
+    {
+        "subject_name": "情報処理基礎",
+        "subject_teacher": "深水孝則[ 学科指定（法・行・社・福・日）]",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "情報処理基礎",
+        "subject_teacher": "曹真[ 学科指定（法・行・社・福・企）]",
+        "subject_schedule": "月5"
+    },
+    {
+        "subject_name": "情報処理基礎",
+        "subject_teacher": "仲地健[ 学科指定（法・行・社・福・産）]",
+        "subject_schedule": "木5"
+    },
+    {
+        "subject_name": "情報処理基礎",
+        "subject_teacher": "仲地健[ 学科指定（法・行・社・福・企）]",
+        "subject_schedule": "月5"
+    },
+    {
+        "subject_name": "情報処理基礎",
+        "subject_teacher": "大井肇[ 学科指定（法・行・社・福・日）]",
+        "subject_schedule": "木5"
+    },
+    {
+        "subject_name": "情報処理基礎",
+        "subject_teacher": "大井肇[ 学科指定（法・行・社・福・産）]",
+        "subject_schedule": "木5"
+    }
+]

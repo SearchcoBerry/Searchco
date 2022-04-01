@@ -1,0 +1,597 @@
+[
+    {
+        "subject_name": "インターンシップⅠ",
+        "subject_teacher": "学科インターンシップ運営委員",
+        "subject_schedule": "その他"
+    },
+    {
+        "subject_name": "インターンシップⅡ",
+        "subject_teacher": "学科インターンシップ運営委員",
+        "subject_schedule": "その他"
+    },
+    {
+        "subject_name": "インターンシップⅢ",
+        "subject_teacher": "学科インターンシップ運営委員",
+        "subject_schedule": "その他"
+    },
+    {
+        "subject_name": "会社法",
+        "subject_teacher": "伊達竜太郎",
+        "subject_schedule": "月1・木1"
+    },
+    {
+        "subject_name": "家族法",
+        "subject_teacher": "熊谷久世",
+        "subject_schedule": "月2・木2"
+    },
+    {
+        "subject_name": "環境法",
+        "subject_teacher": "柴田優人",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "外国法Ⅰ",
+        "subject_teacher": "井村真己",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "外国法Ⅱ",
+        "subject_teacher": "田中稔",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "外書講読研究Ⅰ",
+        "subject_teacher": "比屋定泰治",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "外書講読研究Ⅱ",
+        "subject_teacher": "村井忠康",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "基礎演習Ⅰ",
+        "subject_teacher": "井村真己",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "基礎演習Ⅰ",
+        "subject_teacher": "比屋定泰治",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "基礎演習Ⅰ",
+        "subject_teacher": "金城和三",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "基礎演習Ⅰ",
+        "subject_teacher": "中野正剛",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "基礎演習Ⅰ",
+        "subject_teacher": "清水太郎",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "基礎演習Ⅰ",
+        "subject_teacher": "井端正幸",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "基礎演習Ⅰ",
+        "subject_teacher": "伊達竜太郎",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "基礎演習Ⅰ",
+        "subject_teacher": "山川満夫",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "基礎演習Ⅱ",
+        "subject_teacher": "中野正剛",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "基礎演習Ⅱ",
+        "subject_teacher": "芝田秀幹",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "基礎演習Ⅱ",
+        "subject_teacher": "伊達竜太郎",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "基礎演習Ⅱ",
+        "subject_teacher": "清水太郎",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "基礎演習Ⅱ",
+        "subject_teacher": "西迫大祐",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "基礎演習Ⅱ",
+        "subject_teacher": "田中稔",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "基礎演習Ⅱ",
+        "subject_teacher": "井村真己",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "基礎演習Ⅱ",
+        "subject_teacher": "比屋定泰治",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "基礎経済学Ⅰ",
+        "subject_teacher": "平剛",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "基礎経済学Ⅱ",
+        "subject_teacher": "平剛",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "金融法",
+        "subject_teacher": "伊達竜太郎",
+        "subject_schedule": "月1・木1"
+    },
+    {
+        "subject_name": "行政学",
+        "subject_teacher": "山中雄次",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "行政法Ⅰ",
+        "subject_teacher": "柴田優人",
+        "subject_schedule": "月5・木5"
+    },
+    {
+        "subject_name": "行政法Ⅱ",
+        "subject_teacher": "柴田優人",
+        "subject_schedule": "月2・木2"
+    },
+    {
+        "subject_name": "行政法Ⅲ",
+        "subject_teacher": "柴田優人",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "経済法",
+        "subject_teacher": "伊達竜太郎",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "刑事政策Ⅰ",
+        "subject_teacher": "小西由浩",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "刑事政策Ⅱ",
+        "subject_teacher": "小西由浩",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "刑事訴訟法",
+        "subject_teacher": "中野正剛",
+        "subject_schedule": "月5・木5"
+    },
+    {
+        "subject_name": "刑法各論",
+        "subject_teacher": "中野正剛",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "刑法総論",
+        "subject_teacher": "中野正剛",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "憲法Ⅰ",
+        "subject_teacher": "井端正幸",
+        "subject_schedule": "月1・木1"
+    },
+    {
+        "subject_name": "憲法Ⅱ",
+        "subject_teacher": "鎌田晋",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "現代社会と犯罪Ⅰ",
+        "subject_teacher": "小西由浩",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "現代社会と犯罪Ⅱ",
+        "subject_teacher": "中野正剛",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "国際私法",
+        "subject_teacher": "熊谷久世",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "国際政治学",
+        "subject_teacher": "野添文彬",
+        "subject_schedule": "月2・木2"
+    },
+    {
+        "subject_name": "国際法Ⅰ",
+        "subject_teacher": "比屋定泰治",
+        "subject_schedule": "月2・木2"
+    },
+    {
+        "subject_name": "国際法Ⅱ",
+        "subject_teacher": "比屋定泰治",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "国際法Ⅲ",
+        "subject_teacher": "比屋定泰治",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "国際法Ⅳ",
+        "subject_teacher": "比屋定泰治",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "債権各論",
+        "subject_teacher": "山下良",
+        "subject_schedule": "月2・木2"
+    },
+    {
+        "subject_name": "債権総論",
+        "subject_teacher": "田中稔",
+        "subject_schedule": "火1・金1"
+    },
+    {
+        "subject_name": "裁判法Ⅰ",
+        "subject_teacher": "末崎衛",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "裁判法Ⅱ",
+        "subject_teacher": "末崎衛",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "社会保障法",
+        "subject_teacher": "井村真己",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "消費者保護法",
+        "subject_teacher": "山下良",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "商法総則・商行為法",
+        "subject_teacher": "清水太郎",
+        "subject_schedule": "月4・木4"
+    },
+    {
+        "subject_name": "情報公開法",
+        "subject_teacher": "柴田優人",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "政治学原論",
+        "subject_teacher": "芝田秀幹",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "政治思想史",
+        "subject_teacher": "芝田秀幹",
+        "subject_schedule": "火2・金2"
+    },
+    {
+        "subject_name": "西洋政治史",
+        "subject_teacher": "芝田秀幹",
+        "subject_schedule": "火2・金2"
+    },
+    {
+        "subject_name": "専門演習Ⅰ",
+        "subject_teacher": "西迫大祐",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "専門演習Ⅰ",
+        "subject_teacher": "井端正幸",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "専門演習Ⅰ",
+        "subject_teacher": "小西由浩",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "専門演習Ⅰ",
+        "subject_teacher": "前津榮健",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "専門演習Ⅰ",
+        "subject_teacher": "熊谷久世",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "専門演習Ⅰ",
+        "subject_teacher": "田中稔",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "専門演習Ⅰ",
+        "subject_teacher": "井村真己",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "専門演習Ⅰ",
+        "subject_teacher": "比屋定泰治",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "専門演習Ⅰ",
+        "subject_teacher": "上江洲純子",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "専門演習Ⅰ",
+        "subject_teacher": "中野正剛",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "専門演習Ⅰ",
+        "subject_teacher": "山下良",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "専門演習Ⅰ",
+        "subject_teacher": "末崎衛",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "専門演習Ⅰ",
+        "subject_teacher": "伊達竜太郎",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "専門演習Ⅰ",
+        "subject_teacher": "清水太郎",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "専門演習Ⅱ",
+        "subject_teacher": "中野正剛",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "専門演習Ⅱ",
+        "subject_teacher": "上江洲純子",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "専門演習Ⅱ",
+        "subject_teacher": "末崎衛",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "専門演習Ⅱ",
+        "subject_teacher": "山下良",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "専門演習Ⅱ",
+        "subject_teacher": "伊達竜太郎",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "専門演習Ⅱ",
+        "subject_teacher": "清水太郎",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "専門演習Ⅱ",
+        "subject_teacher": "西迫大祐",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "専門演習Ⅱ",
+        "subject_teacher": "井端正幸",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "専門演習Ⅱ",
+        "subject_teacher": "小西由浩",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "専門演習Ⅱ",
+        "subject_teacher": "前津榮健",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "専門演習Ⅱ",
+        "subject_teacher": "熊谷久世",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "専門演習Ⅱ",
+        "subject_teacher": "田中稔",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "専門演習Ⅱ",
+        "subject_teacher": "井村真己",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "専門演習Ⅱ",
+        "subject_teacher": "比屋定泰治",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "租税実務論",
+        "subject_teacher": "_租税実務論教員",
+        "subject_schedule": "集中講義"
+    },
+    {
+        "subject_name": "租税法",
+        "subject_teacher": "末崎衛",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "担保物権法",
+        "subject_teacher": "山下良",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "知的財産法Ⅰ",
+        "subject_teacher": "大久保秀人",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "知的財産法Ⅱ",
+        "subject_teacher": "大久保秀人",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "地方自治論",
+        "subject_teacher": "黒柳保則",
+        "subject_schedule": "月5・木5"
+    },
+    {
+        "subject_name": "倒産法Ⅰ",
+        "subject_teacher": "上江洲純子",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "都市政策論",
+        "subject_teacher": "山中雄次",
+        "subject_schedule": "月1・木1"
+    },
+    {
+        "subject_name": "日本外交史",
+        "subject_teacher": "野添文彬",
+        "subject_schedule": "月1・木1"
+    },
+    {
+        "subject_name": "物権法",
+        "subject_teacher": "田中稔",
+        "subject_schedule": "月1・木1"
+    },
+    {
+        "subject_name": "法学概論",
+        "subject_teacher": "末崎衛",
+        "subject_schedule": "水2・金2"
+    },
+    {
+        "subject_name": "法史学",
+        "subject_teacher": "西迫大祐",
+        "subject_schedule": "火1・金1"
+    },
+    {
+        "subject_name": "法思想史",
+        "subject_teacher": "西迫大祐",
+        "subject_schedule": "火3・木1"
+    },
+    {
+        "subject_name": "法政特論Ⅰ",
+        "subject_teacher": "運天寬樹",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "法政特論Ⅱ",
+        "subject_teacher": "伊達竜太郎",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "法政特論Ⅲ",
+        "subject_teacher": "村井忠康",
+        "subject_schedule": "水5"
+    },
+    {
+        "subject_name": "法政特論Ⅳ",
+        "subject_teacher": "田中稔",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "法政特論Ⅴ",
+        "subject_teacher": "山下良",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "法政特論Ⅵ",
+        "subject_teacher": "比屋定泰治",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "法哲学",
+        "subject_teacher": "西迫大祐",
+        "subject_schedule": "火1・金1"
+    },
+    {
+        "subject_name": "法務研究Ⅰ",
+        "subject_teacher": "伊達竜太郎",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "法務研究Ⅱ",
+        "subject_teacher": "田中稔",
+        "subject_schedule": "月4"
+    },
+    {
+        "subject_name": "法務研究Ⅲ",
+        "subject_teacher": "田中稔",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "法務研究Ⅳ",
+        "subject_teacher": "田中稔",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "法律実務論",
+        "subject_teacher": "社会人講師、伊達竜太郎",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "保険・海商法",
+        "subject_teacher": "清水太郎",
+        "subject_schedule": "月4・木4"
+    },
+    {
+        "subject_name": "民事執行法",
+        "subject_teacher": "上江洲純子",
+        "subject_schedule": "月1・木1"
+    },
+    {
+        "subject_name": "民事訴訟法",
+        "subject_teacher": "上江洲純子",
+        "subject_schedule": "月1・木1"
+    },
+    {
+        "subject_name": "民法総則",
+        "subject_teacher": "山下良",
+        "subject_schedule": "月1・木1"
+    },
+    {
+        "subject_name": "労働法Ⅰ",
+        "subject_teacher": "井村真己",
+        "subject_schedule": "火1・金1"
+    },
+    {
+        "subject_name": "労働法Ⅱ",
+        "subject_teacher": "井村真己",
+        "subject_schedule": "火1・金1"
+    }
+]

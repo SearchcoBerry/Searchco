@@ -1,0 +1,232 @@
+[
+    {
+        "subject_name": "沖縄戦",
+        "subject_teacher": "伊佐真一朗",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "沖縄戦",
+        "subject_teacher": "伊佐真一朗",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "沖縄の観光",
+        "subject_teacher": "千住直広",
+        "subject_schedule": "土2"
+    },
+    {
+        "subject_name": "沖縄の基地問題Ａ",
+        "subject_teacher": "知念ウシ",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "沖縄の基地問題Ｂ",
+        "subject_teacher": "河村雅美",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "沖縄の基地問題Ｂ",
+        "subject_teacher": "石川朋子",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "沖縄の経済",
+        "subject_teacher": "仲地健",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "沖縄の経済",
+        "subject_teacher": "仲地健",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "沖縄の芸能",
+        "subject_teacher": "伊藤幸太8回、仲本陽兵8回",
+        "subject_schedule": "土2"
+    },
+    {
+        "subject_name": "沖縄の言語",
+        "subject_teacher": "仲原穣",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "沖縄の言語",
+        "subject_teacher": "仲原穣",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "沖縄の考古学",
+        "subject_teacher": "宮城弘樹",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "沖縄の考古学",
+        "subject_teacher": "宮城弘樹",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "沖縄の自然環境Ⅰ",
+        "subject_teacher": "廣瀬孝",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "沖縄の自然環境Ⅰ",
+        "subject_teacher": "渡邊康志",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "沖縄の自然環境Ⅱ",
+        "subject_teacher": "廣瀬孝",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "沖縄の自然環境Ⅱ",
+        "subject_teacher": "渡邊康志",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "沖縄の社会",
+        "subject_teacher": "知念ウシ",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "沖縄の社会",
+        "subject_teacher": "桃原一彦",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "沖縄の社会",
+        "subject_teacher": "具志堅邦子",
+        "subject_schedule": "金3"
+    },
+    {
+        "subject_name": "沖縄の社会",
+        "subject_teacher": "具志堅邦子",
+        "subject_schedule": "金3"
+    },
+    {
+        "subject_name": "沖縄の宗教",
+        "subject_teacher": "加治順人",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "沖縄の宗教",
+        "subject_teacher": "加治順人",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "沖縄の政治",
+        "subject_teacher": "宮城修",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "沖縄の政治",
+        "subject_teacher": "宮城修",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "沖縄の地理",
+        "subject_teacher": "崎浜靖",
+        "subject_schedule": "木5"
+    },
+    {
+        "subject_name": "沖縄の地理",
+        "subject_teacher": "小川護",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "沖縄の地理",
+        "subject_teacher": "小川護",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "沖縄の美術・工芸",
+        "subject_teacher": "赤嶺善雄",
+        "subject_schedule": "土2"
+    },
+    {
+        "subject_name": "沖縄の美術・工芸",
+        "subject_teacher": "又吉光邦",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "沖縄の美術・工芸",
+        "subject_teacher": "又吉光邦",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "沖縄の美術・工芸",
+        "subject_teacher": "花城郁子",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "沖縄の美術・工芸",
+        "subject_teacher": "赤嶺善雄",
+        "subject_schedule": "土2"
+    },
+    {
+        "subject_name": "沖縄の文学",
+        "subject_teacher": "大城健",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "沖縄の文学",
+        "subject_teacher": "大城健",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "沖縄の民俗",
+        "subject_teacher": "城間義勝",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "沖縄の民俗",
+        "subject_teacher": "儀間淳一",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "沖縄の民俗",
+        "subject_teacher": "儀間淳一",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "沖縄の民話",
+        "subject_teacher": "祷晴一郎",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "沖縄の歴史Ⅱ（近現代）",
+        "subject_teacher": "渡名喜守太",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "沖縄の歴史Ⅱ（近現代）",
+        "subject_teacher": "恩河尚",
+        "subject_schedule": "土2"
+    },
+    {
+        "subject_name": "沖縄の歴史Ⅱ（近現代）",
+        "subject_teacher": "伊敷勝美",
+        "subject_schedule": "土2"
+    },
+    {
+        "subject_name": "沖縄の歴史Ⅰ（前近代）",
+        "subject_teacher": "渡名喜守太",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "沖縄の歴史Ⅰ（前近代）",
+        "subject_teacher": "恩河尚",
+        "subject_schedule": "土2"
+    },
+    {
+        "subject_name": "沖縄の歴史Ⅰ（前近代）",
+        "subject_teacher": "恩河尚",
+        "subject_schedule": "土1"
+    },
+    {
+        "subject_name": "沖縄の歴史Ⅰ（前近代）",
+        "subject_teacher": "恩河尚",
+        "subject_schedule": "土1"
+    }
+]

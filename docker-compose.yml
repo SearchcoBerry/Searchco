@@ -2,7 +2,7 @@ version: '3'
 
 services:
   node: &app_base
-    image: node:15.10.0-alpine3.10
+    image: node:16.13.0-alpine3.14
     tty: true
     working_dir: /var/www
     volumes:

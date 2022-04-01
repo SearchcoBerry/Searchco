@@ -1,0 +1,232 @@
+[
+    {
+        "subject_name": "ＮＰＯ入門",
+        "subject_teacher": "小阪亘",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "観光入門",
+        "subject_teacher": "李相典",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "観光入門",
+        "subject_teacher": "李相典",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "学校教育概論",
+        "subject_teacher": "照屋翔大",
+        "subject_schedule": "月4"
+    },
+    {
+        "subject_name": "教育学Ⅰ",
+        "subject_teacher": "野見収",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "教育学Ⅰ",
+        "subject_teacher": "野見収",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "教育学Ⅱ",
+        "subject_teacher": "野見収",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "教育学Ⅱ",
+        "subject_teacher": "野見収",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "協働社会論",
+        "subject_teacher": "具志真孝",
+        "subject_schedule": "木3"
+    },
+    {
+        "subject_name": "経済学Ⅰ",
+        "subject_teacher": "仲地健",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "経済学Ⅱ",
+        "subject_teacher": "平敷卓",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "社会学Ⅰ",
+        "subject_teacher": "末吉重人",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "社会学Ⅰ",
+        "subject_teacher": "末吉重人",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "社会学Ⅱ",
+        "subject_teacher": "末吉重人",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "社会生活課題研究Ⅰ",
+        "subject_teacher": "宮城弘樹",
+        "subject_schedule": "月4"
+    },
+    {
+        "subject_name": "社会生活課題研究Ⅰ",
+        "subject_teacher": "仲地健",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "社会生活課題研究Ⅰ",
+        "subject_teacher": "崎浜靖",
+        "subject_schedule": "土1"
+    },
+    {
+        "subject_name": "社会生活課題研究Ⅱ",
+        "subject_teacher": "宮城弘樹",
+        "subject_schedule": "月4"
+    },
+    {
+        "subject_name": "社会生活課題研究Ⅱ",
+        "subject_teacher": "崎浜靖",
+        "subject_schedule": "土1"
+    },
+    {
+        "subject_name": "社会生活課題研究Ⅱ",
+        "subject_teacher": "仲地健",
+        "subject_schedule": "金1"
+    },
+    {
+        "subject_name": "社会福祉入門Ⅰ",
+        "subject_teacher": "竹藤登",
+        "subject_schedule": "金4"
+    },
+    {
+        "subject_name": "社会福祉入門Ⅱ",
+        "subject_teacher": "竹藤登",
+        "subject_schedule": "金4"
+    },
+    {
+        "subject_name": "生涯学習概論",
+        "subject_teacher": "宮城弘樹",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "生涯学習概論",
+        "subject_teacher": "吉田肇吾",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "女性学",
+        "subject_teacher": "親川裕子",
+        "subject_schedule": "土2"
+    },
+    {
+        "subject_name": "政治学Ⅰ",
+        "subject_teacher": "芝田秀幹",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "政治学Ⅱ",
+        "subject_teacher": "芝田秀幹",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "地理学Ⅰ",
+        "subject_teacher": "崎浜靖",
+        "subject_schedule": "金5"
+    },
+    {
+        "subject_name": "地理学Ⅰ",
+        "subject_teacher": "小川護",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "地理学Ⅱ",
+        "subject_teacher": "崎浜靖",
+        "subject_schedule": "金5"
+    },
+    {
+        "subject_name": "地理学Ⅱ",
+        "subject_teacher": "小川護",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "日本国憲法",
+        "subject_teacher": "田中佑佳",
+        "subject_schedule": "水4"
+    },
+    {
+        "subject_name": "日本国憲法",
+        "subject_teacher": "田中佑佳",
+        "subject_schedule": "月3"
+    },
+    {
+        "subject_name": "日本国憲法",
+        "subject_teacher": "田中佑佳",
+        "subject_schedule": "水5"
+    },
+    {
+        "subject_name": "ビジネスの倫理Ⅰ",
+        "subject_teacher": "親泊元彦",
+        "subject_schedule": "木5"
+    },
+    {
+        "subject_name": "ビジネスの倫理Ⅱ",
+        "subject_teacher": "親泊元彦",
+        "subject_schedule": "木5"
+    },
+    {
+        "subject_name": "文化人類学Ⅰ",
+        "subject_teacher": "大城博美",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "文化人類学Ⅰ",
+        "subject_teacher": "粟国恭子",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "文化人類学Ⅰ",
+        "subject_teacher": "前田一舟",
+        "subject_schedule": "土3"
+    },
+    {
+        "subject_name": "文化人類学Ⅱ",
+        "subject_teacher": "大城博美",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "文化人類学Ⅱ",
+        "subject_teacher": "粟国恭子",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "文化人類学Ⅱ",
+        "subject_teacher": "前田一舟",
+        "subject_schedule": "土3"
+    },
+    {
+        "subject_name": "法学",
+        "subject_teacher": "田中佑佳",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "法学",
+        "subject_teacher": "田中佑佳",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "法学",
+        "subject_teacher": "田中佑佳",
+        "subject_schedule": "月5"
+    },
+    {
+        "subject_name": "ボランティア論",
+        "subject_teacher": "千住直広",
+        "subject_schedule": "土2"
+    }
+]
