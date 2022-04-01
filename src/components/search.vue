@@ -18,7 +18,7 @@
             -------------------------------->
 
             <!-- 学期 -->
-            <!--
+            
             <div class="semester">
                 <input type="radio" id="s_one" value="seasonall" v-model="setSeason">
                 <label for="s_one"><span>すべての学期</span></label>
@@ -36,7 +36,7 @@
                 
             </div>
 
-        -->
+        
             
             <!-- 授業形態 -->
             <div class="class-style">

@@ -15,7 +15,7 @@
 
     <div class="main">
             <div class="row">
-                {{setSyllabus}}
+                <!-- {{setSyllabus}} -->
                 <div class="col-sm-6 result">
                     <div v-if="searchWords == '' ">
                         <h3>すべての検索結果</h3>
@@ -79,8 +79,8 @@
                             <input type="checkbox" :id="'value' + index" :value="value" v-model="setFavorite">
                             <label :for="'value' + index"> <i class="icon"></i> </label>
                             
-                            <input type="checkbox" :id="'syllabusValue' + index" :value="value" v-model="setSyllabus">
-                            <label :for="'syllabusValue' + index"><i class="material-icons">info_outline</i><br></label>
+                            <!-- <input type="checkbox" :id="'syllabusValue' + index" :value="value" v-model="setSyllabus">
+                            <label :for="'syllabusValue' + index"><i class="material-icons">info_outline</i><br></label> -->
                             <!-- <i class="material-icons">info_outline</i>  -->
                         </div>
                         
@@ -109,7 +109,7 @@
 <script>
 import { mapState } from "vuex";
 import selectModal from '@/components/selectModal.vue'
-import lists from '@/assets/list-Late2021.json'
+import lists from '@/assets/timetable-2022-03.json'
 
 export default {
 
