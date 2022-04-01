@@ -1,0 +1,27 @@
+[
+    {
+        "subject_name": "学習指導と学校図書館",
+        "subject_teacher": "望月道浩",
+        "subject_schedule": "火5"
+    },
+    {
+        "subject_name": "学校経営と学校図書館",
+        "subject_teacher": "吉田肇吾",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "学校図書館メディアの構成",
+        "subject_teacher": "望月道浩",
+        "subject_schedule": "火6"
+    },
+    {
+        "subject_name": "情報メディアの活用",
+        "subject_teacher": "吉田肇吾",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "読書と豊かな人間性",
+        "subject_teacher": "田名洋子",
+        "subject_schedule": "金4"
+    }
+]

@@ -15,6 +15,7 @@
 
     <div class="main">
             <div class="row">
+                <!-- {{setSyllabus}} -->
                 <div class="col-sm-6 result">
                     <div v-if="searchWords == '' ">
                         <h3>すべての検索結果</h3>
@@ -78,9 +79,9 @@
                             <input type="checkbox" :id="'value' + index" :value="value" v-model="setFavorite">
                             <label :for="'value' + index"> <i class="icon"></i> </label>
                             
-                            <!--<input type="radio" id="s_one" :value="value" v-model="setFavorite">
-                            <label for="s_one"><i class="material-icons">info_outline</i><br></label> -->
-                            <!-- <i class="material-icons">info_outline</i> -->
+                            <!-- <input type="checkbox" :id="'syllabusValue' + index" :value="value" v-model="setSyllabus">
+                            <label :for="'syllabusValue' + index"><i class="material-icons">info_outline</i><br></label> -->
+                            <!-- <i class="material-icons">info_outline</i>  -->
                         </div>
                         
                     </div>
@@ -108,7 +109,7 @@
 <script>
 import { mapState } from "vuex";
 import selectModal from '@/components/selectModal.vue'
-import lists from '@/assets/list-Late2021.json'
+import lists from '@/assets/timetable-2022-03.json'
 
 export default {
 
@@ -166,6 +167,17 @@ export default {
             set: function(favo) {
                 this.$store.commit('table/setFavorite', favo)
             }
+        },
+
+        setSyllabus: {
+           get: function() {
+                return this.$store.state.syllabus.syllabusData;
+           },
+           set: function(sValue) {
+                this.$store.commit('syllabus/setSyllabus', sValue)
+                const url = '/syllabus'
+                window.open(url, '_blank')
+           }
         },
         
         replaceWords() {

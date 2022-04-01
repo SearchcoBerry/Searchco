@@ -1,0 +1,87 @@
+[
+    {
+        "subject_name": "学校経営と学校図書館",
+        "subject_teacher": "吉田肇吾",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "児童サービス論",
+        "subject_teacher": "田名洋子",
+        "subject_schedule": "金4"
+    },
+    {
+        "subject_name": "情報サービス演習Ⅰ",
+        "subject_teacher": "山口真也",
+        "subject_schedule": "木6"
+    },
+    {
+        "subject_name": "情報サービス演習Ⅰ",
+        "subject_teacher": "山口真也",
+        "subject_schedule": "木6"
+    },
+    {
+        "subject_name": "情報サービス演習Ⅱ",
+        "subject_teacher": "吉田肇吾",
+        "subject_schedule": "水1"
+    },
+    {
+        "subject_name": "情報サービス演習Ⅱ",
+        "subject_teacher": "吉田肇吾",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "情報サービス論",
+        "subject_teacher": "吉田肇吾",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "情報資源組織演習Ⅰ",
+        "subject_teacher": "野里純",
+        "subject_schedule": "水6"
+    },
+    {
+        "subject_name": "情報資源組織演習Ⅰ",
+        "subject_teacher": "野里純",
+        "subject_schedule": "水6"
+    },
+    {
+        "subject_name": "情報資源組織演習Ⅱ",
+        "subject_teacher": "山口真也",
+        "subject_schedule": "火5"
+    },
+    {
+        "subject_name": "情報資源組織演習Ⅱ",
+        "subject_teacher": "山口真也",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "情報資源組織論Ⅰ",
+        "subject_teacher": "望月道浩",
+        "subject_schedule": "火5"
+    },
+    {
+        "subject_name": "情報資源組織論Ⅱ",
+        "subject_teacher": "山口真也",
+        "subject_schedule": "水5"
+    },
+    {
+        "subject_name": "図書館施設論",
+        "subject_teacher": "吉田肇吾",
+        "subject_schedule": "月1"
+    },
+    {
+        "subject_name": "図書館情報技術論",
+        "subject_teacher": "伊佐常利(11回) 大谷周平(4回)",
+        "subject_schedule": "土2"
+    },
+    {
+        "subject_name": "図書館情報資源特論",
+        "subject_teacher": "堀川輝之",
+        "subject_schedule": "土1"
+    },
+    {
+        "subject_name": "図書館制度・経営論",
+        "subject_teacher": "吉田肇吾",
+        "subject_schedule": "火1"
+    }
+]

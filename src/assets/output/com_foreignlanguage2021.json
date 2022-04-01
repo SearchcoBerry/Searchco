@@ -1,0 +1,532 @@
+[
+    {
+        "subject_name": "韓国語Ⅰ",
+        "subject_teacher": "長嶺聖子 [全学科](２年以上)",
+        "subject_schedule": "火2・金2"
+    },
+    {
+        "subject_name": "韓国語Ⅰ",
+        "subject_teacher": "長嶺聖子 [社文･日文]",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "韓国語Ⅰ",
+        "subject_teacher": "天久恵珍 [人福]",
+        "subject_schedule": "月4・木4"
+    },
+    {
+        "subject_name": "韓国語Ⅰ",
+        "subject_teacher": "天久恵珍 [英米･産情]",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "韓国語Ⅰ",
+        "subject_teacher": "山川（宋）雅藍 [企シ・日文]",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "韓国語Ⅰ",
+        "subject_teacher": "山川（宋）雅藍 [地行]",
+        "subject_schedule": "月4・木4"
+    },
+    {
+        "subject_name": "韓国語Ⅰ",
+        "subject_teacher": "岸本孝根[法律]",
+        "subject_schedule": "月4・木4"
+    },
+    {
+        "subject_name": "韓国語Ⅰ",
+        "subject_teacher": "岸本孝根[経済・環政]",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "韓国語Ⅰ",
+        "subject_teacher": "真島知秀 [全学]",
+        "subject_schedule": "月5・木5"
+    },
+    {
+        "subject_name": "韓国語Ⅱ",
+        "subject_teacher": "岸本孝根[法律]",
+        "subject_schedule": "月4・木4"
+    },
+    {
+        "subject_name": "韓国語Ⅱ",
+        "subject_teacher": "長嶺聖子 [社文・日文]",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "韓国語Ⅱ",
+        "subject_teacher": "長嶺聖子 [全学科](２年以上)",
+        "subject_schedule": "火2・金2"
+    },
+    {
+        "subject_name": "韓国語Ⅱ",
+        "subject_teacher": "天久恵珍 [人福]",
+        "subject_schedule": "月4・木4"
+    },
+    {
+        "subject_name": "韓国語Ⅱ",
+        "subject_teacher": "天久恵珍 [英米・産情]",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "韓国語Ⅱ",
+        "subject_teacher": "山川（宋）雅藍 [企シ・日文]",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "韓国語Ⅱ",
+        "subject_teacher": "真島知秀 [全学]",
+        "subject_schedule": "月5・木5"
+    },
+    {
+        "subject_name": "韓国語Ⅱ",
+        "subject_teacher": "山川（宋）雅藍 [地行]",
+        "subject_schedule": "月4・木4"
+    },
+    {
+        "subject_name": "韓国語Ⅱ",
+        "subject_teacher": "岸本孝根[経済・環政]",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "韓国語Ⅲ",
+        "subject_teacher": "李ヒョンジョン[全学]",
+        "subject_schedule": "月5・木5"
+    },
+    {
+        "subject_name": "韓国語Ⅳ",
+        "subject_teacher": "李ヒョンジョン [全学]",
+        "subject_schedule": "月5・木5"
+    },
+    {
+        "subject_name": "外国語研究Ⅰ－Ａ",
+        "subject_teacher": "月野楓子",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "外国語研究Ⅰ－Ａ",
+        "subject_teacher": "岡野薫",
+        "subject_schedule": "月4"
+    },
+    {
+        "subject_name": "外国語研究Ⅰ－Ａ",
+        "subject_teacher": "兼本敏",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "外国語研究Ⅰ－Ａ",
+        "subject_teacher": "李ヒョンジョン",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "外国語研究Ⅰ－Ａ",
+        "subject_teacher": "上江洲律子",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "外国語研究Ⅰ－Ｂ",
+        "subject_teacher": "月野楓子",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "外国語研究Ⅰ－Ｂ",
+        "subject_teacher": "兼本敏",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "外国語研究Ⅰ－Ｂ",
+        "subject_teacher": "李ヒョンジョン",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "外国語研究Ⅰ－Ｂ",
+        "subject_teacher": "上江洲律子",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "外国語研究Ⅰ－Ｂ",
+        "subject_teacher": "岡野薫",
+        "subject_schedule": "月4"
+    },
+    {
+        "subject_name": "外国語研究Ⅱ－Ａ",
+        "subject_teacher": "月野楓子",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "外国語研究Ⅱ－Ａ",
+        "subject_teacher": "兼本敏",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "外国語研究Ⅱ－Ａ",
+        "subject_teacher": "李ヒョンジョン",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "外国語研究Ⅱ－Ａ",
+        "subject_teacher": "上江洲律子",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "外国語研究Ⅱ－Ａ",
+        "subject_teacher": "岡野薫",
+        "subject_schedule": "月4"
+    },
+    {
+        "subject_name": "外国語研究Ⅱ－Ｂ",
+        "subject_teacher": "月野楓子",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "外国語研究Ⅱ－Ｂ",
+        "subject_teacher": "兼本敏",
+        "subject_schedule": "木4"
+    },
+    {
+        "subject_name": "外国語研究Ⅱ－Ｂ",
+        "subject_teacher": "李ヒョンジョン",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "外国語研究Ⅱ－Ｂ",
+        "subject_teacher": "上江洲律子",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "外国語研究Ⅱ－Ｂ",
+        "subject_teacher": "岡野薫",
+        "subject_schedule": "月4"
+    },
+    {
+        "subject_name": "スペイン語Ⅰ",
+        "subject_teacher": "月野楓子 [日文・社文]",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "スペイン語Ⅰ",
+        "subject_teacher": "上地リリア [人福]",
+        "subject_schedule": "月4・木4"
+    },
+    {
+        "subject_name": "スペイン語Ⅰ",
+        "subject_teacher": "上地リリア [全学]",
+        "subject_schedule": "月5・木5"
+    },
+    {
+        "subject_name": "スペイン語Ⅰ",
+        "subject_teacher": "又吉パトリシア [経済・地環・企シ・産情]",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "スペイン語Ⅰ",
+        "subject_teacher": "小波津ﾌｪﾙﾅﾝﾄﾞ [法律・地行]",
+        "subject_schedule": "月4・木4"
+    },
+    {
+        "subject_name": "スペイン語Ⅰ",
+        "subject_teacher": "小波津ﾌｪﾙﾅﾝﾄﾞ [英米]",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "スペイン語Ⅰ",
+        "subject_teacher": "又吉パトリシア[全学]",
+        "subject_schedule": "火2・金2"
+    },
+    {
+        "subject_name": "スペイン語Ⅱ",
+        "subject_teacher": "又吉パトリシア[全学]",
+        "subject_schedule": "火2・金2"
+    },
+    {
+        "subject_name": "スペイン語Ⅱ",
+        "subject_teacher": "月野楓子 [日文・社文]",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "スペイン語Ⅱ",
+        "subject_teacher": "上地リリア [全学]",
+        "subject_schedule": "月5・木5"
+    },
+    {
+        "subject_name": "スペイン語Ⅱ",
+        "subject_teacher": "上地リリア [人福]",
+        "subject_schedule": "月4・木4"
+    },
+    {
+        "subject_name": "スペイン語Ⅱ",
+        "subject_teacher": "小波津ﾌｪﾙﾅﾝﾄﾞ [法律・地行]",
+        "subject_schedule": "月4・木4"
+    },
+    {
+        "subject_name": "スペイン語Ⅱ",
+        "subject_teacher": "小波津ﾌｪﾙﾅﾝﾄﾞ [英米]",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "スペイン語Ⅱ",
+        "subject_teacher": "又吉パトリシア [経済・地環・企シ・産情]",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "スペイン語Ⅲ",
+        "subject_teacher": "月野楓子[全学科]",
+        "subject_schedule": "月5・木5"
+    },
+    {
+        "subject_name": "スペイン語Ⅳ",
+        "subject_teacher": "月野楓子[全学科]",
+        "subject_schedule": "月5・木5"
+    },
+    {
+        "subject_name": "中国語Ⅰ",
+        "subject_teacher": "顔瑾 [人福]",
+        "subject_schedule": "月4・木4"
+    },
+    {
+        "subject_name": "中国語Ⅰ",
+        "subject_teacher": "顔瑾 [日文]",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "中国語Ⅰ",
+        "subject_teacher": "金田知子 [企シ・産情]",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "中国語Ⅰ",
+        "subject_teacher": "金田知子 [地行]",
+        "subject_schedule": "月4・木4"
+    },
+    {
+        "subject_name": "中国語Ⅰ",
+        "subject_teacher": "車莉莉 [英米]",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "中国語Ⅰ",
+        "subject_teacher": "車莉莉 [法律]",
+        "subject_schedule": "月4・木4"
+    },
+    {
+        "subject_name": "中国語Ⅰ",
+        "subject_teacher": "運天亜紀子[社文]",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "中国語Ⅰ",
+        "subject_teacher": "島袋直樹 [経済・環政]",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "中国語Ⅰ",
+        "subject_teacher": "島袋直樹 [全学科]",
+        "subject_schedule": "月4・木4"
+    },
+    {
+        "subject_name": "中国語Ⅰ",
+        "subject_teacher": "張維真 [全学科(2年次以上)]",
+        "subject_schedule": "火2・金2"
+    },
+    {
+        "subject_name": "中国語Ⅱ",
+        "subject_teacher": "車莉莉 [英米]",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "中国語Ⅱ",
+        "subject_teacher": "金田知子 [企シ・産情]",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "中国語Ⅱ",
+        "subject_teacher": "金田知子 [地行]",
+        "subject_schedule": "月4・木4"
+    },
+    {
+        "subject_name": "中国語Ⅱ",
+        "subject_teacher": "顔瑾 [日文]",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "中国語Ⅱ",
+        "subject_teacher": "顔瑾 [人福]",
+        "subject_schedule": "月4・木4"
+    },
+    {
+        "subject_name": "中国語Ⅱ",
+        "subject_teacher": "張維真 [全学科(2年次以上)]",
+        "subject_schedule": "火2・金2"
+    },
+    {
+        "subject_name": "中国語Ⅱ",
+        "subject_teacher": "島袋直樹 [全学科]",
+        "subject_schedule": "月4・木4"
+    },
+    {
+        "subject_name": "中国語Ⅱ",
+        "subject_teacher": "島袋直樹 [経済・環政]",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "中国語Ⅱ",
+        "subject_teacher": "運天亜紀子[社文]",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "中国語Ⅱ",
+        "subject_teacher": "車莉莉 [法律]",
+        "subject_schedule": "月4・木4"
+    },
+    {
+        "subject_name": "中国語Ⅲ",
+        "subject_teacher": "兼本敏[全学科]",
+        "subject_schedule": "火2・金2"
+    },
+    {
+        "subject_name": "中国語Ⅳ",
+        "subject_teacher": "兼本敏[全学科]",
+        "subject_schedule": "火2・金2"
+    },
+    {
+        "subject_name": "ドイツ語Ⅰ",
+        "subject_teacher": "漆谷球美子 [法律･地行]",
+        "subject_schedule": "月4・木4"
+    },
+    {
+        "subject_name": "ドイツ語Ⅰ",
+        "subject_teacher": "岡野薫 [日文･社文]",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "ドイツ語Ⅰ",
+        "subject_teacher": "東江貴子[経済･環政･企シ･産情･英米]",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "ドイツ語Ⅰ",
+        "subject_teacher": "東江貴子 [全学科]",
+        "subject_schedule": "火2・金2"
+    },
+    {
+        "subject_name": "ドイツ語Ⅰ",
+        "subject_teacher": "吉井巧一[人福]",
+        "subject_schedule": "月4・木4"
+    },
+    {
+        "subject_name": "ドイツ語Ⅰ",
+        "subject_teacher": "漆谷球美子 [全学科]",
+        "subject_schedule": "月5・木5"
+    },
+    {
+        "subject_name": "ドイツ語Ⅱ",
+        "subject_teacher": "吉井巧一[人福]",
+        "subject_schedule": "月4・木4"
+    },
+    {
+        "subject_name": "ドイツ語Ⅱ",
+        "subject_teacher": "漆谷球美子 [法律･地行]",
+        "subject_schedule": "月4・木4"
+    },
+    {
+        "subject_name": "ドイツ語Ⅱ",
+        "subject_teacher": "漆谷球美子 [全学科]",
+        "subject_schedule": "月5・木5"
+    },
+    {
+        "subject_name": "ドイツ語Ⅱ",
+        "subject_teacher": "岡野薫[日文･社文]",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "ドイツ語Ⅱ",
+        "subject_teacher": "東江貴子 [全学科]",
+        "subject_schedule": "火2・金2"
+    },
+    {
+        "subject_name": "ドイツ語Ⅱ",
+        "subject_teacher": "東江貴子[経済･環政･企シ･産情･英米]",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "ドイツ語Ⅲ",
+        "subject_teacher": "岡野薫 [全学科]",
+        "subject_schedule": "火2・金2"
+    },
+    {
+        "subject_name": "ドイツ語Ⅳ",
+        "subject_teacher": "岡野薫 [全学科]",
+        "subject_schedule": "火2・金2"
+    },
+    {
+        "subject_name": "フランス語Ⅰ",
+        "subject_teacher": "ﾃﾞﾙﾊﾞｰﾙﾌﾗﾝｸ [地行･人福]",
+        "subject_schedule": "月4・木4"
+    },
+    {
+        "subject_name": "フランス語Ⅰ",
+        "subject_teacher": "上江洲律子[経済･環政･企シ･産情･日文]",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "フランス語Ⅰ",
+        "subject_teacher": "金城豪 [全学科]",
+        "subject_schedule": "火2・金2"
+    },
+    {
+        "subject_name": "フランス語Ⅰ",
+        "subject_teacher": "金城豪 [英米・社文]",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "フランス語Ⅰ",
+        "subject_teacher": "ムートンジスラン [法律･人福]",
+        "subject_schedule": "月4・木4"
+    },
+    {
+        "subject_name": "フランス語Ⅰ",
+        "subject_teacher": "ムートンジスラン [全学科]",
+        "subject_schedule": "月5・木5"
+    },
+    {
+        "subject_name": "フランス語Ⅱ",
+        "subject_teacher": "ムートンジスラン [法律･人福]",
+        "subject_schedule": "月4・木4"
+    },
+    {
+        "subject_name": "フランス語Ⅱ",
+        "subject_teacher": "ﾃﾞﾙﾊﾞｰﾙﾌﾗﾝｸ [地行･人福]",
+        "subject_schedule": "月4・木4"
+    },
+    {
+        "subject_name": "フランス語Ⅱ",
+        "subject_teacher": "ムートンジスラン [全学科]",
+        "subject_schedule": "月5・木5"
+    },
+    {
+        "subject_name": "フランス語Ⅱ",
+        "subject_teacher": "金城豪 [全学科]",
+        "subject_schedule": "火2・金2"
+    },
+    {
+        "subject_name": "フランス語Ⅱ",
+        "subject_teacher": "金城豪 [英米・社文]",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "フランス語Ⅱ",
+        "subject_teacher": "上江洲律子[経済･環政･企シ･産情･日文]",
+        "subject_schedule": "月3・木3"
+    },
+    {
+        "subject_name": "フランス語Ⅲ",
+        "subject_teacher": "上江洲律子[全学]",
+        "subject_schedule": "火2・金2"
+    },
+    {
+        "subject_name": "フランス語Ⅳ",
+        "subject_teacher": "上江洲律子[全学]",
+        "subject_schedule": "火2・金2"
+    }
+]

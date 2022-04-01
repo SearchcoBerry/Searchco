@@ -1,0 +1,177 @@
+[
+    {
+        "subject_name": "アジア研究Ⅰ",
+        "subject_teacher": "原田優也",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "アジア研究Ⅱ",
+        "subject_teacher": "原田優也",
+        "subject_schedule": "金2"
+    },
+    {
+        "subject_name": "アメリカ研究",
+        "subject_teacher": "佐藤学",
+        "subject_schedule": "月5"
+    },
+    {
+        "subject_name": "アラブ研究Ⅰ",
+        "subject_teacher": "ｴﾙｻﾑﾆｰｲﾌﾞﾗﾋﾑｱﾘｰ",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "アラブ研究Ⅰ",
+        "subject_teacher": "ｴﾙｻﾑﾆｰｲﾌﾞﾗﾋﾑｱﾘｰ",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "アラブ研究Ⅰ",
+        "subject_teacher": "ｴﾙｻﾑﾆｰｲﾌﾞﾗﾋﾑｱﾘｰ",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "アラブ研究Ⅱ",
+        "subject_teacher": "ｴﾙｻﾑﾆｰｲﾌﾞﾗﾋﾑｱﾘｰ",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "アラブ研究Ⅱ",
+        "subject_teacher": "ｴﾙｻﾑﾆｰｲﾌﾞﾗﾋﾑｱﾘｰ",
+        "subject_schedule": "木2"
+    },
+    {
+        "subject_name": "アラブ研究Ⅱ",
+        "subject_teacher": "ｴﾙｻﾑﾆｰｲﾌﾞﾗﾋﾑｱﾘｰ",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "海外語学・文化セミナーⅠ",
+        "subject_teacher": "国際理解科目群担当教員等",
+        "subject_schedule": "その他"
+    },
+    {
+        "subject_name": "海外語学・文化セミナーⅡ",
+        "subject_teacher": "国際理解科目群担当教員等",
+        "subject_schedule": "その他"
+    },
+    {
+        "subject_name": "海外語学・文化セミナーⅢ",
+        "subject_teacher": "国際理解科目群担当教員等",
+        "subject_schedule": "その他"
+    },
+    {
+        "subject_name": "海外語学・文化セミナーⅣ",
+        "subject_teacher": "国際理解科目群担当教員等",
+        "subject_schedule": "その他"
+    },
+    {
+        "subject_name": "海外語学・文化セミナーⅤ",
+        "subject_teacher": "国際理解科目群担当教員等",
+        "subject_schedule": "その他"
+    },
+    {
+        "subject_name": "国際経済",
+        "subject_teacher": "鹿毛理恵",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "国際経済",
+        "subject_teacher": "鹿毛理恵",
+        "subject_schedule": "水2"
+    },
+    {
+        "subject_name": "国際政治",
+        "subject_teacher": "星野英一",
+        "subject_schedule": "金3"
+    },
+    {
+        "subject_name": "国際平和学Ⅰ",
+        "subject_teacher": "金城さつき",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "国際平和学Ⅰ",
+        "subject_teacher": "大城尚子",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "国際平和学Ⅱ",
+        "subject_teacher": "金城さつき",
+        "subject_schedule": "火1"
+    },
+    {
+        "subject_name": "国際平和学Ⅱ",
+        "subject_teacher": "大城尚子",
+        "subject_schedule": "月2"
+    },
+    {
+        "subject_name": "国際理解課題研究Ⅰ",
+        "subject_teacher": "上原千登勢",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "国際理解課題研究Ⅰ",
+        "subject_teacher": "李ヒョンジョン",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "国際理解課題研究Ⅰ",
+        "subject_teacher": "上江洲律子",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "国際理解課題研究Ⅱ",
+        "subject_teacher": "上原千登勢",
+        "subject_schedule": "火3"
+    },
+    {
+        "subject_name": "国際理解課題研究Ⅱ",
+        "subject_teacher": "李ヒョンジョン",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "国際理解課題研究Ⅱ",
+        "subject_teacher": "上江洲律子",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "太平洋諸島と移民Ⅰ",
+        "subject_teacher": "石川朋子",
+        "subject_schedule": "金3"
+    },
+    {
+        "subject_name": "太平洋諸島と移民Ⅱ",
+        "subject_teacher": "石川朋子",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "多民族論",
+        "subject_teacher": "石垣直",
+        "subject_schedule": "水3"
+    },
+    {
+        "subject_name": "多民族論",
+        "subject_teacher": "石垣直",
+        "subject_schedule": "火2"
+    },
+    {
+        "subject_name": "ヨーロッパ研究Ⅰ",
+        "subject_teacher": "宮里厚子",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "ヨーロッパ研究Ⅱ",
+        "subject_teacher": "西圭介",
+        "subject_schedule": "火4"
+    },
+    {
+        "subject_name": "ラテンアメリカ研究",
+        "subject_teacher": "稲村幸子",
+        "subject_schedule": "木1"
+    },
+    {
+        "subject_name": "ラテンアメリカ研究",
+        "subject_teacher": "稲村幸子",
+        "subject_schedule": "木1"
+    }
+]
