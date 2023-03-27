@@ -109,7 +109,7 @@
 <script>
 import { mapState } from "vuex";
 import selectModal from '@/components/selectModal.vue'
-import lists from '@/assets/timetable-2022-03.json'
+import lists from '@/assets/timetable-2023-03.json'
 
 export default {
 
